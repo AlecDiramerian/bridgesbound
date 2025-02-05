@@ -134,24 +134,20 @@ l_0xc7de72:
 
 l_0xc7de7d:
     call(l_0xc7de11) call(data_22.l_0xc69082) "{window_open(1)}" call(l_0xc7dfa4) "@[1C 02 00]!" next
-    "@It looks like you got your head handed to you." next
-    "@So, how about giving it another shot?" linebreak
+    "@it looks like you got head" next
+    "@so, how about backshots?" linebreak
     "[19 02]Yes[02]  [19 02]No[02][1C 07 02][11]{clearline}[09 02 {e(l_0xc7df3c)} {e(l_0xc7dee0)}]" goto(l_0xc7dee0)
 
 l_0xc7dee0:
-    "@Are you sure?" next
-    "@The next time you start your adventure," next
-    "@you'll begin where you last saved." next
-    "@Is that okay?" linebreak
+    "@really?" linebreak
     "[19 02]No[02]  [19 02]Yes[02][1C 07 02][11]{clearline}[09 02 {e(l_0xc7df3c)} {e(l_0xc7df78)}]" goto(l_0xc7df3c)
 
 l_0xc7df3c:
-    "@[1C 02 00] decided to return after summoning all the courage and energy he had." next
-    "@Good luck!{wait}{window_closeall}{set(flag 475)}" eob
+    "@ok{wait}{window_closeall}{set(flag 475)}" eob
 
 l_0xc7df78:
-    "@It must have all just been a bad dream." next
-    "@See you, [1C 02 00]!{wait}{window_closeall}{unset(flag 475)}" eob
+    "@oh..." next
+    "@ok...{wait}{window_closeall}{unset(flag 475)}" eob
 
 l_0xc7dfa4:
     "[06 0E 00 {e(l_0xc7dfb9)}]{isset(flag 128)}[1B 02 {e(l_0xc7dfb9)}]{counter(3)}{ctoarg}" eob
@@ -187,6 +183,7 @@ l_0xc7dfbe:
     "@and he realized that he had possessed great power!" next
     "@At that moment, [1C 01 08]'s psychic powers radically expanded!{sound(40)}{set(flag 74)}[03]{window_closeall}{pause(30)}{window_open(14)}@[1C 01 08] gained 200,000 exp.[03][1E 09 01 40 0D 03]" linebreak
     "[1F 04 03]" newline
+    "@[1C 01 08] was filled with some power of Christopher Laurence!" newline
     "@And finally, he realized{sound(103)} he had the power of Teleport [8C].[1F 71 01 01][1F 71 01 04]{prompt}[1F 04 01]{window_closeall}{pause(120)}{pause(180)}{pause(10)}[1F EB 01 06][1F E5 FF][1F 15 01 00 05 03 01]{pause(10)}[1F EA 6A 00][1F 61]{window_open(1)}@[1C 01 08] made all of the hidden powers his own." next
     "@[1C 01 08] absorbed the power of the land into his heart, and Magicant was no more.[03]{window_closeall}" goto(data_52.l_0xc9b4c9)
 

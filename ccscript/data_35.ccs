@@ -81,10 +81,14 @@ l_0xc80a47:
     "@I'm not going to ask the two of you where you were wandering..." end
 
 l_0xc80a7e:
-    "[19 10 01]{result_is(2)}[1B 03 {e(l_0xc80b4b)}]{counter(2)}" call(data_33.l_0xc7dc7f) "[1B 03 {e(l_0xc80b02)}]@[1C 02 02] is like a mother to me." next
-    "@You may not be able to comprehend my emotions." next
-    "@I might have a baby face,{pause(15)} but I possess the mind of an adult." next
-    "@I beg your pardon." end goto(l_0xc80b02)
+    "[19 10 01]{result_is(2)}[1B 03 {e(l_0xc80b4b)}]{counter(2)}" call(data_33.l_0xc7dc7f) "[1B 03 {e(l_0xc80b02)}]@Salutations" next
+    "@I am a patron of this preschool institution" next
+    "@Although my appearance may resemble that of a juvenile, I assure you that I am not one." next
+    "@My appellation is Sir Herbert Bartholomew Joseph IV." next
+    "@<...Stewie??? what are you doing here???>" next
+    "@Parton? Stewie? What the devil are you talking about?" next
+    "@I posit that your cognitive faculties may be somewhat languid." next
+    end goto(l_0xc80b02)
 
 l_0xc80b02:
     "@[1C 02 02]?" next
@@ -115,27 +119,20 @@ l_0xc80c31:
     "[19 02]Yes[02] [19 02]No[02][1C 07 02][11]{clearline}[09 02 {e(l_0xc80dab)} {e(l_0xc80cd4)}]" goto(l_0xc80cd4)
 
 l_0xc80cd4:
-    "@To meet you or not to meet you can only be decided by [1C 02 02]." next
-    "@[1C 02 02] has said that she would only meet with a boy named [1C 02 01]." next
-    "@So you're [1C 02 01]!" next
-    "@You're the one that was in" linebreak
-    "  [1C 02 02]'s dream." next
-    "@You will save the world!" next
-    "@Let me go call [1C 02 02].[03]" call(data_30.l_0xc7903b) "@She doesn't seem to be here." next
-    "@I wonder where she went?{pause(20)}  I'm sorry,{pause(20)} could you come back later?{wait}{set(flag 322)}{set(flag 635)}" eob
+    "@oh, you're name(1)?" next
+    "@i'll get name(2) now[03]" call(data_30.l_0xc7903b) "@she's not here now..." next
+    "@could you come back later?{wait}{set(flag 322)}{set(flag 635)}" eob
 
 l_0xc80dab:
-    "@Please leave." next
-    "@My daughter doesn't want to talk to media monkeys like you." end
+    "@do <no> next time" end
 
 l_0xc80dd8:
-    "@Now where did she go?" next
-    "@I'm sorry,{pause(15)} could you come back after a while?" end
+    "@could you come back later?" end
 
 l_0xc80e03:
-    "{counter(1)}[19 11 02]{rtoarg}@[1C 03 00]{pause(5)} [1C 03 00]{pause(5)} [1C 02 02]'s not home yet." next
-    "@Everdred in Burglin Park might know something." next
-    "@Oh, boy!{pause(20)}  Now I'm really worried.{wait}{set(flag 321)}" eob goto(l_0xc80e61)
+    "{counter(1)}[19 11 02]{rtoarg}@[1C 03 00]{pause(5)} [1C 03 00]{pause(5)} [1C 02 02]'s not home yet" next
+    "@maybe Everdred in Burglin Park knows something..." next
+    "@ugh...{wait}{set(flag 321)}" eob goto(l_0xc80e61)
 
 l_0xc80e61:
     "[06 08 03 {e(l_0xc80f1c)}]{counter(1)}" call(data_33.l_0xc7dc7f) "[1B 03 {e(l_0xc80f94)}]{counter(2)}" call(data_33.l_0xc7dc7f) "[1B 03 {e(l_0xc80f1c)}]@You're both fine... I'm so relieved!" next
@@ -147,7 +144,7 @@ l_0xc80ec3:
     "  and re{pause(5)}e{pause(5)}e{pause(5)}e{pause(5)}lax." end
 
 l_0xc80ef3:
-    "@[1C 02 01], you'll sleep on the couch in the den...[03]" call(data_45.l_0xc91693) "[1F 21 22]{unset(flag 383)}" newline
+    "@[1C 02 01], you can sleep on the floor[03]" call(data_45.l_0xc91693) "[1F 21 22]{unset(flag 383)}" newline
     eob
 
 l_0xc80f1c:
@@ -176,77 +173,59 @@ l_0xc81087:
     "@You can even sleep on the living room couch instead of the one in the den..." end
 
 l_0xc81122:
-    "[06 49 00 {e(l_0xc8159f)}][06 75 00 {e(l_0xc81318)}][06 55 01 {e(l_0xc814b9)}]@Greetings.{pause(20)}  I'm Orange Kid, the inventor." next
-    "@Have you heard of me?{pause(20)}  I'm a bit embarrassed about my reputation." next
-    "@I have a lot of inventions in development, but I'm running short of cash." next
-    "@I'm basically a happy-go-lucky person,{pause(15)} so I'm not worried." next
-    "@You know,{pause(15)} I'm working on this machine" next
-    "@that would really help you in Peaceful Rest Valley." next
-    "@I hope it's ready soon... what?" next
-    "@You're actually willing to help finance the project?" linebreak
+    "[06 49 00 {e(l_0xc8159f)}][06 75 00 {e(l_0xc81318)}][06 55 01 {e(l_0xc814b9)}]@hi, im Orange Kid" next
+    "@could you donate to my project" linebreak
     "[19 02]Yes[02] [19 02]No[02][1C 07 02][11]{clearline}[09 02 {e(l_0xc81286)} {e(l_0xc8125d)}]" goto(l_0xc8125d)
 
 l_0xc8125d:
-    "@I guess I was just too hopeful.{pause(20)}  Oh well, never mind." end
+    "@aw" end
 
 l_0xc81286:
-    "@Oh goody!{pause(20)}  Would it be okay to get $200 to buy materials?" linebreak
+    "@can i get 200 bucks" linebreak
     "[19 02]Yes[02] [19 02]No[02]{open_wallet}[1C 07 02][11]{clearline}[09 02 {e(l_0xc812d1)} {e(l_0xc8125d)}]" goto(l_0xc8125d)
 
 l_0xc812d1:
     "[1D 14 C8 00 00 00][1B 03 {e(l_0xc813d4)}]{sound(118)}[1D 09 C8 00]{open_wallet}" goto(l_0xc812e6)
 
 l_0xc812e6:
-    "@Thank you very much!" next
-    "@Your support should have a tremendous impact on all mankind." next
+    "@YAY!!!" next
     "{set(flag 117)}" goto(l_0xc81318)
 
 l_0xc81318:
-    "[06 26 02 {e(l_0xc81418)}]@Let me give you my new <Super Orange Machine.>" next
-    "@I call it <[1C 05 CC]> for short." next
+    "[06 26 02 {e(l_0xc81418)}]@lemmie give you my new <Super Orange Machine.>" next
+    "@i call it <[1C 05 CC]> for short." next
     "[1D 03 FF][1B 02 {e(l_0xc81392)}][1D 0E 00 CC]" call(data_33.l_0xc7dccf) "{set(flag 550)}" next
-    "@Please use it for spreading peace and goodwill on Earth." end
+    "@use it to spread hate on Earth!" end
 
 l_0xc81392:
-    "@Ah ha!{pause(20)}  You have too many items." next
-    "@I hope you'll accept the [1C 05 CC],{pause(15)} even if you have to toss some of your food..." end
+    "@please get rid of something first" end
 
 l_0xc813d4:
-    "@What?!{pause(15)}  You don't have that much money?" next
-    "@Well, perhaps you shouldn't be yappin' about having cash then,{pause(15)} buddy." end
+    "@broke" end
 
 l_0xc81418:
-    "{isset(flag 550)}[1B 02 {e(l_0xc81318)}][06 74 00 {e(l_0xc81475)}]@I'm hard at work... don't worry,{pause(15)} my brilliant invention will be ready soon." next
-    "@Okay, okay...{pause(20)}  I'll get back to work!{wait}{set(flag 116)}" eob
+    "{isset(flag 550)}[1B 02 {e(l_0xc81318)}][06 74 00 {e(l_0xc81475)}]@I'm hard{wait}{set(flag 116)}" eob
 
 l_0xc81475:
-    "@I'm having more trouble than I expected." next
-    "@I found a problem in one of Einstein's theories...{wait}{unset(flag 116)}" eob
+    "@poop.{wait}{unset(flag 116)}" eob
 
 l_0xc814b9:
-    "@You didn't invest any money in my venture," next
-    "@but someone else donated a few million bucks,{pause(15)} so everything is great." next
-    "@So would you like to invest,{pause(10)} say,{pause(15)} 50 bucks?" linebreak
+    "@yo," next
+    "@someone else donated a few million bucks,{pause(15)} so everything is great." next
+    "@soooo would you like to invest,{pause(10)} say,{pause(15)} 50 bucks?" linebreak
     "[19 02]Yes[02] [19 02]No[02][1C 07 02][11]{clearline}[09 02 {e(l_0xc81585)} {e(l_0xc8153d)}]" goto(l_0xc8153d)
 
 l_0xc8153d:
-    "@Oh,{pause(15)} I'm sorry to hear that." next
-    "@...And you never heard how much money I got, too.{pause(15)}  Right? *wink* *wink*..." end
+    "@...wow..." end
 
 l_0xc81585:
     "[1D 14 32 00 00 00][1B 03 {e(l_0xc813d4)}]{sound(118)}[1D 09 32 00]{open_wallet}" goto(l_0xc812e6)
 
 l_0xc8159f:
-    "[06 75 00 {e(l_0xc815f9)}]@Well, you never invested in my genius,{pause(15)} did you?" next
-    "@You had no idea of what I could do..." next
-    "@*chortle*" next
-    "@You sorry loser." end
+    "[06 75 00 {e(l_0xc815f9)}]@lol ok" end
 
 l_0xc815f9:
-    "@Did you come here to get your investment money back?" next
-    "@No?{pause(15)}  Can you wait a little longer?" next
-    "@I promise I'll finish my brilliant invention." next
-    "@I rely on your support,{pause(15)} even though I am a super genius." end
+    "@zzz" end
 
 l_0xc81676:
     "[06 52 00 {e(l_0xc818f1)}][06 70 00 {e(l_0xc818b9)}][06 27 02 {e(l_0xc81915)}]@Well,{pause(15)} I have sort of neglected doing my housework..." next
@@ -332,13 +311,13 @@ l_0xc81ac4:
     "@Sorry,{pause(15)} the show is on hold for a while." end
 
 l_0xc81ade:
-    "@Oh, pardon me.[03]{window_closeall}[06 77 00 {e(l_0xc81afb)}]" call(data_30.l_0xc7921a) "{set(flag 2)}" eob
+    "@oops, sorry[03]{window_closeall}[06 77 00 {e(l_0xc81afb)}]" call(data_30.l_0xc7921a) "{set(flag 2)}" eob
 
 l_0xc81afb:
     call(data_30.l_0xc79211) "{set(flag 2)}" eob
 
 l_0xc81b04:
-    "@See you." end
+    "@see ya" end
 
 l_0xc81b0c:
     "{store_registers}[06 02 00 {e(l_0xc81baf)}][06 77 00 {e(l_0xc81b9b)}]{load_registers}[19 19 00 00]{swap}{store_registers}{result_is(125)}[1B 03 {e(l_0xc81b50)}][19 22 FF 02 E2 00]" call(data_33.l_0xc7dc9b) "[1B 02 {e(l_0xc81ade)}]@Please show me your ticket." end goto(l_0xc81b50)
@@ -364,7 +343,7 @@ l_0xc81c2f:
 
 l_0xc81c56:
     "@Didn't I see you at the Topolla Theater in Fourside?" next
-    "@So you're a Runaway Five groupie, too!" end
+    "@So you're a Runaway Five girlie, too!" end
 
 l_0xc81c91:
     "@I am a mouse." next
@@ -404,11 +383,10 @@ l_0xc81ea3:
     "@I'm on a baseball team,{pause(15)} so I can recognize these things." end
 
 l_0xc81eee:
-    "@Hey, hey, hey!{pause(15)}  Don't get too close to me." next
-    "@I just farted,{pause(15)} heh, heh... sorry." end
+    "@i just shit myself" end
 
 l_0xc81f2a:
-    "@You kids are bouncing around,{pause(15)} talking to everyone.{pause(20)}  It's getting annoying." end
+    "@why are yall doing here?" end
 
 l_0xc81f56:
     "[06 53 00 {e(l_0xc8207c)}]@I'm feeling really out of it because I've been working all night," next
@@ -429,13 +407,9 @@ l_0xc8207c:
     "@I'll call you if I invent another brilliant item." end
 
 l_0xc82105:
-    "[06 00 03 {e(data_36.l_0xc82285)}]@The Dinosaur Museum doesn't have any real dinosaurs...{pause(20)}  They're all replicas." next
-    "@I'm sure everyone knows that." next
-    "@If you still want to go see the dinosaurs," next
-    "@pay 5 dollars apiece for the entrance fee.{pause(20)}  Is that okay?" linebreak
+    "[06 00 03 {e(data_36.l_0xc82285)}]@do you have the dinosaur autism?" linebreak
     "{open_wallet}[19 02]Yes[02][19 02]No[02][1C 07 02][11]{clearline}[09 02 {e(data_36.l_0xc821fe)} {e(l_0xc821b2)}]" goto(l_0xc821b2)
 
 l_0xc821b2:
-    "[1D 15 05 00]{swap}@Maybe you think [1C 0A 00 00 00 00] dollars is too much." next
-    "@Or are you just not interested in dinosaurs.{pause(20)}  You're strange, kid!" end
+    "[1D 15 05 00]{swap}@no? ok then" end
 

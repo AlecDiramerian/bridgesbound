@@ -132,7 +132,8 @@ l_0xc7c95e:
     "@but the record of adventure number {delta} has been lost..." end
 
 l_0xc7c9a8:
-    "[06 49 00 {e(l_0xc7ca3c)}][19 10 01]{swap}@Hello,{pause(15)} this is the Stoic Club." next
+    "[06 49 00 {e(l_0xc7ca3c)}][19 10 01]{swap}@(seems like this number turns it into an actual phone...)"
+    "@Hello,{pause(15)} this is the Stoic Club." next
     "@Oh,{pause(15)} [1C 02 00], {swap}" call(data_33.l_0xc7e6b3) "!{pause(20)}" linebreak
     "  Would you like to make a reservation? " next
     "@Certainly." next
@@ -140,97 +141,60 @@ l_0xc7c9a8:
     "@Click!  Beep-beep-beep... {wait}{sound(11)}{set(flag 337)}" eob goto(l_0xc7ca3c)
 
 l_0xc7ca3c:
-    "@Ha ha! It's me, Mickey Mouse! This is the Mickey Mouse Clubhouse" next
+    "@(seems like this number turns it into an actual phone...)" next
+    "@Oh boy! It's me, Mickey Mouse! This is the Mickey Mouse Clubhouse" next
     "@Ha ha! Sorry pal, I bought the Stoic Club property" next
     "@Huh? Pokey? Stolen? Ha ha! No, I've had the Clubhouse the whole time. We're in the process of remodeling to make the place look like the old clubhouse" next
-    "@<hey, while I've got you here" next
-    "@Now we've got loud music, great food, and really rowdy crowds..." next
-    "@Listen, buddy, I'm too busy to talk to you right now! " next
-    "@Just drop by anytime!" linebreak
-    "  You come, you enjoy...  I promise! " next
-    "@Click!  Beep-beep-beep...{wait}{sound(11)}" eob
+    "@<hey, while I've got you here, ive got a question... what every happened to Minnie? someone said something about her being extremely silly...>" next
+    "@Oh boy- what the fuck??? WHAT THE FUCK???" next
+    "@<what's up?>" next
+    "@SHE WASN'T BEING EXTREMELY SILLY... SHE WAS FUCKING GOOFY" next
+    "@<oh...>" linebreak
+    "@OH BOY! DONALD, GET TOODLES. WE'RE OFF TO KILL THE GOOF!" next
+    "@(SLAM!){wait}{sound(22)}" linebreak
+    "@(You finally solved the mystery of the Mickey Mouse Clubhouse.)" eob
 
 l_0xc7cb5f:
     "[19 10 01]{rtoarg}{result_is(1)}[1B 02 {e(l_0xc7d1c1)}][06 49 00 {e(l_0xc7d226)}]{isset(flag 688)}[1B 02 {e(l_0xc7cc35)}][1D 0D 01 06 02][1B 03 {e(l_0xc7cdae)}][1D 0D 01 01 08][1B 03 {e(l_0xc7ccec)}][06 B1 02 {e(l_0xc7ce96)}][1D 21 07][09 07 {e(l_0xc7cbba)} {e(l_0xc7cbba)} {e(l_0xc7cf6c)} {e(l_0xc7cf6c)} {e(l_0xc7d05a)} {e(l_0xc7d05a)} {e(l_0xc7d102)}]" goto(l_0xc7cbba)
 
 l_0xc7cbba:
-    "@[1C 01 08]?" next
-    "@....." next
-    "@Don't say a word; I know exactly what you're thinking." next
-    "@My son, who'd have thought he was such a brave kid?" next
-    "@Oh, yeah... you're a hero, honey!..." next
-    "@Click!  Beep-beep-beep...{wait}{sound(11)}" eob goto(l_0xc7cc35)
+    "@hiya son, its your dad again. mom's taking a shit. sorry.{wait}{sound(11)}" eob goto(l_0xc7cc35)
 
 l_0xc7cc35:
-    "@Is that you, [1C 01 08]?" next
-    "@You called me back sooner than I thought..." next
-    "@Everyone here is doing just fine." next
-    "@Oh yes, Tracy started working part-time for  Escargo Express." next
-    "@Here, I'll let you talk to her." next
-    "@And call me when you have some time.  ... Oh... you don't have any free time?" next
-    "@Well, here's Tracy.[03]{pause(20)}" linebreak
+    "@wait i have a message from her" next
+    "@tracy can store ur shit now[03]{pause(20)}" linebreak
     "{set(flag 201)}{set(flag 688)}" goto(data_17.l_0xc636e5)
 
 l_0xc7ccec:
-    "@Hey, [1C 01 08]!" linebreak
-    "  You sound terrible!" next
-    "@Do you have a cold or something?" next
-    "@Whatever dangeorous stuff you're doing, remember that good health is very important! " next
-    "@Try to keep as healthy as possible, even if it kills you!" next
-    "@Well, I'd better go, I think my omlette might be on fire!  Bye!" next
-    "@Click!  Beep-beep-beep... {wait}{sound(11)}" eob
+    "@your mother says..." linebreak
+    "@good fucking lord you sound awful" next
+    "@get over that cold dude{wait}{sound(11)}" eob
 
 l_0xc7cdae:
-    "@Hello, [1C 01 08]?" linebreak
-    "  What's wrong?  You sound so sad..." next
-    "@Are you homesick?...  Well, I knew there would be days like this. " next
-    "@It must make you feel better, listening to your mom's sweet voice." next
-    "@...So, do you feel any better?" next
-    "@Well, I'd better get going.  I'm in the middle of my ironing.  Bye!" next
-    "{sound(11)}  Click!  Beep-beep-beep...[03]{window_closeall}" goto(l_0xc7ce73)
+    "{sound(11)} no more homesick[03]{window_closeall}" goto(l_0xc7ce73)
 
 l_0xc7ce73:
     "{pause(30)}{window_open(1)}@[1C 01 08] got over being homesick.[19 05 01 06 01]{sound(37)}{wait}{window_closeall}" eob goto(l_0xc7ce96)
 
 l_0xc7ce96:
-    "@Hello, [1C 01 08]?" next
-    "@So, I heard that you got a new girlfriend on your journey..." next
-    "@Well, why don't you tell me about her later..." next
-    "@You see, I have this feeling that she is right next to you, or something." next
-    "@Well, if she is right there, say hello to her for me." next
-    "@I have to go now... I'm right in the middle of cleaning the toilet... Bye!" next
-    "{sound(11)}  Click!  Beep-beep-beep...{wait}{unset(flag 689)}" eob
+    "@here's your mom" next
+    "@YOU GOT A BADDIE???" next
+    "@HOLY FUCKING SHIT YOU DID IT name(1) YOU PULLED!!!" next
+    "{sound(11)} IM SO PROUD{wait}{unset(flag 689)}" eob
 
 l_0xc7cf6c:
-    "@Hello, [1C 01 08]?" next
-    "@So, how is your adventure going?" next
-    "@...Hmmmm, I see..." linebreak
-    "  It sounds like you're having some tough times, then." next
-    "@Your teacher dropped by, looking for you... don't worry--I covered for you." next
-    "@Everything is fine here... you just keep on truckin'!" next
-    "@Well, my soap opera is getting to a really steamy part, so I'd better let you go." next
-    "@Bye!" next
-    "{sound(11)}@Click!  Beep-beep-beep..." end
+    "@hey name(1)... so uh... your mother... she's... uh... not available now but- <DAD!> ok here she is" next
+    "@(you can hear the sound of heavy breathing)" next
+    "@(what's she doing... OH MY FUCKING GOD NO SHE'S... NOOOOOPE)" linebreak
+    "@(you threw the reciever out the window)" end
 
 l_0xc7d05a:
-    "@Hello?  Hello?!" linebreak
-    "  Is that you, [1C 01 08]?" next
-    "@I can hardly hear you..." next
-    "@It sounds like you're calling from the moon or something." next
-    "@...If you're doing okay, that's great. " next
-    "@Listen, I have to get going.  I'm trying to give [1C 01 03] a flea bath." next
-    "@Bye!" linebreak
-    "{sound(11)}  Click!  Beep-beep-beep..." end
+    "@hello???" linebreak
+    "@youre so far away i cant even get a message from ur mom..." next
+    "{sound(11)} bye!" end
 
 l_0xc7d102:
-    "@Click! Beep-beep-beep..." next
-    "@...No, no... I was just teasing..." next
-    "@I wanted to see if my new impression would fool you." next
-    "@Everyone here is doing just fine.  *puff*" next
-    "@Hope you're doing all right, too." next
-    "@Well, I better go... I'm in the middle of my dance aerobics!" next
-    "@Bye!" linebreak
-    "{sound(11)}  Click!  Beep-beep-beep..." end
+    "AUUAGHAUGAHGUAGHAUGH SORRY SON I HAVE CRIPPLING CONSTIPATION RN" end
 
 l_0xc7d1c1:
     "[19 10 01]{swap}@Oh, is this that darling little [1C 02 00]?" next
@@ -257,23 +221,16 @@ l_0xc7d33e:
     "[06 49 00 {e(data_50.l_0xc9992f)}]{music(115)}{pause(60)}{wait}[1F 01 00]{sound(11)}[06 10 00 {e(l_0xc7d36e)}][06 95 00 {e(l_0xc7d4af)}][06 0E 00 {e(l_0xc7d36e)}][06 80 00 {e(l_0xc7d627)}]" goto(l_0xc7d36e)
 
 l_0xc7d36e:
-    "{window_open(1)}[19 10 01]{result_is(1)}[1B 02 {e(l_0xc7d630)}]@Hello, it's your dad." next
-    "@You've been out there for a long time now..." next
-    "@It may be none of my" linebreak
-    "  business," next
-    "@but don't you think it would be a good idea if you took a break?" next
-    "[19 02]Yes[02]  [19 02]No[02] [1C 07 02][11]{clearline}[09 02 {e(l_0xc7d43b)} {e(l_0xc7d3f5)}]" goto(l_0xc7d3f5)
+    "{window_open(1)}[19 10 01]{result_is(1)}[1B 02 {e(l_0xc7d630)}]@hiya..." next
+    "@i just shit myself" next
+    "[19 02]ok[02]  [19 02]ok[02] [1C 07 02][11]{clearline}[09 02 {e(l_0xc7d43b)} {e(l_0xc7d3f5)}]" goto(l_0xc7d3f5)
 
 l_0xc7d3f5:
-    "@Ah, I see..." next
-    "@Well, it doesn't make me happy," next
-    "@but I understand your point about the fate of the world being at stake." next
+    "@ok" next
     call(data_33.l_0xc7de54) eob
 
 l_0xc7d43b:
-    "@All right.{pause(20)}  You should find a place to stay in the nearest town." next
-    "@When you get to the hotel,{pause(15)} be sure to give your dear ol' dad a call." next
-    "@And hey, keep an eye out for bad guys![03]" call(data_33.l_0xc7de54) eob
+    "@ok[03]" call(data_33.l_0xc7de54) eob
 
 l_0xc7d4af:
     "{window_open(1)}@Hello, it's your dad." next
@@ -388,38 +345,38 @@ l_0xc7d9fc:
 
 l_0xc7d9fd:
     newline
-    "@But it was empty." end
+    "@THERE WAS A FUCKING BOMB IN THERE nah im kidding it was empty" end
 
 l_0xc7da0c:
     "@[1C 02 00] dug around in the trash can." eob
 
 l_0xc7da23:
     newline
-    "{pause(20)}@Well, let's see here...[03]" eob
+    "{pause(20)}@first of all, that's fucking disgusting...[03]" eob
 
 l_0xc7da33:
     newline
-    "@There was just plain ol' garbage in the trash can." end
+    "@second, there's nothing in here..." end
 
 l_0xc7da58:
     "@[1C 02 00] opened the chest." eob
 
 l_0xc7da68:
-    "{pause(20)}@WHOAAAAAAAAAAH![03]" eob
+    "{pause(20)}@OHHHH MYYYY GODDDD![03]" eob
 
 l_0xc7da7c:
     newline
-    "@But the chest was empty." end
+    "@its empty lol" end
 
 l_0xc7da8f:
     "@[1C 02 00] opened the casket." eob
 
 l_0xc7daa1:
-    "{pause(20)}@TAAAAAH-DAAAAAH![03]" eob
+    "{pause(20)}@HOLY SHIT![03]" eob
 
 l_0xc7dab6:
     newline
-    "@But the casket was empty." end
+    "@its empty lol" end
 
 l_0xc7dacb:
     "[19 10 01]{swap}" call(l_0xc7da0c) "[1F 16 46 02 01]{sound(16)}" next

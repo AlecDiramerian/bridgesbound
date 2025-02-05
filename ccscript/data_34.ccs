@@ -246,12 +246,12 @@ l_0xc7ef0d:
     "  from now...{wait}{font_normal}" eob
 
 l_0xc7ef3b:
-    "[06 49 00 {e(l_0xc7f0e2)}][06 86 00 {e(l_0xc7f0d6)}][06 84 00 {e(l_0xc7ef67)}][06 4A 00 {e(l_0xc7efa2)}][19 10 01]{rtoarg}@Ah, [1C 02 00]." next
+    "[06 49 00 {e(l_0xc7f0e2)}][06 86 00 {e(l_0xc7f0d6)}][06 84 00 {e(l_0xc7ef67)}][06 4A 00 {e(l_0xc7efa2)}][19 10 01]{rtoarg}@hi [1C 02 00]" next
     goto(l_0xc7ef67)
 
 l_0xc7ef67:
-    "@The Phase Distorter will certainly be completed someday," next
-    "@in my humble opinion." end goto(l_0xc7efa2)
+    "@the phase distorter will be finished... eventually..." next
+    "@in my humble opinion" end goto(l_0xc7efa2)
 
 l_0xc7efa2:
     "@Excellent, excellent!" linebreak
@@ -335,13 +335,7 @@ l_0xc7f5ec:
     "@This is getting most fascinating!" end
 
 l_0xc7f634:
-    "@It's a miracle!" next
-    "@A miracle that has only happened because of your great courage!" next
-    "@...Believe me,{pause(15)} I went through a lifetime's worth of stress while you were gone..." next
-    "@I just wish I could have come with you as a robot." next
-    "@I should have used the Phase Distorter." next
-    "@What a story that would have been..." next
-    "@<Scientist and four kids save the world!>{pause(30)}  Wah ha ha ha ha!" end
+    "@LETS FUCKING GOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO" end
 
 l_0xc7f710:
     "[06 49 00 {e(l_0xc7f813)}][06 4A 00 {e(l_0xc7f7a5)}]" goto(l_0xc7f71e)
@@ -390,45 +384,49 @@ l_0xc7f921:
     "@Boing!{font_normal}" end
 
 l_0xc7f949:
-    "{window_open(1)}@Our travels together end here." next
-    "@I must return to Dalaam, and use this experience for the good of my country." next
-    "@[1C 01 08],{pause(15)}" linebreak
-    "  [1C 01 1E],{pause(20)}" linebreak
-    "  [1C 01 34]..." next
-    "@Let me demonstrate a strange power before I go.{pause(20)}  I realized this power as a child." next
-    "@PSI Farewell!  Now![03]{window_closeall}{set(flag 637)}" eob
+    "{window_open(1)}@name(1)... name(2)... name(3)..." next
+    "@I guess this is goodbye..." next
+    "@I, uh..." next
+    "@Have a confession..." next
+    "@I THINK LUCAS X NESS IS A FUCKING STUPID SHIP AND NESS X PAULA IS BETTER THIS IS FOR THE ENTIRE EARTHBOUND COMMUNITY TO SEE BYEEEEE[03]{window_closeall}{set(flag 637)}" eob
 
 l_0xc7f9f8:
-    "{window_open(1)}@[1C 01 1E],{pause(20)}" linebreak
-    "  [1C 01 08]..." next
-    "@It was great to hang out with you guys.{pause(20)}  It really was." next
-    "@I'm glad that I had the chance to use some of the theories" next
-    "@that I have been studying so hard." next
-    "@It's remarkable." next
+    "{window_open(1)}@yeah, i know it looked like i just inserted my dick into yall" next
+    "@but..." next
+    "@no... those were hugs..." next
+    "@i have been so hard." next
+    "@it's remarkable." next
     "@....." next
-    "@If..." next
-    "@Just maybe..." next
-    "@Well, if you two get hitched someday," next
-    "@maybe I'll be the one that fixes your broken electronic appliances." next
+    "@if..." next
+    "@just maybe..." next
+    "@well, if you two get hitched someday," next
+    "@i'll babysit for yall" next
     "@....." next
-    "@I'm going to stay here for a while and see if I can learn more from Dr. Andonuts." next
-    "@I mean,{pause(15)} from my dad." next
-    "@...So it looks like this is good bye for now,{pause(20)} my friends.{wait}{window_closeall}" eob
+    "@im gonna stay here with my dad and see what i can learn from him" next
+    "@i had lots of fun{wait}{window_closeall}" eob
 
 l_0xc7fb3e:
-    "@It was fun hanging out together." end
+    "@i hope we'll see eachother again..." end
 
 l_0xc7fb56:
-    "{window_open(1)}@[1C 01 08], will you escort me home?" linebreak
+    "{window_open(1)}@hey...[1C 01 08]?" next
+    "@<yes?>" next
+    "@i, uh..." next
+    "@well..." next
+    "@maybe being a goth baddie isn't what it turns out to be..." next
+    "@i think... i might just go back to being a basic white girl... what do you think?" next
     "[19 02]Yes[02][19 02]No[02][1C 07 02][11]{clearline}[09 02 {e(l_0xc7fba1)} {e(l_0xc7fb89)}]" goto(l_0xc7fb89)
 
 l_0xc7fb89:
-    "@Well then,{pause(15)} I'll escort you!{wait}" linebreak
+    "@well...{pause(15)} maybe you're right...{wait}" linebreak
+    "@let's head to my house first, i bet my parents are worried{wait}" linebreak
     "{window_closeall}" eob
 
 l_0xc7fba1:
-    "@I'll miss all of you,{pause(5)} but,{pause(15)} I have to go back to being just a regular kid..." next
-    "@Well,{pause(15)} I gotta get going...{wait}{window_closeall}" eob
+    "@that settles it! name(4) was asking about modern tech, and i told him about some of the vinyls i have. i guess i don't have a need for my MCR albums anymore, and i think name(4) would love to learn more about emo culture" next
+    "@<my sister has a bunch of white girl stuff she doesn't use anymore. she has lots of Katy Perry, Gwen Stefani, and P!nk stuff that she's been wanting to donate>" next
+    "@i guess i'll have to meet her and get some white girl advice one day." next
+    "@let's head to my house first, i bet my parents are worried{wait}{window_closeall}" eob
 
 l_0xc7fbec:
     "[1F 67 02]" call(l_0xc7fc3e) "[19 22 01 01 02 00]{swap}{store_registers}{result_is(4)}[1B 03 {e(l_0xc7fc32)}]{load_registers}{result_is(5)}[1B 03 {e(l_0xc7fc32)}]{load_registers}{result_is(6)}[1B 03 {e(l_0xc7fc26)}][1F 15 02 00 37 02 01]" goto(l_0xc7fd06)
@@ -441,33 +439,22 @@ l_0xc7fc32:
 
 l_0xc7fc3e:
     "[1F E5 FF]{pause(30)}[19 22 01 01 02 00][1F 13 01 00][19 22 02 01 01 00][1F 13 02 00]{pause(30)}{window_open(1)}@[1C 01 08]..." linebreak
-    " Thank you for escorting me home." next
-    "@....." next
-    "@...There was something I wanted to tell you, but I've forgotten it." next
-    "@I'm sure I'll remember by the time I see you again." next
-    "@Well,{pause(15)} I guess this is it..." next
-    "@Good-bye." next
-    "@Uhhh...{pause(20)}" linebreak
-    " ...So long" next
-    "@...See ya." next
-    "@...Bye.{wait}{window_closeall}[1F EB 02 06]" eob goto(l_0xc7fd06)
+    "@thanks." next
+    "@i... um... {pause(100)}*mwah* see ya!{wait}{window_closeall}[1F EB 02 06]" eob goto(l_0xc7fd06)
 
 l_0xc7fd06:
     "[1F 61][1F E7 02 00][1F 13 01 01]{pause(60)}[1F EA 02 00][1F 61][1F 12 02]{set(flag 638)}[1F E8 FF]" eob
 
 l_0xc7fd22:
-    "[19 22 01 01 02 00][1F 13 01 00][19 22 02 01 01 00][1F 13 02 00]{pause(30)}{window_open(1)}@I really should go home.{pause(20)}  I shouldn't be out just wandering here and there." next
-    "@Don't you think so?" linebreak
+    "[19 22 01 01 02 00][1F 13 01 00][19 22 02 01 01 00][1F 13 02 00]{pause(30)}{window_open(1)}@um... i dont wanna sound rude but... can we head to my house first?" next
     "[19 02]Yes[02][19 02]No[02][1C 07 02][11]{clearline}[09 02 {e(l_0xc7fd8e)} {e(l_0xc7fdd6)}]" goto(l_0xc7fdd6)
 
 l_0xc7fd8e:
-    "@All right.{pause(20)}  Let's go back to Polestar Preschool in Twoson..." next
-    "@You remember where it is, right?" next
-    "@Let's go...{wait}{window_closeall}" eob
+    "@alright. remember, it's the Polestar Preschool in Twoson{wait}{window_closeall}" eob
 
 l_0xc7fdd6:
-    "@Well...  Okay.{pause(20)}" linebreak
-    "  I guess I would like to be with you a little longer.{wait}{window_closeall}" eob
+    "@well..." next
+    "@i do want to spend some more time with you{wait}{window_closeall}" eob
 
 l_0xc7fe02:
     "{font_saturn}@You worn" linebreak
@@ -510,76 +497,68 @@ l_0xc80000:
     call(data_33.l_0xc7dc7f) "[1B 03 {e(l_0xc8045b)}][06 71 00 {e(l_0xc8037f)}][06 7E 02 {e(l_0xc80027)}][06 0C 00 {e(l_0xc803ac)}][06 0D 00 {e(l_0xc803ac)}]" goto(l_0xc80027)
 
 l_0xc80027:
-    "@This is the cycle shop{pause(5)} <Punk-Sure>!" next
-    "@Bicycles are so much fun and are so convenient..." next
-    "@It's a lot faster than walking." next
-    "@You'll be really popular with the biking crowd." next
-    "@Do you want a bicycle?" linebreak
+    "@hiya! want a bike?" next
     "[19 02]Yes[02] [19 02]No[02][1C 07 02][11]{clearline}[09 02 {e(l_0xc800f5)} {e(l_0xc800c1)}]" goto(l_0xc800c1)
 
 l_0xc800c1:
-    "[1D 05 FF B0][1B 03 {e(l_0xc802e6)}][06 51 00 {e(l_0xc8034d)}]@Oh... you don't know how to ride a bike." next
-    "@Me neither." end
+    "[1D 05 FF B0][1B 03 {e(l_0xc802e6)}][06 51 00 {e(l_0xc8034d)}]@you don't know how to ride a bike?" next
+    "@me neither." end
 
 l_0xc800f5:
-    "[06 51 00 {e(l_0xc802b9)}]@Unfortunately, we don't have any more bikes for sale.{pause(20)}  We only have rentals." next
-    "@Do you want to rent one?" linebreak
+    "[06 51 00 {e(l_0xc802b9)}]@cool. we don't actually sell bikes, just rent them out." next
+    "@do ya want to rent one?" linebreak
     "[19 02]Yes[02] [19 02]No[02][1C 07 02][11]{clearline}[09 02 {e(l_0xc8015a)} {e(l_0xc800c1)}]" goto(l_0xc800c1)
 
 l_0xc8015a:
-    "@I really like your straight-forward style." next
-    "@I'll tell you what,{pause(15)} I'll let you borrow a bike for free." next
+    "@cool" next
+    "@first time renters rent for free" next
     "[1D 03 FF][1B 02 {e(l_0xc80277)}][1D 0E 00 B0]" call(data_33.l_0xc7dccf) next
-    "{set(flag 81)}@You know that two people can't ride on one bicycle," next
-    "@so of course three or four people on a bike would be impossible!" next
-    "@Did you also know that you can't ride a bike with anything following you?" next
-    "@Teddy bears, for example..." next
-    "@Carrying a bear and riding is impossible for you." next
-    "@And don't even think about riding a bike into a cave." end
+    "{set(flag 81)}@oh, also, there's only one seat," next
+    "@so you can only ride it when you're solo." next
+    "@also, you can't ride a bike with anything following you" next
+    "@such as a teddy bear" next
+    "@one more thing, caves just banned bikes. so you cant ride them in caves." end
 
 l_0xc80276:
     eob
 
 l_0xc80277:
     newline
-    "{sound(5)}@You have too many items.{pause(20)}  Why don't you get rid of something and come back." next
-    "@I know you want it now,{pause(15)} but my hands are tied..." end
+    "{sound(5)}@uh... your pockets are full" next
+    "@i don't know how you'd fit a bike in your pocket, but..." end
 
 l_0xc802b9:
     newline
-    "@Didn't you already borrow a bicycle?{pause(20)}  We don't have any more right now..." end
+    "@we're out of bikes..." end
 
 l_0xc802e6:
     newline
-    "[1D 01 FF B0]@You're here to return your bike?" next
-    "{set(flag 113)}{unset(flag 81)}@Look how low your seat is!{pause(20)}  Geez,{pause(15)} you must have short legs." next
-    "@That's it!{pause(20)}  I'll call you stubby legs!{wait}{sound(118)}" eob
+    "[1D 01 FF B0]@oh hey! you're here to return it?" next
+    "{set(flag 113)}{unset(flag 81)}@oh wow, your seat is really low" next
+    "@hmm...{sound(118)}" eob
 
 l_0xc8034d:
     newline
-    "@Yeah,{pause(10)} yeah,{pause(5)} sure, sure.{pause(20)}  You've already borrowed a bicycle." end
+    "@you've alrady borrowed one" end
 
 l_0xc8037f:
-    "@Hey!{pause(15)}  Stubby legs!" next
+    "@hey!" next
     "[06 7E 02 {e(l_0xc80027)}][06 0D 00 {e(l_0xc803ac)}][06 0C 00 {e(l_0xc803ac)}]" goto(l_0xc80027)
 
 l_0xc803ac:
-    "{counter(1)}@Do you wanna ride a bike?" next
-    "@That's not gonna work... two people on one bike is strictly forbidden.[03][1D 05 FF B0][1B 03 {e(l_0xc803f8)}]" end
+    "{counter(1)}@sorry..." next
+    "@they're one seaters[03][1D 05 FF B0][1B 03 {e(l_0xc803f8)}]" end
 
 l_0xc803f8:
     next
-    "@You're here to return the bicycle?" linebreak
+    "@you wanna return it?" linebreak
     "[19 02]Yes[02] [19 02]No[02][1C 07 02][11]{clearline}[09 02 {e(l_0xc802e6)} {e(l_0xc8042b)}]" goto(l_0xc8042b)
 
 l_0xc8042b:
-    "@Well,{pause(15)} don't forget to return it...{pause(20)}  You're gonna have to sooner or later." end
+    "@ok, don't forget!" end
 
 l_0xc8045b:
-    "@You know that two people can't ride a bike," next
-    "@but did you know that you can't ride a bike" next
-    "@when you are carrying an unconscious friend's stuff?" next
-    "@Carrying a lot of items and riding aroud is impossible for you." end
+    "@what a nice day" end
 
 l_0xc804d1:
     "[06 49 00 {e(data_35.l_0xc808bd)}][06 08 03 {e(l_0xc8054d)}][06 55 00 {e(data_35.l_0xc807bc)}][06 54 00 {e(data_35.l_0xc806bb)}][06 0D 00 {e(l_0xc80579)}]@Whistle, whistle anywhere.{pause(10)}" linebreak

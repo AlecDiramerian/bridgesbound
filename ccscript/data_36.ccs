@@ -8,11 +8,10 @@ command e(label) "{long label}"
 
 // Text Data
 l_0xc821fe:
-    "[1D 15 05 00]{swap}[1D 14 00 00 00 00][1B 03 {e(l_0xc82250)}]{sound(118)}{pause(1)}[1D 09 00 00]{open_wallet}@Please enter.{pause(20)}  You'll find an academic researcher inside.{wait}{set(flag 768)}[06 49 00 {e(data_50.l_0xc9992f)}][1F 67 01]" eob
+    "[1D 15 05 00]{swap}[1D 14 00 00 00 00][1B 03 {e(l_0xc82250)}]{sound(118)}{pause(1)}[1D 09 00 00]{open_wallet}@ME TOOOOOO{wait}{set(flag 768)}[06 49 00 {e(data_50.l_0xc9992f)}][1F 67 01]" eob
 
 l_0xc82250:
-    "[1D 15 05 00]{swap}@You don't even have [1C 0A 00 00 00 00] dollars!" next
-    "@You don't deserve to go in the museum." end
+    "[1D 15 05 00]{swap}@you dont have enough money to go in... freeloader" end
 
 l_0xc82285:
     "@The Dinosaur Museum doesn't have real dinosaurs...{pause(20)}  They are all replicas." next
@@ -71,20 +70,16 @@ l_0xc826bc:
     "[06 DC 00 {e(l_0xc826c8)}]" goto(l_0xc82565)
 
 l_0xc826c8:
-    "@As I thought,{pause(15)} dinosaurs did actually exist in history." next
-    "@Yes, I have sure-fire proof." next
-    "@I've seen them in so many movies,{pause(15)} they must have been real!" end
+    "@unfortunitally, dinosaurs did not ride trains and time travel" end
 
 l_0xc82730:
-    "@...I wonder how many animals go extinct before human beings discover them." next
-    "@I wanna see a live dinosaur sometime in my life." end
+    "@i love dinoaur train bro" end
 
 l_0xc82785:
-    "@Huge!..." next
-    "@Not you,{pause(15)} I'm talking about the dinosaur bones." end
+    "@Massive! LIKE A LOOOOOWWWW TAPERRRRR FADEEEEEEEE" end
 
 l_0xc827af:
-    "@This museum should sell dinosaur t-shirts." end
+    "@i want a dino t shirt" end
 
 l_0xc827cf:
     call(data_43.l_0xc900cd) eob
@@ -93,9 +88,15 @@ l_0xc827d5:
     call(data_43.l_0xc90067) eob
 
 l_0xc827db:
-    "@One person requested a <shampoo and cut.>" next
-    "@They must have thought that a <bad hair day> could be treated at the hospital." next
-    "@Either that or they wanted their medical insurance to cover their grooming." end
+    "@some guy requested a <shampoo and cut.>" next
+    "@idk why" next
+    "@maybe they wanted their medical insurance to cover their grooming." next
+    "@..." next
+    "@..." next
+    "@..." next
+    "@what?" next
+    "@..." next
+    "@no! not that kind of grooming!" end
 
 l_0xc82862:
     goto(data_12.l_0xc5d40d)
@@ -136,12 +137,10 @@ l_0xc82945:
     "[1D 03 FF][1B 02 {e(l_0xc829df)}]{store_registers}[1D 14 1E 00 00 00][1B 03 {e(l_0xc82986)}]{sound(118)}{pause(1)}[1D 09 1E 00]{open_wallet}@Thanks a lot.{pause(20)}  Enjoy the show.{wait}{sound(116)}{load_registers}[1D 0E 00 B2]" eob
 
 l_0xc82986:
-    "@I've never heard of anyone who doesn't even have $30!" next
-    "@Ho{pause(15)} ho{pause(5)} ho ho ho ho ho ho ho." next
-    "@Oh, excuse me for my laughing in your face." end
+    "@BROKE" end
 
 l_0xc829df:
-    "{sound(5)}@Sorry, but you can't carry all of these..." end
+    "{sound(5)}@oh, your pockets are full..." end
 
 l_0xc829f8:
     call(data_12.l_0xc5d3e9) eob
@@ -150,11 +149,11 @@ l_0xc829fe:
     call(data_12.l_0xc5d3f5) eob
 
 l_0xc82a04:
-    "[06 2C 02 {e(l_0xc82a34)}]@Everything's so expensive...{pause(20)}  Should I return to my hometown?" end
+    "[06 2C 02 {e(l_0xc82a34)}]@fuck inflation, man... in the 80's, a doezn eggs were around 85 cents... now, they're $2.85... ugh..." end
 
 l_0xc82a34:
-    "@What did you do during the power outage?" next
-    "@I was sitting here 'cause I was scared." end
+    "@the power outage sucked" next
+    "@i was in the middle of a Fortnite game..." end
 
 l_0xc82a63:
     call(data_12.l_0xc5d401) eob
@@ -163,38 +162,36 @@ l_0xc82a69:
     call(data_12.l_0xc5d431) eob
 
 l_0xc82a6f:
-    "[06 2C 02 {e(l_0xc82aa8)}]@Mumble, mumble, mumble... man,{pause(15)} I'm so busy." next
-    "@Don't bother me, kid." end
+    "[06 2C 02 {e(l_0xc82aa8)}]@man, im so busy..." next
+    "@...i could eat a horse" end
 
 l_0xc82aa8:
-    "@I want to get out of here," next
-    "@because they suddenly shut down the store and the power goes out." next
-    "@There are lots of strange things happening in this department store." end
+    "@I want to get him back!," next
+    "@that's also a song by Olivia Rodrigo, featured on her second studio album, GUTS" end
 
 l_0xc82b06:
-    "[06 2C 02 {e(l_0xc82b27)}]@Oh, so you're skipping school too, right?" end
+    "[06 2C 02 {e(l_0xc82b27)}]@skibidi did iotilet?!??!?!!??" end
 
 l_0xc82b27:
-    "@I heard a sound like <gwaaargh!> and it was loud." next
-    "@I wonder if someone was fighting." end
+    "@i heard a sound like <UADHJASFGHISAKFJA> and it was really loud." next
+    "@I wonder if someone died." end
 
 l_0xc82b59:
-    "[06 2C 02 {e(l_0xc82beb)}]@When I grow up,{pause(15)} I wanna work for APE as a programmer..." next
-    "@Do you have any connections with those guys?" linebreak
+    "[06 2C 02 {e(l_0xc82beb)}]@When I grow up,{pause(15)} I wanna work for Bridges Academy..." next
+    "@do you know Mark Long?" linebreak
     "[19 02]Yes[02][19 02]No[02][1C 07 02][11]{clearline}[09 02 {e(l_0xc82bbc)} {e(l_0xc82bbc)}]" goto(l_0xc82bbc)
 
 l_0xc82bbc:
-    "@Oh, you didn't have to answer." next
-    "@It was dumb of me to ask you that question." end
+    "@AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAhello everybody my name is markiplier and welcome back to five nights at freddys" end
 
 l_0xc82beb:
-    "@The power supply to the game was cut off.{pause(20)}  I wasted my money." end
+    "@FUCK!!! I WAS DOING SO GOOD IN MY ASMR FURRY MOMMY ROLEPLAY- i mean uhh donkey kong" end
 
 l_0xc82c11:
-    "[06 2C 02 {e(l_0xc82c48)}]@I wanna save up some money and go to Summers or somewhere else to relax." end
+    "[06 2C 02 {e(l_0xc82c48)}]@man, i just wanna relax..." end
 
 l_0xc82c48:
-    "@Certainly, it's very dangerous living in the city." end
+    "@it's dangreous here" end
 
 l_0xc82c6b:
     "[06 8B 00 {e(data_32.l_0xc7c588)}]{music(155)}@Gwaaagh, Gwarrrgh!." next

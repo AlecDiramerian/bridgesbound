@@ -165,12 +165,12 @@ l_0xc66afe:
     "@me when" next
     "@me when" next
     "@me when" next
-    "@me when" next
-    "@me when" next
-    "@me when" next
-    "@me when" next
-    "@me when" next
-    "@me when" next
+    "@me when" linebreak
+    "@me when" linebreak
+    "@me when" linebreak
+    "@me when" linebreak
+    "@me when" linebreak
+    "@me when" linebreak
     "@me when" next
     "@i shid myself" end
 
