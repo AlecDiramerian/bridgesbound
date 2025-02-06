@@ -8,57 +8,45 @@ command e(label) "{long label}"
 
 // Text Data
 l_0xc83ecd:
-    "@I heard the department store finally re-opened." next
-    "@Hope they have a boffo sale." end
+    "@IT OPENED" end
 
 l_0xc83efd:
-    "@Behind this wall, things seem very strange." next
-    "@I feel like this isn't my place..." next
-    "@Maybe it's your place." end
+    "@my dick is stuck in the wall" next
+    "@please. help." end
 
 l_0xc83f3c:
-    "@The boy stuck to the wall... may be a Peeping Tom." end
+    "@how did bro get his dick stuck in the wall" end
 
 l_0xc83f5f:
-    "[06 8F 00 {e(l_0xc83faf)}]@(You were wandering around the warehouse with a vacant, far away look in your eyes." next
-    "@Were you daydreaming?)" end
+    "[06 8F 00 {e(l_0xc83faf)}]@(she moon on my side til i... idk)" end
 
 l_0xc83faf:
-    "@I'm lucky I'm a rat.{pause(20)}  We have such easy lives..." end
+    "@being a rat is cool" end
 
 l_0xc83fcf:
-    "@Oh, [1C 01 08]," next
+    "@oh, [1C 01 08]," next
     "[06 7E 02 {e(l_0xc83fe6)}]@[1C 01 1E]..." next
     goto(l_0xc83fe6)
 
 l_0xc83fe6:
-    "@I'm Geldegarde Monotoli." next
-    "@Don't you remember me?" next
-    "@I returned this building to Mr. Enrich Flavor." next
-    "@Now I'm working as an elevator man." next
-    "@I'm very happy, and it's good to be alive." next
-    "@I heard of your many successes.{pause(20)}  Wonderful." end
+    "@hi..." next
+    "@i'd like to apologize again for everything i did..." next
+    "@<its ok man,{pause(30)} it was that fuckin statue, not you" next
+    end
 
 l_0xc84079:
-    "@Wheeee!{pause(20)}  Hic!" next
-    "@[1C 02 01]." next
-    "@Pokey left me, his own dad, and just disappeared." next
-    "@If you see him, tell him that he should take better care of his father." next
-    "@Don't tell my wife in Onett that I've been spending my time here." next
-    "@Hic!{pause(15)}  Wheeeee!" end
+    "@I SHIT MY FUCKING PANTS" end
 
 l_0xc84111:
-    "@I heard Venus made an appearance at the Runaway Five show." next
-    "@I missed her 'cause I went to the bathroom." next
-    "@I'll hate bathrooms for the rest of my life." end
+    "@i heard Venus made an appearance at the Runaway Five show" next
+    "@i missed her cuz i went to the bathroom to pleasure myself to her" next
+    "@ill hate bathrooms for the rest of my life." end
 
 l_0xc84168:
-    "@Oh, I can't see the Runaway Five here anymore...?" next
-    "@I should dump this sorry excuse of a man and become a Runaway Five groupie." end
+    "@I CANT SEE THE RUNAWAY FIVE HERE ANYMORE??? FUCKKKKKKK!" end
 
 l_0xc841b3:
-    "@I'm very punctual about time and careful with money." next
-    "@I don't look like it, though." end
+    "@doo doo weenor" end
 
 l_0xc841de:
     "[06 49 00 {e(l_0xc842f6)}][06 80 01 {e(l_0xc842f3)}][06 99 00 {e(l_0xc842f0)}][06 DA 00 {e(l_0xc842ed)}][06 5C 01 {e(l_0xc842ea)}][06 56 01 {e(l_0xc842e7)}][06 D9 00 {e(l_0xc842e4)}][06 10 00 {e(l_0xc842e1)}][06 8F 00 {e(l_0xc842de)}][06 4B 00 {e(l_0xc842db)}][06 8B 00 {e(l_0xc842d8)}][06 39 00 {e(l_0xc842d5)}][06 D6 00 {e(l_0xc842d2)}][06 47 00 {e(l_0xc842cf)}][06 45 00 {e(l_0xc842cc)}][06 80 00 {e(l_0xc842c9)}][06 2E 00 {e(l_0xc842c6)}][06 D3 00 {e(l_0xc842c3)}][06 55 00 {e(l_0xc842c0)}][06 0D 00 {e(l_0xc842bd)}][06 44 00 {e(l_0xc842ba)}][06 56 00 {e(l_0xc842b7)}][06 76 00 {e(l_0xc842b4)}][06 69 00 {e(l_0xc842b1)}][06 B6 00 {e(l_0xc842ae)}][06 50 00 {e(l_0xc842ab)}][06 40 00 {e(l_0xc842a8)}][06 28 00 {e(l_0xc842a5)}]{counter(1)}" eob
@@ -151,16 +139,16 @@ l_0xc842f9:
     call(l_0xc841de) "{ctoarg}{swap}[1F C0 1D {e(l_0xc843f6)} {e(l_0xc8442c)} {e(l_0xc8444c)} {e(l_0xc84485)} {e(l_0xc844bd)} {e(l_0xc844ea)} {e(l_0xc84525)} {e(l_0xc8455f)} {e(l_0xc84608)} {e(l_0xc84657)} {e(l_0xc84693)} {e(l_0xc84693)} {e(l_0xc84693)} {e(l_0xc84693)} {e(l_0xc84693)} {e(l_0xc846b6)} {e(l_0xc846b6)} {e(l_0xc846fc)} {e(l_0xc84728)} {e(l_0xc8474d)} {e(l_0xc8477f)} {e(l_0xc847e6)} {e(l_0xc8481a)} {e(l_0xc8484c)} {e(l_0xc848a4)} {e(l_0xc848db)} {e(l_0xc84930)} {e(l_0xc84973)} {e(l_0xc849aa)}]" eob
 
 l_0xc8437a:
-    "@Good morning!" linebreak
-    "  Here's your free copy of the morning newspaper!" next
+    "@g'day mate" linebreak
+    "  here's some news from today" next
     eob
 
 l_0xc843a7:
-    "@Here's today's headlines in the Onett Times..." next
+    "@so..." next
     eob
 
 l_0xc843c8:
-    "@There's an advertisement in today's Onett Times that looks interesting." next
+    "@here's a headline (note im not gonna edit all of the hotel headlines because theres like a thousand" next
     eob
 
 l_0xc843f6:
