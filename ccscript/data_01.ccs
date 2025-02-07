@@ -423,13 +423,18 @@ l_0xc52d8c:
     "@Please come again." end
 
 l_0xc52d94:
-    "@Sssshhh!" linebreak
-    "  Don't talk too loud!" next
-    "@What do you want?" linebreak
+    "@Linus from The Peanuts Gang?" next
+    "@What the devil are you doing here?" next
+    "@Oh, wait, you're Sans. BLAST!" next
+    "@Anyway, I've got some dangrous stuff." next
+    "@Some of which I've used to attack Lois with." next
+    "@You want some?" linebreak
     eob
 
 l_0xc52db6:
-    "@...you again?!" linebreak
-    "  What do you want now?" linebreak
+    "@DAMN YOU, VILE WOMAN!" linebreak
+    "@Go back to The Fat Man, and evicirate yourself!" next
+    "@Oh, it's just you." next
+    "@Want something?"
     eob
 

@@ -8,96 +8,90 @@ command e(label) "{long label}"
 
 // Text Data
 l_0xc52dcc:
-    "@Will that be all?" linebreak
-    "  Good luck, buddy!" end
+    "@Tell Brian I said his novel sucks." end
 
 l_0xc52de8:
-    "@So that's everything?" linebreak
-    "  Keep on the watch for bad guys." end
+    "@Tell Brian I said his novel sucks." end
 
 l_0xc52e0d:
-    "@I've got what you need.[03]" eob
+    "@Alright.[03]" eob
 
 l_0xc52e1c:
     "@[1C 05 00]?" next
     eob
 
 l_0xc52e24:
-    "@Who's gonna lug this around?[03]" eob
+    "@Oh, yes, this one is nice. Like that time I blew up Megan's bedroom.[03]" eob
 
 l_0xc52e3a:
-    "@OK.  I suppose you're going to want to equip it here?" linebreak
+    "@Do you want to equip it?" linebreak
     eob
 
 l_0xc52e59:
-    "@The [1C 05 00]...?" linebreak
-    "  I'd say about {swap}$[1C 0A 00 00 00 00]." next
-    "@Take it or leave it." linebreak
+    "@You want the [1C 05 00]?" next
+    "@Give me {swap}$[1C 0A 00 00 00 00]." next
+    "@Yeah?" linebreak
     eob
 
 l_0xc52e85:
-    "@[1C 02 00] won't be able to equip this." next
-    "@Are you intent on purchasing it anyway?" linebreak
+    "@[1C 02 00] can't equip this? What the devil?" next
+    "@...and you want to buy it anyway?" linebreak
     eob
 
 l_0xc52eb2:
-    "@Well, that's showing good sense.  You shouldn't strain yourself too much." next
+    "@Hm... okay." next
     eob
 
 l_0xc52ed7:
-    "@Hold it just a second!  You haven't got enough money!" next
+    "@BLAST! You're too broke!" next
     eob
 
 l_0xc52ef5:
-    "@You aren't going to be able to carry any more stuff." next
-    "@You're dragging around all that junk..." next
-    "@I guess I could help you out by buying some things that you don't need..." next
+    "@You greedy pig!" next
+    "@I can buy stuff you don't need though." next
     eob
 
 l_0xc52f4a:
-    "@What are you going to pawn off on me?[03]" eob
+    "@So... what can you give me to destoroy that vile woman?[03]" eob
 
 l_0xc52f5f:
     "@[1C 05 00]?" linebreak
-    "  I'll give you {swap}$[1C 0A 00 00 00 00], and not a penny more." next
+    "  Ooh... yes... I'll give you {swap}$[1C 0A 00 00 00 00]!" next
     "@Take it or leave it." linebreak
     eob
 
 l_0xc52f94:
-    "@...I don't think you'll find a better price anywhere else." next
+    "@Well, fine then!" next
     eob
 
 l_0xc52fb6:
-    "@What are you trying to pull, anyway?" next
-    "@You say you want to sell, but you have nothing to offer?!" next
-    "@You've got some nerve, kid!" next
+    "@You've got nothing to offer? Greedy..." next
     eob
 
 l_0xc52ffa:
-    "@Forget it!" linebreak
-    "  I don't want to buy that junk!" next
+    "@What the devil is this?" next
+    "@I can't kill Lois with that!" next
     eob
 
 l_0xc53018:
-    "@Excellent." linebreak
-    "  Glad we could work something out." next
+    "@Perfect." next
     eob
 
 l_0xc53037:
-    "@Thank you.{pause(20)}  Things must be pretty tough, especially for a kid like you." next
+    "@Great." next
     eob
 
 l_0xc53063:
-    "@So, will there be anything else?" linebreak
+    "@Anything else?" linebreak
     eob
 
 l_0xc53072:
-    "@What is it now?" linebreak
+    "@Now what?" linebreak
     eob
 
 l_0xc5307d:
-    "@[1C 02 00]  can't carry any more." next
-    "@Is anyone else willing to carry it?" linebreak
+    "@[1C 02 00] can't carry more stuff." next
+    "@Anyone ELSE want it?" linebreak
     eob
 
 l_0xc530a2:

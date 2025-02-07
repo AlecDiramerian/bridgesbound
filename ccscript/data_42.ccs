@@ -139,73 +139,57 @@ l_0xc8e42a:
     "@brian" end
 
 l_0xc8e467:
-    "[06 47 00 {e(l_0xc8e501)}]@There's a rumor that there is an underground path at the edge of the graveyard" next
-    "@that takes you somewhere." next
-    "@When you get through the path," next
-    "@you'll meet a dirty,{pause(15)} stinky,{pause(15)} ugly,{pause(15)} powerful monster." next
-    "@I wet my pants just thinking about it." end
+    "[06 47 00 {e(l_0xc8e501)}]i wet my pants" end
 
 l_0xc8e501:
-    "@You've been through some tough battles!" end
+    "@you've been through some shit, havent ya?" end
 
 l_0xc8e515:
-    "[06 47 00 {e(l_0xc8e5a4)}][06 45 00 {e(l_0xc8e576)}]@?{pause(5)}?{pause(5)}?  There's been a circus tent at the center of town for a long time." next
-    "@I saw another tent to the south.  I wonder when it went up?" end
+    "[06 47 00 {e(l_0xc8e5a4)}][06 45 00 {e(l_0xc8e576)}]@tent tuah the south" end
 
 l_0xc8e576:
-    "@That strange tent...{pause(20)}  It was a monster!" next
-    "@I'm glad I didn't go inside!" end
+    "@that tent...{pause(20)} it was a monster! this may be a reference to the song Monster by Lady Gaga featured on The Fame Monster" end
 
 l_0xc8e5a4:
-    "@Visit Threed again!" end
+    "@come again!" end
 
 l_0xc8e5b1:
-    "[06 47 00 {e(l_0xc8e5f7)}][06 7D 00 {e(l_0xc8e5f7)}]@I'm so scared of the zombies, I spend all of my time running from them." next
-    "@I can't even get home!" end
+    "[06 47 00 {e(l_0xc8e5f7)}][06 7D 00 {e(l_0xc8e5f7)}]@im so scared of the zombies i could eat a horse" end
 
 l_0xc8e5f7:
-    "@I had to run all over to escape the zombies." next
-    "@Now I can't remember where my house is..." end
+    "@where the FUCK is my house" end
 
 l_0xc8e62c:
-    "@Hey, do you remember me?" next
-    "@I had to run all over to escape the zombies." next
-    "@Now I can't remember where my house is..." next
-    "@I told you this before, remember?" next
-    "@Huh?  I never saw you before?" next
-    "@I guess I can't remember anything right." end
+    "@i cant " end
 
 l_0xc8e6a9:
-    "@(You're awfully kind taking time out to talk to a mouse.{pause(20)}  This mouse loves you!)" end
+    "@(you... talked to lil' ol' me? thanks!)" end
 
 l_0xc8e6e3:
     "@Owoooo![03]" eob
 
 l_0xc8e6ed:
-    "[06 47 00 {e(l_0xc8e715)}]@How can you smile like that in a dangerous place like this?" end
+    "[06 47 00 {e(l_0xc8e715)}]@why is bro smiling" end
 
 l_0xc8e715:
-    "@I thought there was something more to you than just your smile." end
+    "@that's why you're smiling... good for you, kid" end
 
 l_0xc8e734:
-    "[06 47 00 {e(l_0xc8e7b3)}]@I saw a beat-up tour bus going to Fourside.{pause(20)}  We can't go through the tunnel." next
-    "@The band was really noisy,{pause(15)} so the ghosts didn't approach the bus." next
-    "@It must be great to be so happy-go-lucky, huh!" end
+    "[06 47 00 {e(l_0xc8e7b3)}]@i just saw some mf get beat up at a taco bell" next
+    "@lol" end
 
 l_0xc8e7b3:
-    "@I wanted to catch one of the ghosts in the tunnel and keep it as a pet." next
-    "@I'm just teasin'.  I can tease like that now that they're gone." end
+    "@ghosts? more like nuts face" end
 
 l_0xc8e804:
-    "[06 49 00 {e(l_0xc8e9e8)}][06 47 00 {e(l_0xc8e95d)}]@I'm only telling you this because you look like you're just passing through." next
-    "@The truth is,{pause(15)} I work for the monsters." next
-    "@The humans seem to be losing," next
-    "@so I'm on the zombies' side for my own protection." next
-    "@The zombies' leader likes Fly Honey.  He makes his followers collect it." next
-    "@You know--bees make bee honey and flies make Fly Honey." next
-    "@The zombie leader is strong because" next
-    "@he always eats peanut butter and Fly Honey sandwiches...[06 45 00 {e(l_0xc8e95b)}]" next
-    "@I got lots of Fly Honey stored in the tent to the south." next
+    "[06 49 00 {e(l_0xc8e9e8)}][06 47 00 {e(l_0xc8e95d)}]@GUYS I CANT TAKE IT ANYMORE I WORK FOR THE ZOMBIES" next
+    "@...there's this girl..." next
+    "@<oh jeez...>" next
+    "@hey, it's not my fault! she's got these hips... these lips... that ass... and when she has her strapon and says to take mommy's co-" next
+    "@<TMI TMI TMI TMI TMI>" next
+    "@ok ok sorry" next
+    "[06 45 00 {e(l_0xc8e95b)}]" next
+    "@anwyay theres Fly Honey stored in the tent to the south." next
     "@I'll deliver it to the zombie leader soon." end
 
 l_0xc8e95b:
