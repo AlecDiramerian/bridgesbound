@@ -159,7 +159,7 @@ l_0xc57e1c:
 
 l_0xc58000:
     "{window_open(1)}" newline
-    "@NNW SMSK?[18 02]{open_hp}{open_wallet}{window_open(2)}[19 02]party[02][19 02]goods[02][19 02]status[02][19 02]teleport[02][19 02]money[02][19 02]level[02][19 02]unused[02][19 02]event[02][19 02]hint[02][19 02]sound[02][19 02]desc[02][19 02]testtp[02][19 02]hintmap[02][1C 0C 02][11][1B 05]{window_closetop}{window_switch(1)}{clearline}" newline
+    "@debug menu[18 02]{open_hp}{open_wallet}{window_open(2)}[19 02]party[02][19 02]goods[02][19 02]status[02][19 02]teleport[02][19 02]money[02][19 02]level[02][19 02]unused[02][19 02]event[02][19 02]hint[02][19 02]sound[02][19 02]desc[02][19 02]testtp[02][19 02]hintmap[02][1C 0C 02][11][1B 05]{window_closetop}{window_switch(1)}{clearline}" newline
     "[1B 06][09 0D {e(l_0xc58103)} {e(l_0xc58262)} {e(l_0xc58718)} {e(data_07.l_0xc588cd)} {e(data_07.l_0xc58afb)} {e(data_07.l_0xc58a36)} {e(data_07.l_0xc58c88)} {e(data_08.l_0xc59895)} {e(data_07.l_0xc58e13)} {e(data_07.l_0xc58d09)} {e(data_09.l_0xc5a57f)} {e(data_07.l_0xc58e73)} {e(l_0xc580da)}]@YMMST." end
 
 l_0xc580da:
@@ -169,15 +169,14 @@ l_0xc580da:
     "{set(flag 681)}{set(flag 682)}{set(flag 683)}{set(flag 684)}{set(flag 685)}{set(flag 686)}" goto(l_0xc58000)
 
 l_0xc58103:
-    "@NNW SMSK?" linebreak
-    "[19 02]KWER[02][19 02]HZS[02][1C 07 02][11]{clearline}[09 02 {e(l_0xc5812f)} {e(l_0xc581ee)}]" goto(l_0xc58000)
+    "@what" linebreak
+    "[19 02]add[02][19 02]remove[02][1C 07 02][11]{clearline}[09 02 {e(l_0xc5812f)} {e(l_0xc581ee)}]" goto(l_0xc58000)
 
 l_0xc5812f:
-    "{open_hp}@KWER PR-Y-W" linebreak
-    " ERNDKDSI." goto(l_0xc58148)
+    "{open_hp}@whos gonna be added?" goto(l_0xc58148)
 
 l_0xc58148:
-    "{window_open(8)}[19 02]NS[02][19 02]P-R[02][19 02]ZeF[02][19 02]P-[02][19 02]P-K-[02][19 02]PtK-[02][19 02]IN[02][19 02]TN-[02][19 02]BR-NMNK-[02][19 02]DNZyNMN[02][19 02]FRINGMN1[02][19 02]FRINGMN2[02][19 02]FRINGMN3[02][19 02]FRINGMN4[02][19 02]FRINGMN5[02][1C 0C 03][11][1B 05][19 04]{window_closetop}{window_switch(1)}[1B 06][1B 02 {e(l_0xc581e7)}]{swap}[1F 11 00]{open_hp}" goto(l_0xc58148)
+    "{window_open(8)}[19 02]Ness[02][19 02]Paula[02][19 02]Jeff[02][19 02]Poo[02][19 02]Pokey[02][19 02]Picky[02][19 02]King[02][19 02]Tony[02][19 02]Monkey[02][19 02]Dungeonman[02][19 02]Flyingman1[02][19 02]Flyingman2[02][19 02]Flyingman3[02][19 02]Flyingman4[02][19 02]Flyingman5[02][1C 0C 03][11][1B 05][19 04]{window_closetop}{window_switch(1)}[1B 06][1B 02 {e(l_0xc581e7)}]{swap}[1F 11 00]{open_hp}" goto(l_0xc58148)
 
 l_0xc581e7:
     "{window_closetop}" goto(l_0xc58000)

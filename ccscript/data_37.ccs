@@ -152,7 +152,7 @@ l_0xc843c8:
     eob
 
 l_0xc843f6:
-    call(l_0xc8437a) call(l_0xc843a7) "@<Mysterious meteorite north of Onett still burning brightly>" end
+    call(l_0xc8437a) call(l_0xc843a7) "@<the mayor revealed to be having sex with children>" end
 
 l_0xc8442c:
     call(l_0xc8437a) call(l_0xc843a7) "@<Road to Twoson still closed>" end
