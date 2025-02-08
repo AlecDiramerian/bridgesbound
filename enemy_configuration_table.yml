@@ -626,7 +626,7 @@
   Defense: 133
   Encounter Text Pointer: data_57.l_0xef78c7
   Experience points: 26937
-  Final Action: 64
+  Final Action: 0
   Final Action Argument: 0
   Fire vulnerability: 5%
   Flash vulnerability: 40%
@@ -673,7 +673,7 @@
   Defense: 185
   Encounter Text Pointer: data_57.l_0xef78c7
   Experience points: 53142
-  Final Action: 64
+  Final Action: 0
   Final Action Argument: 0
   Fire vulnerability: 5%
   Flash vulnerability: 40%
@@ -3305,7 +3305,7 @@
   Defense: 65
   Encounter Text Pointer: data_57.l_0xef789c
   Experience points: 2218
-  Final Action: 64
+  Final Action: 0
   Final Action Argument: 0
   Fire vulnerability: 100%
   Flash vulnerability: 5%
@@ -3352,7 +3352,7 @@
   Defense: 134
   Encounter Text Pointer: data_57.l_0xef789c
   Experience points: 20389
-  Final Action: 64
+  Final Action: 0
   Final Action Argument: 0
   Fire vulnerability: 100%
   Flash vulnerability: 5%
@@ -3822,7 +3822,7 @@
   Defense: 30
   Encounter Text Pointer: data_57.l_0xef78b8
   Experience points: 356
-  Final Action: 65
+  Final Action: 0
   Final Action Argument: 0
   Fire vulnerability: 100%
   Flash vulnerability: 70%
@@ -3869,7 +3869,7 @@
   Defense: 146
   Encounter Text Pointer: data_57.l_0xef78b8
   Experience points: 17567
-  Final Action: 65
+  Final Action: 0
   Final Action Argument: 0
   Fire vulnerability: 100%
   Flash vulnerability: 70%
