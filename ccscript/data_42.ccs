@@ -182,7 +182,8 @@ l_0xc8e7b3:
     "@ghosts? more like nuts face" end
 
 l_0xc8e804:
-    "[06 49 00 {e(l_0xc8e9e8)}][06 47 00 {e(l_0xc8e95d)}]@GUYS I CANT TAKE IT ANYMORE I WORK FOR THE ZOMBIES" next
+    "[06 49 00 {e(l_0xc8e9e8)}][06 47 00 {e(l_0xc8e95d)}]@GUYS I CANT TAKE IT ANYMORE I WORK FOR THE ZOMBIES..." next
+    "@<why?"
     "@...there's this girl..." next
     "@<oh jeez...>" next
     "@hey, it's not my fault! she's got these hips... these lips... that ass... and when she has her strapon and says to take mommy's co-" next
@@ -196,175 +197,139 @@ l_0xc8e95b:
     end
 
 l_0xc8e95d:
-    "@I heard that you beat the zombie leader" next
-    "@after you got some important info from me." next
-    "@Heh heh heh..." next
-    "@You should at least thank me... or how about a shoulder massage..." next
-    "@Why are you giving me such a dirty look, you brat!{pause(10)}  Ptooie!" end
+    "@I heard that you beat to the zombie leader" next
+    "@<the fuck>" end
 
 l_0xc8e9e8:
-    "@...Since then, I've really matured." next
-    "@I am doing well in the health food business." next
-    "@People can get over any illness they might catch." next
-    "@Don't you think it's a great business?" linebreak
+    "@...want a cookie?" linebreak
     "[19 02]Yes[02] [19 02]No[02][1C 07 02][11]{clearline}[09 02 {e(l_0xc8ea79)} {e(l_0xc8ea6a)}]" goto(l_0xc8ea6a)
 
 l_0xc8ea6a:
-    "@Okay... so it's not for you." end
+    "@ok then..." end
 
 l_0xc8ea79:
-    "@I could make you believe anything..." end
+    "@gottem. no cookie" end
 
 l_0xc8ea8b:
-    "@After the buses started running again," next
-    "@I decided to come see my boyfriend... I really shouldn't have, though." end
+    "@i finally got to see my boyfriend! but..." end
 
 l_0xc8eace:
-    "@Wo!  Dude!{pause(15)}  Like,{pause(15)} my old girlfriend from Twoson hunted me down, man." next
-    "@I'm totally bummed, 'cause I have another girlfriend here in Threed." end
+    "@yeah... my girl came to Threed after the tunnels opened... uh... i cheated on her..." end
 
 l_0xc8eb2c:
-    "@Ha ha ha ...check him out." next
-    "@I think he's the bee's knees,{pause(15)} oops, I mean way cool.{pause(20)}  He used to be in a band." end
+    "@bruh. look at this dude" end
 
 l_0xc8eb75:
-    "{window_open(1)}@Ga{pause(5)}a{pause(5)}o{pause(5)}o{pause(1)}o{pause(1)}o{pause(1)}r{pause(1)}r{pause(1)}g{pause(1)}g!!![03]{window_closeall}{pause(1)}{unset(flag 49)}" call(data_21.l_0xc68538) "[1B 03 {e(l_0xc8ebdd)}][1F 1E 13 02 09][1F 1E 14 02 09][1F 1E 15 02 09]{pause(120)}{set(flag 669)}{set(flag 69)}{unset(flag 373)}{pause(1)}[1F 21 A0]{pause(1)}[1F E5 FF]" call(data_40.l_0xc88761) "{unset(flag 11)}" goto(data_31.l_0xc7a2f7)
+    "{window_open(1)}@FIII FYYY FOOO FUUUM. I WANT CUM.[03]{window_closeall}{pause(1)}{unset(flag 49)}" call(data_21.l_0xc68538) "[1B 03 {e(l_0xc8ebdd)}][1F 1E 13 02 09][1F 1E 14 02 09][1F 1E 15 02 09]{pause(120)}{set(flag 669)}{set(flag 69)}{unset(flag 373)}{pause(1)}[1F 21 A0]{pause(1)}[1F E5 FF]" call(data_40.l_0xc88761) "{unset(flag 11)}" goto(data_31.l_0xc7a2f7)
 
 l_0xc8ebdd:
     "{unset(flag 11)}{set(flag 49)}" eob
 
 l_0xc8ebe4:
-    "{window_open(1)}@(He stares into your soul.)[03]{window_closeall}[06 0E 00 {e(data_50.l_0xc9992f)}]{set(flag 46)}{set(flag 433)}{set(flag 588)}" eob
+    "{window_open(1)}@(he stares at your dick)[03]{window_closeall}[06 0E 00 {e(data_50.l_0xc9992f)}]{set(flag 46)}{set(flag 433)}{set(flag 588)}" eob
 
 l_0xc8ec0f:
-    "[19 23 16 02 01 FF 00][1F 16 16 02 00][1F 1A 16 02 03]{pause(30)}[1F 1B 16 02]{window_open(1)}@(He stares into your soul.)[03]{window_closeall}{sound(114)}{pause(60)}[1F F1 17 02 F7 02][1F 61][1F E6 17 02][19 23 17 02 01 01 00][1F 16 17 02 00][1F 1A 17 02 03]{pause(30)}[1F 1B 17 02]{window_open(1)}@(He looks you over.)[03]{window_closeall}[1F E9 17 02][06 0E 00 {e(data_50.l_0xc9992f)}]{set(flag 46)}{set(flag 433)}{set(flag 588)}" eob goto(l_0xc8ec90)
+    "[19 23 16 02 01 FF 00][1F 16 16 02 00][1F 1A 16 02 03]{pause(30)}[1F 1B 16 02]{window_open(1)}@(he stares at your dick)[03]{window_closeall}{sound(114)}{pause(60)}[1F F1 17 02 F7 02][1F 61][1F E6 17 02][19 23 17 02 01 01 00][1F 16 17 02 00][1F 1A 17 02 03]{pause(30)}[1F 1B 17 02]{window_open(1)}@(he stares at your dick, too)[03]{window_closeall}[1F E9 17 02][06 0E 00 {e(data_50.l_0xc9992f)}]{set(flag 46)}{set(flag 433)}{set(flag 588)}" eob goto(l_0xc8ec90)
 
 l_0xc8ec90:
-    "{window_open(1)}@(He looks you over.)[03]{window_closeall}[06 0E 00 {e(data_50.l_0xc9992f)}]{set(flag 46)}{set(flag 433)}{set(flag 588)}" eob
+    "{window_open(1)}@(he stares at your dick)[03]{window_closeall}[06 0E 00 {e(data_50.l_0xc9992f)}]{set(flag 46)}{set(flag 433)}{set(flag 588)}" eob
 
 l_0xc8ecb4:
     call(data_12.l_0xc5d32f) eob
 
 l_0xc8ecba:
-    "@Take a look at that chick in front of the hotel." next
-    "@Regardless of some of the people I've seen her hanging out with," next
-    "@I think I'd like to spend some time with her!" end
+    "@hooo mama!" next
+    "@there's a baddie in front of the hotel!!!" end
 
 l_0xc8ed1e:
-    "[06 D6 00 {e(l_0xc8edcc)}][06 47 00 {e(l_0xc8ed87)}]@I overheard the zombies whisper," next
-    "@<Master Belch will give us our lives back.>" next
-    "@...Master Belch is the zombie leader.{pause(15)}  He must be really pukey." end
+    "[06 D6 00 {e(l_0xc8edcc)}][06 47 00 {e(l_0xc8ed87)}]@the zombies really like a guy named Belch" end
 
 l_0xc8ed87:
-    "@Like I told you, there was a barfy bad guy named Belch." next
-    "@Thank you for giving him the big flush." end
+    "@thank you for giving him the hawk tuah." end
 
 l_0xc8edcc:
-    "@This town has completely changed from the first time you were here." next
-    "@Can you feel the love?" end
+    "@the town is so much nicer now!" end
 
 l_0xc8ee02:
-    "[06 49 00 {e(l_0xc8eeb4)}][06 47 00 {e(l_0xc8ee6e)}]@That's right, there is a rumor that a monster called Belch is screwing up the town." next
-    "@Belch!{pause(20)}  That's a gross,{pause(15)} twisted name even for a monster!" end
+    "[06 49 00 {e(l_0xc8eeb4)}][06 47 00 {e(l_0xc8ee6e)}]@some fella named Belch is stirring up trouble in the town" end
 
 l_0xc8ee6e:
-    "@Bu{pause(5)}u{pause(5)}u{pause(5)}u{pause(5)}rp!" next
-    "@Oops... now I'll get <Belch> for a nickname.  Hee hee hee... uh... crud." end
+    "@BUUUUUUUUUUUUUURP!" next
+    "@<ok belch>" next
+    "@fuck you"end
 
 l_0xc8eeb4:
-    "@Isn't your backpack worn out?{pause(20)}  Oh, if only those straps could talk..." end
+    "@how do you fit all that stuff in your backpack?" end
 
 l_0xc8eee5:
-    "@Yeah, I worked for the zombies," next
-    "@but I betrayed them too.{pause(20)}  I'm a con man, so I know the score." next
-    "@Belch gives life to the zombies, but Belch works for Giygas," next
-    "@who I heard might be female." next
-    "@Well, I'm not really sure whether Giygas is a male or a female." next
-    "@I'm a helpful con man, don't you think?" end
+    "@i think Giygas is a they/them" end
 
 l_0xc8ef99:
-    "@I saw a suspicious woman talking with the zombies around here." end
+    "@there was a fine shyt talking to the zombies earlier..." end
 
 l_0xc8efb9:
-    "[06 47 00 {e(l_0xc8f0d2)}][06 7D 00 {e(l_0xc8f086)}][06 7C 00 {e(l_0xc8f066)}][06 28 02 {e(l_0xc8f031)}]@Frankly, I'm running scared." next
-    "@I don't mean that I actually run around.{pause(20)}  I just mean I am frightened." next
-    "@Conditions in the town are getting worse." end
+    "[06 47 00 {e(l_0xc8f0d2)}][06 7D 00 {e(l_0xc8f086)}][06 7C 00 {e(l_0xc8f066)}][06 28 02 {e(l_0xc8f031)}]@(chitter noises)" end
 
 l_0xc8f031:
-    "@This guy at the pizza joint told me about a new product called <Zombie Paper.>" end
+    "@the pizza joint is selling Zombie Paper now?" end
 
 l_0xc8f066:
-    "@<Zombie Paper> is a stupid product name." end
+    "@Zombie Paper??? that's so stupid!" end
 
 l_0xc8f086:
-    "@Zombie Paper really works, so I hope someone comes up with <pretty girl paper.>" next
-    "@Oops,{pause(15)} that wasn't a nice thing to say." end
+    "@if Zombie Paper works, i'd like to invest in some Child Paper" next
+    "@<?!?!??!?!>" end
 
 l_0xc8f0d2:
-    "@You made our lives peaceful.  I can sleep again." next
-    "@It's like you used a bunch of <peace paper,> right?  Ha ha ha." end
+    "@you saved our lives. we are forever in your debt" end
 
 l_0xc8f11b:
-    "[06 47 00 {e(l_0xc8f208)}][06 7D 00 {e(l_0xc8f1b5)}][06 28 02 {e(l_0xc8f193)}]@People used to call me evil, but these zombies are much more scary." next
-    "@I left my wife and kids at home to escape to this tent." next
-    "@That's how scary the zombies are." end
+    "[06 47 00 {e(l_0xc8f208)}][06 7D 00 {e(l_0xc8f1b5)}][06 28 02 {e(l_0xc8f193)}]@I ATE MY GRANDMA" end
 
 l_0xc8f193:
-    "@You can do whatever you want--" next
-    "@just save my life." end
+    "@PLEASE SAVE MEEEE" end
 
 l_0xc8f1b5:
-    "@Those zombies stuck to the floor..." next
-    "@I wonder if they could still get me." next
-    "@I don't care what happens to anyone else,{pause(15)} I just want to save my own skin!" end
+    "@lololololol" end
 
 l_0xc8f208:
-    "@The town is at peace,{pause(15)} but my wife and kids won't speak to me." next
-    "@What's the problem?" end
+    "@I LIKE KIDS" end
 
 l_0xc8f240:
-    "@A few days ago, the zombies got some kids at this hotel." next
-    "{unset(flag 589)}{counter(1)}" call(data_33.l_0xc7dc7f) "[1B 02 {e(l_0xc8f296)}]@The boy had a red cap...{pause(30)} or was it a blue cap?" end
+    "@a while ago, the zombies got some kids at this hotel" next
+    "{unset(flag 589)}{counter(1)}" call(data_33.l_0xc7dc7f) "[1B 02 {e(l_0xc8f296)}]@one of them was a baddie..." end
 
 l_0xc8f296:
-    "@The boy had a red cap...{pause(30)}  Hey!{pause(15)}  It was you!" end
+    "@one kid had a massive dick... it's not you" end
 
 l_0xc8f2b7:
-    "@Thank you for bringing peace and happiness back to Threed.  Thanks!" next
-    "@Peace!{pause(20)}  Love!" end
+    "@heyyy man! spread the love!!!" end
 
 l_0xc8f2ef:
-    "@I really didn't think those kids could have saved the town." next
-    "@Who would have ever imagined it?" end
+    "@i like kids now" end
 
 l_0xc8f324:
-    "@I won't forget you." next
-    "@Won't you come back to Threed sometime?" end
+    "@thanks!" end
 
 l_0xc8f344:
-    "@Since the leader of the monsters is gone," next
-    "@the ghosts in the tunnel have disappeared." next
-    "@The buses can get through the tunnel now." end
+    "@i busted" end
 
 l_0xc8f392:
-    "@I want to go through the desert and on to the big city." next
-    "@I want to see the city," linebreak
-    "  and I want to smell like the big city." next
-    "@I'm a real urban-type of guy." end
+    "@i wanna go to Whoreside... oops, i mean Fourside..." end
 
 l_0xc8f3eb:
-    "@From the bus stop at the hotel all the way to Fourside..." next
-    "@is how much?  Do you remember?" end
+    "@from the bus stop at the hotel all the way to Fourside..." next
+    "@wheres my crown, thats my bling.." end
 
 l_0xc8f41f:
-    "[19 10 01]{rtoarg}@Thank you!" end goto(l_0xc8f42a)
+    "[19 10 01]{rtoarg}@tysm" end goto(l_0xc8f42a)
 
 l_0xc8f42a:
-    "@You're heroes.{pause(20)}  That rocks!" end
+    "@ily" end
 
 l_0xc8f43f:
-    "@Sweet!" end
+    "@heart emoji" end
 
 l_0xc8f448:
-    "@All righty!" end
+    "@i shit myself" end
 

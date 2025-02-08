@@ -8,15 +8,13 @@ command e(label) "{long label}"
 
 // Text Data
 l_0xc90615:
-    "@Excellent.  Please make yourself comfortable, on your blue sheets..." next
-    "@No, no, I'm just kidding!  Ha ha hah!{wait}" call(data_45.l_0xc91693) "[1F 21 27]" eob
+    "@k!{wait}" call(data_45.l_0xc91693) "[1F 21 27]" eob
 
 l_0xc90663:
-    "@Good morning." linebreak
-    "  Take care and good luck." end
+    "@ok" end
 
 l_0xc9067d:
-    "[06 7F 01 {e(l_0xc906e0)}][1D 15 3C 00]{swap}@Welcome to the Threed Sunset Hotel." next
+    "[06 7F 01 {e(l_0xc906e0)}][1D 15 3C 00]{swap}@welcome to la hotel de Threed" next
     call(l_0xc90f3b) "[11]{clearline}[09 02 {e(l_0xc906b6)} {e(l_0xc906b0)}]" goto(l_0xc906b0)
 
 l_0xc906b0:
@@ -38,29 +36,26 @@ l_0xc906f0:
     eob
 
 l_0xc906f1:
-    "[06 7F 01 {e(l_0xc907be)}][1D 15 46 00]{swap}@We are also running an inn, mister." next
-    "@It's $[1C 0A 00 00 00 00] a night if you want to stay here." next
-    "@Do you want to stay?" linebreak
+    "[06 7F 01 {e(l_0xc907be)}][1D 15 46 00]{swap}@we also have an inn" next
+    "@its $[1C 0A 00 00 00 00] a night if you want to stay here" next
+    "@wanna stay?" linebreak
     call(data_33.l_0xc7dd4d) "[11]{clearline}[09 02 {e(l_0xc90774)} {e(l_0xc90748)}]" goto(l_0xc90748)
 
 l_0xc90748:
-    "@That's probably for the best." next
-    "@You see... our beds are really old and dusty." end
+    "@thats prolly for the best" end
 
 l_0xc90774:
-    "[1D 14 00 00 00 00][1B 03 {e(l_0xc907b0)}][1D 09 00 00]{open_wallet}{sound(118)}@Well, have a good rest.  You'll wake up refreshed!{wait}" call(data_45.l_0xc91693) "[1F 21 2B]" eob
+    "[1D 14 00 00 00 00][1B 03 {e(l_0xc907b0)}][1D 09 00 00]{open_wallet}{sound(118)}@good night! sleep tight! dont let the bed bugs bite{wait}" call(data_45.l_0xc91693) "[1F 21 2B]" eob
 
 l_0xc907b0:
-    "@You... don't have enough money." end
+    "@broke" end
 
 l_0xc907be:
-    "@When you travel though the desert, you may be hit by sunstroke." next
-    "@If you see flashing lights before your eyes, you may have sunstroke!" next
-    "@But don't worry too much." next
-    "@If you have a Wet towel, you'll be all right." end
+    "@you get sunstroke in the desert" next
+    "@wet towels can fix it" end
 
 l_0xc9083a:
-    "[06 7F 01 {e(l_0xc908b6)}][1D 15 4B 00]{swap}[06 49 00 {e(l_0xc90878)}]@Welcome to the Monotoli Grand Hotel." next
+    "[06 7F 01 {e(l_0xc908b6)}][1D 15 4B 00]{swap}[06 49 00 {e(l_0xc90878)}]@welcome to la hotel de Monotoli" next
     goto(l_0xc90861)
 
 l_0xc90861:
@@ -70,7 +65,7 @@ l_0xc90872:
     call(l_0xc90fb2) eob
 
 l_0xc90878:
-    "@Welcome to the Enrich Grand Hotel." next
+    "@welcome to la hotel de Enrich" next
     goto(l_0xc90861)
 
 l_0xc90894:
@@ -83,86 +78,79 @@ l_0xc908b6:
     call(l_0xc90fd4) eob
 
 l_0xc908bc:
-    "[06 7F 01 {e(l_0xc90a62)}][1D 15 96 00]{swap}@Welcome to" linebreak
-    "  L'hotel de Summers." next
-    "@My name is" linebreak
-    "  Risosha Richmonde," next
-    "@and I am the assistant manager." next
-    "@I'm sorry [19 10 01]" call(data_33.l_0xc7e6b3) ", but I'm afraid" linebreak
-    "  that we do not have any reservation under your name." next
-    "@However, we can offer you a room at $[1C 0A 00 00 00 00] a night." next
-    "@Would you be interested in a room?" linebreak
+    "[06 7F 01 {e(l_0xc90a62)}][1D 15 96 00]{swap}@welcome to" linebreak
+    "  l'hotel de Summers." next
+    "@i am" linebreak
+    "  Risosha Jones Richard Leonard Smith Jackson Armond Joshua Walter Jessie Magnolia Krikor Angel Nicole Fuzzy Whitey Brownie Spotty Black Ears Cotton Tail Herbert Nenninger Richmonde," next
+    "@and uh" next
+    "@we uh" call(data_33.l_0xc7e6b3) ", I'm afraid" linebreak
+    "@<do not be afriad>" next
+    "@oh ok u wanna spend $[1C 0A 00 00 00 00] to stay" next
     call(l_0xc90f61) "[11]{clearline}[09 02 {e(l_0xc909d3)} {e(l_0xc90999)}]" goto(l_0xc90999)
 
 l_0xc90999:
-    "@That's too bad, [19 10 01]" call(data_33.l_0xc7e6b3) "." next
-    "@Please keep us in mind the next time you come here on your holiday." end goto(l_0xc909d3)
+    "FUCK" call(data_33.l_0xc7e6b3) "." next
+    "@FUCKING SHIT." end goto(l_0xc909d3)
 
 l_0xc909d3:
-    "[1D 14 00 00 00 00][1B 03 {e(l_0xc90a31)}][1D 09 00 00]{open_wallet}{sound(118)}@Excellent choice, [19 10 01]" call(data_33.l_0xc7e6b3) "!" next
-    "@We hope you enjoy our wonderful ocean view.{wait}" call(l_0xc90f7d) "{music_resume}[1F 21 0E]" call(l_0xc91582) eob goto(l_0xc90a31)
+    "[1D 14 00 00 00 00][1B 03 {e(l_0xc90a31)}][1D 09 00 00]{open_wallet}{sound(118)}@ok" call(data_33.l_0xc7e6b3) "!" next
+    "@cool{wait}" call(l_0xc90f7d) "{music_resume}[1F 21 0E]" call(l_0xc91582) eob goto(l_0xc90a31)
 
 l_0xc90a31:
-    "@If you do not have enough cash with you," next
-    "@please feel free to use the ATM just over there." end
+    "@use the atm i want money" end
 
 l_0xc90a62:
-    "@Did you have a relaxing sleep?" next
-    "@The sound of the ocean waves didn't disturb you, I trust." end
+    "@did ya like the sleep?" end
 
 l_0xc90a9b:
-    "[06 7F 01 {e(l_0xc90c03)}]@Welcome to the <Great Southern International Resort Hotel.>" next
-    "@Our rooms range in price" linebreak
+    "[06 7F 01 {e(l_0xc90c03)}]@welcome to la hotel de Great Southern International Resort" next
+    "our rooms vary in price" linebreak
     "  from[1D 15 0F 00]{swap}  $[1C 0A 00 00 00 00][1D 15 64 00]{swap} to $[1C 0A 00 00 00 00]" linebreak
     "  a night." next
-    "@Right now, though, we only have our super deluxe suite available." next
-    "@Would you like to stay?" linebreak
+    "@we only have the super insane crzy mega poop rooms rn. wanna sleep?" linebreak
     call(l_0xc90f61) "[11]{clearline}[09 02 {e(l_0xc90b90)} {e(l_0xc90b53)}]" goto(l_0xc90b53)
 
 l_0xc90b53:
-    "@We are very sorry" next
-    "@that we do not have any of our less expensive rooms available at this time." end
+    "@nuts" end
 
 l_0xc90b90:
-    "[1D 14 00 00 00 00][1B 03 {e(l_0xc90bfd)}][1D 09 00 00]{open_wallet}{sound(118)}@Please let us know if you find any scorpions..." next
-    "@It's very unlikely that they will come out, but you never can tell...{wait}{window_closeall}{pause(1)}" call(l_0xc90f7d) "{music_resume}[1F 21 0D]" call(l_0xc91582) eob
+    "[1D 14 00 00 00 00][1B 03 {e(l_0xc90bfd)}][1D 09 00 00]{open_wallet}{sound(118)}@ok" next
+    "@enjoy{wait}{window_closeall}{pause(1)}" call(l_0xc90f7d) "{music_resume}[1F 21 0D]" call(l_0xc91582) eob
 
 l_0xc90bfd:
     call(l_0xc90b53) eob
 
 l_0xc90c03:
-    "@Good morning!" next
-    "@This sure is some nice weather we're having in Scaraba lately." end
+    "@morning." end
 
 l_0xc90c38:
-    "[06 7F 01 {e(l_0xc90d1e)}][1D 15 4B 00]{swap}@This is the Dark Moon Hotel." next
-    "@One sleep period is $[1C 0A 00 00 00 00]." next
-    "@Do you want to sleep?" linebreak
+    "[06 7F 01 {e(l_0xc90d1e)}][1D 15 4B 00]{swap}@welcome to la hotel de Dark Moon" next
+    "@one sleep period is $[1C 0A 00 00 00 00]." next
+    "@wanna sleep?" linebreak
     call(l_0xc90f61) "[11]{clearline}[09 02 {e(l_0xc90c90)} {e(l_0xc90cb4)}]" goto(l_0xc90cb4)
 
 l_0xc90c90:
-    "@You're actually going to try to stay up...?  Hah hah hah!" end
+    "@ok" end
 
 l_0xc90cb4:
-    "[1D 14 00 00 00 00][1B 03 {e(l_0xc90ce8)}][1D 09 00 00]{open_wallet}{sound(118)}@All right.  Here we go!{wait}" call(l_0xc90f7d) "{music_resume}[1F 21 A2]" call(l_0xc91582) eob
+    "[1D 14 00 00 00 00][1B 03 {e(l_0xc90ce8)}][1D 09 00 00]{open_wallet}{sound(118)}@ok{wait}" call(l_0xc90f7d) "{music_resume}[1F 21 A2]" call(l_0xc91582) eob
 
 l_0xc90ce8:
-    "@Money rules here in Moonside, too." next
-    "@And you do not seem to have any at this moment." end
+    "@broke" end
 
 l_0xc90d1e:
-    "@Thanks." end
+    "@tysm" end
 
 l_0xc90d23:
-    "[06 7F 01 {e(l_0xc90dba)}]@The monkeys run the inn in the forest.  You can stay here for free!" next
+    "[06 7F 01 {e(l_0xc90dba)}]@the monkeys run the inn in the forest but can stay here for free" next
     "@Do you want to spend the night?" linebreak
     call(data_33.l_0xc7dd4d) "[11]{clearline}[09 02 {e(l_0xc90d87)} {e(l_0xc90d6d)}]" goto(l_0xc90d6d)
 
 l_0xc90d6d:
-    "@I swear, it doesn't smell like monkeys." end
+    "@it doesnt smell like monkeys" end
 
 l_0xc90d87:
-    "@You're sure to have fond memories of the monkey's inn after your trip...{wait}" call(data_45.l_0xc91693) "[1F 21 31]{unset(flag 383)}" goto(l_0xc90dba)
+    "@ok im tired of editing hotels{wait}" call(data_45.l_0xc91693) "[1F 21 31]{unset(flag 383)}" goto(l_0xc90dba)
 
 l_0xc90dba:
     "[1F E5 FF]{window_open(1)}@Didn't you think it was comfortable?  Take care and good bye.{wait}{window_closeall}[1F E8 FF]" eob
@@ -272,13 +260,7 @@ l_0xc91140:
 
 l_0xc9115d:
     "[1D 0D 01 06 02][1B 02 {e(l_0xc91213)}]" next
-    "@{pause(15)}...{pause(15)}by the way," next
-    "@What a sad look in your eyes... you, the boy in a red cap." next
-    "@You must be homesick." next
-    "@That's nothing you need to be ashamed of." next
-    "@Anybody who is on a long trip will miss home." next
-    "@In this case," next
-    "@the best thing to do is to call home and hear your mom's voice.{wait}" goto(l_0xc91213)
+    "@{pause(15)}...{pause(15)}You're homesick. Call your mom.{wait}" goto(l_0xc91213)
 
 l_0xc91213:
     eob
@@ -307,7 +289,7 @@ l_0xc9128d:
     "[19 02]Yes[02][19 02]No[02]{open_wallet}[1C 07 02]" call(data_33.l_0xc7dd5e) "[09 02 {e(l_0xc91345)} {e(l_0xc9132e)}]" goto(l_0xc9132e)
 
 l_0xc9132e:
-    "@Your friend, right?...  It's very serious." end
+    "@oh" end
 
 l_0xc91345:
     "[1D 14 00 00 00 00][1B 03 {e(l_0xc913c4)}][1D 09 00 00]{open_wallet}{load_registers}[19 05 00 01 01]{load_registers}[19 05 00 02 01]{load_registers}[19 05 00 06 01]{load_registers}{swap}[1E 00 00 64][1E 04 00 64]{sound(37)}{pause(50)}@I'm so glad that you recovered, [1C 02 00]." next
@@ -321,7 +303,8 @@ l_0xc913c4:
     "  That's too bad." end
 
 l_0xc913dd:
-    "[06 0A 00 {e(l_0xc91401)}]@If you are the patient, come into the back room." end
+    "[06 0A 00 {e(l_0xc91401)}]@If you are the patient, come into the back room." next
+    "<LIKE LIKE LIKE LIKE THE BACKROOMS???????????????????>" end
 
 l_0xc91401:
     "@You need to be examined?" linebreak
@@ -333,7 +316,7 @@ l_0xc9142c:
     call(data_33.l_0xc7dd4f) call(data_33.l_0xc7dd5e) "[09 02 {e(l_0xc91486)} {e(l_0xc9146d)}]" goto(l_0xc9146d)
 
 l_0xc9146d:
-    "@Yeah, well, I am actually pretty busy." end
+    "@ok then" end
 
 l_0xc91486:
     "@If a good friend of yours becomes unconscious," next

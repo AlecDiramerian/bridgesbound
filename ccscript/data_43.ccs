@@ -8,72 +8,60 @@ command e(label) "{long label}"
 
 // Text Data
 l_0xc8f450:
-    "@I came from Fourside by bus." next
-    "@Buffalo?{pause(15)}  Oh yeah, I saw lots.{pause(20)}  It's awesome." end
+    "@I came here form the Fourside bus" end
 
 l_0xc8f48a:
-    "[06 92 00 {e(l_0xc8f4d8)}]@A girl in Fourside called me." next
-    "@There is a really popular band there now." next
-    "@I think they're called the <Runway Fire.>" end
+    "[06 92 00 {e(l_0xc8f4d8)}]@I LOVE THE RUNWAY FJVE" end
 
 l_0xc8f4d8:
-    "@I told you the wrong band name before.  I said <Runway Fire.>" next
-    "@The real name is <Runaway Five.>" next
-    "@My girlfriend corrected me..." end
+    "@sorry, it's the RunAway Five..." end
 
 l_0xc8f535:
-    "[06 49 00 {e(l_0xc8f590)}]@I heard there is a guy who is digging for buried treasure in Dusty Dunes desert." next
-    "@A share of that treasure <share> would be nice." end
+    "[06 49 00 {e(l_0xc8f590)}]@i want money" end
 
 l_0xc8f590:
-    "@Hey!  I heard you got a share of the treasure found in the desert." next
-    "@It didn't seem to change you at all, though." end
+    "@you got money???" next
+    "@it didn't seem to change you at all, though." end
 
 l_0xc8f5d0:
-    "@I'm a detective from Twoson." next
-    "@The statue called Mani Mani or something or other" next
-    "@was stolen from the Happy-Happyism headquarters." next
-    "@Do you have any clues for me?" linebreak
-    "[19 02]Yes[02] [19 02]No[02][1C 07 02][11]{clearline}[09 02 {e(l_0xc8f656)} {e(l_0xc8f64d)}]" goto(l_0xc8f64d)
+    "@hi" linebreak
+    "[19 02]hi[02] [19 02]hi[02][1C 07 02][11]{clearline}[09 02 {e(l_0xc8f656)} {e(l_0xc8f64d)}]" goto(l_0xc8f64d)
 
 l_0xc8f64d:
-    "@Oh, I see..." end
+    "@hi" end
 
 l_0xc8f656:
-    "@Don't try to feed me your lies!" end
+    "@hi" end
 
 l_0xc8f66a:
-    "@If I try to get away, my body will just fall apart." next
-    "@It's because I'm a zombie..." end
+    "@fuck you" end
 
 l_0xc8f69d:
-    "@I'll blame you for the rest of my <life.>" end
+    "@kill yourself" end
 
 l_0xc8f6b5:
-    "@I'll blame you after my <death.>" end
+    "@before i became a zombie, i was black, so i can say FUCK YOU NI-" end
 
 l_0xc8f6ca:
-    "@You're the enemy of all zombies!" next
-    "@You monster!" end
+    "@YOU'RE A MONSTER! oh, wait, me too" end
 
 l_0xc8f6e2:
-    "@Could... you... help me?{pause(20)}  ...Maybe not." end
+    "@can you scratch my ear?" end
 
 l_0xc8f701:
-    "@You humans are such cowards!" end
+    "@pussies" end
 
 l_0xc8f715:
-    "@*Gasp* *Gasp*" end
+    "@grrr" end
 
 l_0xc8f725:
-    "@I don't care if I pass away..." next
-    "@Ha!  I'm dead already!" end
+    "@you suck" end
 
 l_0xc8f748:
-    "Message of the broken SkyWalker." goto(l_0xc8f75e)
+    "message of the flying thing" goto(l_0xc8f75e)
 
 l_0xc8f75e:
-    "@(It's impossible to fix... for the time being.)" end
+    "@(it's impssible to fix, for now...)" end
 
 l_0xc8f77d:
     newline
@@ -102,7 +90,7 @@ l_0xc8f7ee:
 
 l_0xc8f80a:
     newline
-    "@Amazingly enough," linebreak
+    "@WOW!" linebreak
     "  {target}'s guts became {delta}!{sound(40)}[03]" eob
 
 l_0xc8f82f:
@@ -135,7 +123,7 @@ l_0xc8f8c0:
     "@{user} opened" linebreak
     "  the jar of <Fly Honey>!" next
     "@Master Belch grabbed" linebreak
-    "  the <Fly Honey>![03]" eob
+    "  the <Fly Honey> and shoved his dick into it![03]" eob
 
 l_0xc8f8fd:
     newline
@@ -196,7 +184,7 @@ l_0xc8fa51:
 
 l_0xc8fa7b:
     newline
-    "@" call(data_33.l_0xc7e6d7) " lost their PP![03]" eob
+    "@" call(data_33.l_0xc7e6d7) " lost their PP! NO DICK![03]" eob
 
 l_0xc8fa90:
     newline
@@ -205,7 +193,7 @@ l_0xc8fa90:
 
 l_0xc8faaa:
     newline
-    "@Not enough PP![03]" eob
+    "@no penis power (PP)[03]" eob
 
 l_0xc8fab8:
     newline
@@ -218,76 +206,35 @@ l_0xc8facd:
     "@{user}[19 1F]{swap} tried" linebreak
     "  [1C 12 00]!" next
     "@But, " call(data_33.l_0xc7e602) " didn't have enough PP.[03]" eob newline
-    "@It didn't hit anyone![03]" eob
+    "@It missed!03]" eob
 
 l_0xc8fb05:
     newline
-    "@{target} does not" linebreak
-    "  have any PP![03]" eob
+    "@{target} is female, therefore, no PP![03]" eob
 
 l_0xc8fb1b:
     "{window_closetop}{pause(40)}{window_open(1)}" newline
-    "[1F 62 00]@I understand you guys are already claiming to be heroes.{prompt}" linebreak
-    "@Well, it is a gazillion years too early for you to oppose Giygas!{prompt}" linebreak
-    "@You must feel pretty stupid to keep fighting without even knowing{prompt}" linebreak
-    "@what Giygas looks like!{prompt}" linebreak
-    "@If you were to ever see Giygas, you'd be so petrified with fear,{prompt}" linebreak
-    "@you'd never be able to run away!{prompt}" linebreak
-    "@...That's how scary it is!{prompt}" linebreak
-    "@So, do you want me to turn off the <Devil's Machine?>{prompt}" linebreak
-    "@Well, prepare to be amazed!{sound(74)}{pause(150)}{window_closetop}" eob
+    "[1F 62 00]@NOOO! I WANT THE CLUBHOUSE!!! MINE!!!{prompt}" linebreak
+    "@imma let Giygas out{sound(74)}{pause(150)}{window_closetop}" eob
 
 l_0xc8fc2e:
     newline
-    "{pause(80)}{window_open(1)}[1F 62 00]@So, isn't this terrifying?{pause(30)}" linebreak
-    "  I'm terrified, too.{prompt}" linebreak
-    "@Giygas cannot think rationally any more,{prompt}" linebreak
-    "@and he isn't even aware of what he is doing now.{prompt}" linebreak
-    "@His own mind was destroyed by his incredible power.{prompt}" linebreak
-    "@What an all-mighty idiot!{pause(30)}{prompt}" linebreak
-    "@Yep, that's what he is!{prompt}" linebreak
-    "@Heh heh heh heh...{pause(30)}" linebreak
-    "  and you... you will be...{pause(30)}" linebreak
-    "  just another meal to him!{pause(150)}{window_closetop}{window_open(14)}" eob
+    "{pause(80)}{window_open(1)}[1F 62 00]spooky{pause(150)}{window_closetop}{window_open(14)}" eob
 
 l_0xc8fd11:
     "{window_closetop}{pause(60)}{window_open(1)}[1F 62 00]" newline
-    "@Heh heh heh heh.{pause(30)}" linebreak
-    "  You must really be" linebreak
-    "  at the end of your rope.{prompt}" linebreak
-    "@In this bizarre dimension," linebreak
-    "  you four are the only force fighting for justice...{prompt}" linebreak
-    "@And here you stand,{prompt}" linebreak
-    "@waiting to be burned up with all the rest of the garbage of this universe...{prompt}" linebreak
-    "@Haaaaah!{pause(30)}" linebreak
-    "  That's so sad. I can't help" linebreak
-    "  but shed a tear.{prompt}" linebreak
-    "@You know, my heart is beating incredibly fast,{pause(30)}" linebreak
+    "@you are a pussy" linebreak
     "{prompt}" linebreak
-    "@...I must be experiencing absolute terror!{prompt}" linebreak
-    "@Do you want to scream for" linebreak
-    "  help here in the dark?!{prompt}" linebreak
-    "@Ha ha ha ha ha!{prompt}" linebreak
-    "@Why not call your mommy," linebreak
-    "  [1C 01 08]!{prompt}" linebreak
-    "@Say, <Mommy!  Daddy!" linebreak
-    "  I'm so frightened!  {pause(30)}I think" linebreak
-    "  I'm gonna wet my pants!>{prompt}" linebreak
-    "@I know you have telepathy, or something, so just try and call for help,{prompt}" linebreak
-    "@you pathetically weak" linebreak
-    "  heroes of so-called justice!{prompt}" linebreak
-    "@No one will help you now!{prompt}" linebreak
-    "@Ha ha ha haah...{prompt}" linebreak
-    "@Don't worry, your pitiful suffering will be over soon!{pause(150)}{window_closetop}{window_open(14)}" eob
+    "@by the way, make sure name(2) stays alive and keeps praying{pause(150)}{window_closetop}{window_open(14)}" eob
 
 l_0xc8ff31:
-    "{window_closetop}{pause(60)}{window_open(1)}[1F 62 00]@[1C 01 08]!{pause(30)} Now, I..." linebreak
-    "  well... {pause(20)}It's going to seem like" linebreak
-    "  I'm running away.{prompt}" linebreak
-    "@But perhaps I'll just sneak away to another era to think about my next plan.{prompt}" linebreak
-    "@It's a good bet that we will see each other again...{prompt}{pause(30)}" linebreak
-    "@All right!  I'll be seeing you!{prompt}" linebreak
-    "@So now which one of us do you think is the cool guy?!{pause(150)}{sound(65)}{window_closetop}" eob
+    "{window_closetop}{pause(60)}{window_open(1)}[1F 62 00]@WHAT THE FUCK? HOW?" linebreak
+    "@i, uh..." linebreak
+    "@nuts{prompt}" linebreak
+    "@so uh... i'm gonna go{prompt}" linebreak
+    "@but... THIS CLUBHOUSE IS MINE!{prompt}{pause(30)}" linebreak
+    "@I'LL SEE YOU NEVER! HAHHAHAHA!{prompt}" linebreak
+    "@(he vanishes, but the clubhouse gets knocked into the void below. you can faintly hear him saying <NOOOOOOO!!!>){pause(150)}{sound(65)}{window_closetop}" eob
 
 l_0xc90000:
     "{counter(20)}" call(data_44.l_0xc90fec) eob
@@ -296,7 +243,7 @@ l_0xc90008:
     "{counter(30)}" call(data_44.l_0xc90fec) eob
 
 l_0xc90010:
-    "{counter(35)}[06 44 00 {e(l_0xc90025)}]@Blue... blue." next
+    "{counter(35)}[06 44 00 {e(l_0xc90025)}]@why aren't you blue?" next
     goto(l_0xc90025)
 
 l_0xc90025:
@@ -329,7 +276,7 @@ l_0xc90095:
     "{counter(100)}" call(data_44.l_0xc9128d) eob
 
 l_0xc9009d:
-    "{set(flag 10)}{counter(110)}[06 44 00 {e(l_0xc900b7)}]@Blue... blue..." next
+    "{set(flag 10)}{counter(110)}[06 44 00 {e(l_0xc900b7)}]@why aren't you blue?" next
     goto(l_0xc900b7)
 
 l_0xc900b7:
@@ -354,23 +301,20 @@ l_0xc900e8:
     "{set(flag 10)}{set(flag 659)}{counter(150)}" call(data_44.l_0xc9128d) "{unset(flag 659)}" eob
 
 l_0xc900f9:
-    "@Humm dee dum dum dum." linebreak
-    "  I'm hunting for mushrooms!" next
-    call(data_45.l_0xc91a91) "[1B 02 {e(l_0xc901a8)}]@Hey!  Would you be willing to sell that mushroom on your head for $50?" next
+    "@I LOVE MUSHROOMS!" next
+    call(data_45.l_0xc91a91) "[1B 02 {e(l_0xc901a8)}]@can i have 50 bucks for the mushroom on your head?" next
     call(data_33.l_0xc7dd4b) "[11]{clearline}[09 02 {e(l_0xc9017f)} {e(l_0xc90165)}]" goto(l_0xc90165)
 
 l_0xc90165:
-    "@Ohhh..." linebreak
-    "  It's your special mushroom." end
+    "@FUCK" end
 
 l_0xc9017f:
     call(data_45.l_0xc91b6f) newline
-    "@Thank you." linebreak
-    "  Such a great mushroom." linebreak
-    "  I'm so happy I got it." end
+    "@YAYAYAYAYAYAYAY" linebreak
+    "@I LOVE SHROOMS!" end
 
 l_0xc901a8:
-    "@I'm going to collect a ton!" end
+    "@WEEEEEE!!!" end
 
 l_0xc901bb:
     newline
@@ -408,18 +352,16 @@ l_0xc9029f:
 
 l_0xc902b5:
     "@<Goodnight Bench>" next
-    "@Your fatigue will leave you, and your energy and power will return.{wait}" call(data_45.l_0xc91693) eob
+    "@your fatigue will leave you, and your energy and power will return{wait}" call(data_45.l_0xc91693) eob
 
 l_0xc902f2:
-    "@Hi!  How are you today?" linebreak
-    "  Oh, you're not feeling well?" linebreak
-    "  Be healthy!" end
+    "@hi how are you" end
 
 l_0xc90322:
-    "@(This is a $healstone.){wait}" call(data_44.l_0xc915e1) eob
+    "@(THIS.... is CRAFTING TABLE.){wait}" call(data_44.l_0xc915e1) eob
 
 l_0xc90339:
-    "[06 7F 01 {e(l_0xc9038d)}][1D 15 23 00]{swap}@Welcome to Hotel Onett." next
+    "[06 7F 01 {e(l_0xc9038d)}][1D 15 23 00]{swap}@welcome to la hotel de Onett" next
     call(data_44.l_0xc90f3b) "[11]{clearline}[09 02 {e(l_0xc9036b)} {e(l_0xc90365)}]" goto(l_0xc90365)
 
 l_0xc90365:
@@ -435,7 +377,7 @@ l_0xc9038d:
     call(data_44.l_0xc90fd4) eob
 
 l_0xc90393:
-    "[06 7F 01 {e(l_0xc903e7)}][1D 15 32 00]{swap}@Welcome to Hotel Twoson." next
+    "[06 7F 01 {e(l_0xc903e7)}][1D 15 32 00]{swap}@welcome to la hotel de Twoson" next
     call(data_44.l_0xc90f3b) "[11]{clearline}[09 02 {e(l_0xc903c5)} {e(l_0xc903bf)}]" goto(l_0xc903bf)
 
 l_0xc903bf:
@@ -451,36 +393,27 @@ l_0xc903e7:
     call(data_44.l_0xc90fd4) eob
 
 l_0xc903ed:
-    "[1D 15 32 00]{swap}[06 44 00 {e(l_0xc9058d)}][06 7F 01 {e(l_0xc90554)}]@We're all like one big, happy family here in Happy Happy Village!" next
-    "@Basically, our policy is to only allow family members to stay here in the village." next
-    "@However, if you are interested in learning about Happy Happyism," next
-    "@we may make an exception and let you stay for $[1C 0A 00 00 00 00]." linebreak
+    "[1D 15 32 00]{swap}[06 44 00 {e(l_0xc9058d)}][06 7F 01 {e(l_0xc90554)}]@WE'RE ALL IN THS TOGETHER" next
+    "@WANNA STAY FOR $[1C 0A 00 00 00 00]." linebreak
     call(data_33.l_0xc7dd4d) "[11]{clearline}[09 02 {e(l_0xc904e3)} {e(l_0xc904ba)}]" goto(l_0xc904ba)
 
 l_0xc904ba:
-    "@Never have I heard such disrespect!" linebreak
-    "  Get out and stay out!" end
+    "@GET OUT!!!" end
 
 l_0xc904e3:
-    "[1D 14 00 00 00 00][1B 03 {e(l_0xc9052e)}][1D 09 00 00]{open_wallet}{sound(118)}@Very well... be sure to do your <blue... blue...>" linebreak
+    "[1D 14 00 00 00 00][1B 03 {e(l_0xc9052e)}][1D 09 00 00]{open_wallet}{sound(118)}@why arent you blue" linebreak
     "  chant before bed time.{wait}" call(data_45.l_0xc91693) "[1F 21 27]" eob
 
 l_0xc9052e:
-    "@No faith..." linebreak
-    "  No money..." linebreak
-    "  You are a hopeless case." end
+    "@why arent you blue" end
 
 l_0xc90554:
-    "@Are you prepared to show the proper respect to Mr. Carpainter now?" next
-    "@Blue... blue...{wait}{unset(flag 383)}" eob
+    "@why arent you blue{wait}{unset(flag 383)}" eob
 
 l_0xc9058d:
-    "[06 7F 01 {e(data_44.l_0xc90663)}][19 10 01]{swap}@Greetings, [1C 02 00]." linebreak
-    "  Please forgive my lecture earlier." next
-    "@You are now welcome to stay free of charge." next
-    "@Would you like to stay?" linebreak
+    "[06 7F 01 {e(data_44.l_0xc90663)}][19 10 01]{swap}@wanna stay for free?" linebreak
     call(data_33.l_0xc7dd4f) "[11]{clearline}[09 02 {e(data_44.l_0xc90615)} {e(l_0xc905fd)}]" goto(l_0xc905fd)
 
 l_0xc905fd:
-    "@Very well.  Please come again, any time." end goto(data_44.l_0xc90615)
+    "@ok" end goto(data_44.l_0xc90615)
 
