@@ -17,22 +17,19 @@ l_0xc9abe5:
     eob
 
 l_0xc9abe6:
-    "{sound(111)}{pause(40)}{window_open(1)}@Hey, I'm in here!{pause(10)}  Go and find another can!{pause(20)}  Ha,{pause(15)} I was just joking!{wait}{window_closetop}" eob
+    "{sound(111)}{pause(40)}{window_open(1)}@peter the horse is here{wait}{window_closetop}" eob
 
 l_0xc9ac22:
-    "{sound(111)}{pause(40)}{window_open(1)}@This is a jail!{pause(20)}  You guys have no business being here.{wait}{window_closetop}" eob
+    "{sound(111)}{pause(40)}{window_open(1)}@why are you here{wait}{window_closetop}" eob
 
 l_0xc9ac4d:
-    "{sound(111)}{pause(40)}{window_open(1)}@Don't talk to me.{pause(20)}  I... I'm thinking...!{wait}{window_closetop}" eob
+    "{sound(111)}{pause(40)}{window_open(1)}@wahhhhh{wait}{window_closetop}" eob
 
 l_0xc9ac6f:
-    "{sound(111)}{pause(40)}{window_open(1)}@Uh no, I'm in here." next
-    "@Don't try to come in... especially if you don't need to use the bathroom!{wait}{window_closeall}" eob
+    "{sound(111)}{pause(40)}{window_open(1)}@NOPE, IM HERE (constipation noises){wait}{window_closeall}" eob
 
 l_0xc9acae:
-    "{sound(111)}{pause(40)}{window_open(1)}@I wonder why I'm in this rest room right here." next
-    "@Just who am I?{pause(10)}  What is life all about?..." next
-    "@Oh, I'm sorry.{pause(20)}  Did I make you nervous?{pause(15)}  I'm not dangerous.  Don't worry.{wait}{window_closetop}" eob
+    "{sound(111)}{pause(40)}{window_open(1)}@occupied!!!{wait}{window_closetop}" eob
 
 l_0xc9ad26:
     "[06 8E 00 {e(l_0xc9ad77)}]{window_open(1)}@(Private elevator!" next
@@ -197,11 +194,10 @@ l_0xc9b176:
     "[1F F1 0A 04 08 00]" eob
 
 l_0xc9b17d:
-    "[06 49 00 {e(l_0xc9b1b1)}][06 51 01 {e(data_50.l_0xc9992f)}]{window_open(1)}@This is not the Stoic Club.{pause(20)}  Please be on your way...{wait}{window_closeall}" eob
+    "[06 49 00 {e(l_0xc9b1b1)}][06 51 01 {e(data_50.l_0xc9992f)}]{window_open(1)}@NOT the Stoic Club, fuck off{wait}{window_closeall}" eob
 
 l_0xc9b1b1:
-    "{window_open(1)}@(This is now a truck stop.{pause(20)}  Absolutely no minors admitted." next
-    "@The Management, <The Lazy Cowpoke Stop'n Go>`){wait}{window_closeall}" eob
+    "{window_open(1)}@(NO KIDS!!!){wait}{window_closeall}" eob
 
 l_0xc9b20e:
     "{isset(flag 632)}[1B 02 {e(data_50.l_0xc9992f)}]{sound(111)}{pause(40)}" eob
@@ -243,22 +239,13 @@ l_0xc9b268:
     "[06 BD 00 {e(l_0xc9b270)}]" eob
 
 l_0xc9b270:
-    "{set(flag 384)}[1F 41 06][1F 12 02][1F 12 03][1F 12 04]" call(data_22.l_0xc69082) "{set(flag 11)}" call(data_33.l_0xc7de60) "[1F 41 05][1F 07 03][1F 15 6A 00 79 02 01][1F 61][1F EB FF 01][1F 21 51]{pause(30)}[1F 41 10]{pause(30)}[1F 15 B3 01 B7 02 FF][1F 21 23][1F EF B3 01][1F E8 FF][1F 61][1F ED][1F E5 FF][1F 1F B3 01 0A]{pause(180)}[1F 21 24][1F 15 6A 00 B8 02 01]" call(l_0xc9b4b8) "[1F 21 25][1F 15 6A 00 B9 02 01]" call(l_0xc9b4b8) "[1F 21 26][1F 15 6A 00 BA 02 01]" call(l_0xc9b4b8) "{pause(120)}{window_open(1)}@[1C 02 01]...{pause(30)} Hmmm..." next
-    "@I think [1C 02 01] is the right name for him.[03]{window_closeall}{pause(60)}{window_open(1)}@[1C 02 01]...{pause(30)} he smiled just from hearing his own name." next
-    "@Do you think he likes his name?[03]{window_closeall}{pause(60)}{pause(60)}{window_open(1)}@Try putting that red cap on him." next
-    "@Ha ha ha!" linebreak
-    "  It's too big, but it looks good on him...[03]{window_closeall}{pause(60)}{window_open(1)}@I hope [1C 01 03] won't be jealous of the baby.[03]{window_closeall}{pause(60)}{pause(60)}{window_open(1)}@Let's celebrate with" linebreak
-    "  some [1C 01 04]." next
-    "@This baby will grow up to be a hard worker just like you.[03]{window_closeall}{pause(60)}{window_open(1)}@I don't think he needs to be rich or famous..." next
-    "@but I want him to be a thoughtful, strong boy." next
-    "{window_closeall}{pause(60)}{pause(60)}{pause(60)}{window_open(1)}@That's odd...{pause(20)} the baby bottle that he pointed at seemed to move a little bit..." next
-    "@Hmmm...{wait}{pause(15)}{window_closeall}{pause(60)}" call(data_33.l_0xc7dd6b) "{set(flag 758)}{music_resume}{pause(120)}{pause(120)}{pause(120)}[1F E8 FF][1F 15 06 00 0C 03 FF][1F 21 A1][1F 1F 06 00 06][1F EC FF 01][19 26 01]" call(data_33.l_0xc7dd6b) "{unset(flag 758)}{music_resume}[1F 41 06]{unset(flag 11)}" eob goto(l_0xc9b4b8)
+    "{set(flag 384)}[1F 41 06][1F 12 02][1F 12 03][1F 12 04]" call(data_22.l_0xc69082) "{set(flag 11)}" call(data_33.l_0xc7de60) "[1F 41 05][1F 07 03][1F 15 6A 00 79 02 01][1F 61][1F EB FF 01][1F 21 51]{pause(30)}[1F 41 10]{pause(30)}[1F 15 B3 01 B7 02 FF][1F 21 23][1F EF B3 01][1F E8 FF][1F 61][1F ED][1F E5 FF][1F 1F B3 01 0A]{pause(180)}[1F 21 24][1F 15 6A 00 B8 02 01]" call(l_0xc9b4b8) "[1F 21 25][1F 15 6A 00 B9 02 01]" call(l_0xc9b4b8) "[1F 21 26][1F 15 6A 00 BA 02 01]" call(l_0xc9b4b8) "{pause(120)}{window_open(1)}@i shit myself{wait}{pause(15)}{window_closeall}{pause(60)}" call(data_33.l_0xc7dd6b) "{set(flag 758)}{music_resume}{pause(120)}{pause(120)}{pause(120)}[1F E8 FF][1F 15 06 00 0C 03 FF][1F 21 A1][1F 1F 06 00 06][1F EC FF 01][19 26 01]" call(data_33.l_0xc7dd6b) "{unset(flag 758)}{music_resume}[1F 41 06]{unset(flag 11)}" eob goto(l_0xc9b4b8)
 
 l_0xc9b4b8:
     "{pause(1)}[1F EF 6A 00][1F E8 FF][1F 61][1F ED][1F E5 FF]" eob
 
 l_0xc9b4c9:
-    "[1F 41 05]{set(flag 11)}{pause(60)}" call(data_33.l_0xc7dd6b) "{pause(120)}{window_open(1)}@Now you can wake up.{pause(20)}  Your friends are waiting for you." next
+    "[1F 41 05]{set(flag 11)}{pause(60)}" call(data_33.l_0xc7dd6b) "{pause(120)}{window_open(1)}@WAKE UP! (wake up) GRABABRUSHANDPUTALITTLEMAKEUP!" next
     "@It is time to get up.[03]{window_closeall}{pause(1)}" call(l_0xc9b8dd) call(data_22.l_0xc69082) "{music(143)}[1F F2 01 00 5A 01]     {pause(1)}[1F EF 01 00]                           [1F E8 FF][1F 61][1F 15 6A 00 5F 01 01]   [1F 61][1F ED][1F E5 FF]{set(flag 349)}" call(data_33.l_0xc7dd6b) "[06 24 02 {e(l_0xc9b799)}][06 23 02 {e(l_0xc9b6e3)}][06 22 02 {e(l_0xc9b62d)}][1F 21 C5][1F E5 FF]{pause(60)}" call(data_29.l_0xc77dab) "{pause(60)}[1F F1 C4 01 5B 01]{pause(30)}[1F 1A C5 01 03][1F 1A C6 01 03][1F 1A C7 01 03]{pause(90)}[1F 1E C4 01 06]         [1F EC 01 01]                {pause(30)}[1F 1B C5 01][1F 1B C6 01][1F 1B C7 01]{pause(90)}[1F F1 C5 01 5C 01]" call(l_0xc9b84f) "[1F F1 C6 01 5D 01]" call(l_0xc9b87f) "[1F F1 C7 01 5E 01]" call(l_0xc9b898) "[1F 11 02][1F EB 02 06][1F F1 C5 01 2F 00][1F 61][1F 1E C5 01 06][1F EC 02 01][1F 11 03][1F EB 03 06][1F F1 C6 01 2F 00][1F 61][1F 1E C6 01 06][1F EC 03 01][1F 11 04][1F EB 04 06][1F F1 C7 01 2F 00][1F 61][1F 1E C7 01 06][1F EC 04 01]" goto(l_0xc9b60f)
 
 l_0xc9b60f:
@@ -274,15 +261,13 @@ l_0xc9b799:
     "[1F 21 9E][1F E5 FF]{pause(60)}" call(data_29.l_0xc77dab) "{pause(60)}[1F F1 FD 04 5B 01]{pause(30)}[1F 1A FE 04 03][1F 1A FF 04 03][1F 1A 00 05 03]{pause(90)}[1F 1E FD 04 06]         [1F EC 01 01]                {pause(30)}[1F 1B FE 04][1F 1B FF 04][1F 1B 00 05]{pause(90)}[1F F1 FE 04 5C 01]" call(l_0xc9b84f) "[1F F1 FF 04 5D 01]" call(l_0xc9b87f) "[1F F1 00 05 5E 01]" call(l_0xc9b898) "[1F 11 02][1F EB 02 06][1F F1 FE 04 2F 00][1F 61][1F 1E FE 04 06][1F EC 02 01][1F 11 03][1F EB 03 06][1F F1 FF 04 2F 00][1F 61][1F 1E FF 04 06][1F EC 03 01][1F 11 04][1F EB 04 06][1F F1 00 05 2F 00][1F 61][1F 1E 00 05 06][1F EC 04 01]" call(l_0xc9b60f) eob
 
 l_0xc9b84f:
-    "[1F 61]{window_open(1)}@What happened, [1C 02 01]?{pause(20)}  You've been unconscious for a long time...[03]{window_closeall}{pause(30)}" eob
+    "[1F 61]{window_open(1)}@Oh! you're awake[03]{window_closeall}{pause(30)}" eob
 
 l_0xc9b87f:
-    "[1F 61]{window_open(1)}@You kept saying something...[03]{window_closeall}{pause(30)}" eob
+    "[1F 61]{window_open(1)}@<Saturn Valley. We gotta go to Saturn Valley>[03]{window_closeall}{pause(30)}" eob
 
 l_0xc9b898:
-    "[1F 61]{window_open(1)}@...Saturn Valley?{pause(30)}" linebreak
-    "  What's waiting for us there?" next
-    "@Anyway, we need to teleport...[03]{window_closeall}{pause(30)}" eob
+    "[1F 61]{window_open(1)}@Ok! Let's go![03]{window_closeall}{pause(30)}" eob
 
 l_0xc9b8da:
     "[1F 21 C5]" goto(l_0xc9b8dd)

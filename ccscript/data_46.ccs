@@ -18,7 +18,12 @@ l_0xc927ea:
     "@If you lose your mind,{pause(15)}" linebreak
     "  you also lose any feelings of sadness..." next
     "@Do you accept this?" next
-    "@I will take your mind, Prince [1C 02 04],{pause(20)} know that I will possess it...)[03]{pause(20)}{window_closeall}{set(flag 273)}[1E 00 04 64][1F 04 01]{set(flag 595)}" eob
+    "@I will take your mind, Prince [1C 02 04],{pause(20)} know that I will possess it...){window_closeall}{pause(100)}{window_open(1)}oh, right, i forgot. gimmie your balls" next
+    "@(you communicate using your mind) <NOOOO>" next
+    "Yes, you must give me your balls" next
+    "@<THIS ISNT FAIR>" next
+    "@(he begins pulling them off)" next
+    "@<OUCH! PLEASE, NO!! STOP-> {smash} (he ripped them off) <AUGHHGHGHGHHGHGHGHGHGHGHGHHGH!!!!!!!!>[03]{pause(20)}{window_closeall}{set(flag 273)}[1E 00 04 64][1F 04 01]{set(flag 595)}" eob
 
 l_0xc92909:
     "{window_switch(1)}{window_closetop}{sound(63)}{pause(10)}{open_hp}[1E 01 04 50]{sound(61)}{pause(90)}{sound(46)}{pause(30)}" eob
@@ -33,9 +38,7 @@ l_0xc92955:
     "{window_closeall}" eob
 
 l_0xc92958:
-    "{window_open(1)}@Prince [1C 02 04]!" next
-    "@You have now completed your training!" next
-    "@The old Master must be so pleased!{pause(20)}  Hurry,{pause(15)} now,{pause(15)} and return to the palace.[03]{window_closeall}" eob
+    "{window_open(1)}@LOL THAT WAS A TEST AND YOU PASSED! come to the castle and speak to your master[03]{window_closeall}" eob
 
 l_0xc929ae:
     "{window_open(1)}" call(data_53.l_0xc9d523) "{window_closeall}[1F 1E 4F 04 06]{sound(99)}[1F 15 A9 00 9B 02 06][1F 61]" eob
@@ -44,7 +47,8 @@ l_0xc929ca:
     "{window_open(1)}@My name is [1C 02 04].{pause(20)}  I am the one who will fight beside you." next
     "@I am the servant of [1C 02 01].{pause(15)}  I will obey [1C 02 01]." next
     "@[1C 02 01]!{pause(20)}" linebreak
-    "  My life is in your hands.[03]{counter(1)}" call(data_33.l_0xc7dc7f) "[1B 03 {e(l_0xc92a48)}]{window_closeall}{set(flag 16)}{set(flag 504)}{set(flag 499)}" eob
+    "  My life is in your han- {smash}WHAT THE FUCK WAS THAT FOR???" next
+    "@<idk lol>[03]{counter(1)}" call(data_33.l_0xc7dc7f) "[1B 03 {e(l_0xc92a48)}]{window_closeall}{set(flag 16)}{set(flag 504)}{set(flag 499)}" eob
 
 l_0xc92a48:
     newline
@@ -59,7 +63,7 @@ l_0xc92ab9:
     "[1F 15 6F 01 EF 01 01][1F 15 6F 01 F0 01 01][1F 15 6F 01 F0 01 01][1F 15 6F 01 F0 01 01]" call(data_33.l_0xc7dd6b) "{music(146)}[1F E9 8F 02][1F E9 90 02][1F 1E 76 02 06]        [1F 15 31 00 FC 00 01][1F 61][1F 1F 31 00 06][1F 15 32 00 DF 01 01][1F 61]                              [1F 15 FC 00 E0 01 01]      [1F 61]                              {unset(flag 2)}[1F 1F 32 00 06][1F 15 2E 00 E1 01 01][1F 61]                              [1F E7 FC 00][1F E7 2E 00]{unset(flag 344)}     [1F 1E 82 02 06][1F 1E 83 02 06][1F 1E 84 02 06][1F 1E 8E 02 06][1F F1 8F 02 EB 01][1F F1 90 02 EC 01]{pause(120)}[1F EA 2E 00][1F EA FC 00][1F 61]                              [1F E7 FC 00]{set(flag 537)}" call(data_33.l_0xc7dd6b) "{music_resume}[1F 15 6A 00 E3 01 01]{pause(1)}[1F EF 6A 00][1F E8 FF][1F 61]                              {set(flag 2)}                       {pause(60)}[1F EA FC 00]             [1F 61]                              [1F E7 FC 00][1F F2 6A 00 E4 01]  {unset(flag 2)}                       [1F 61][1F ED][1F E5 FF]{pause(60)}[1F EA FC 00]             [1F 61]                              [1F 1F FC 00 06]{unset(flag 11)}{unset(flag 537)}{music_resume}[19 26 06]" eob goto(l_0xc92be3)
 
 l_0xc92be3:
-    "{window_closeall}{pause(60)}{music(145)}{pause(140)}[1F 15 B7 01 63 01 01]{pause(1)}[1F EF B7 01][1F E8 FF][1F 15 6A 00 A3 02 01][1F 61][1F ED][1F E5 FF][1F 1F B7 01 06][1F E1 1B 04 B4][19 10 01]{rtoarg}{window_open(1)}@When you defeated the Starman DX, the Stonehenge base ceased functioning.[03]{window_closeall}{set(flag 70)}{set(flag 126)}{set(flag 51)}{set(flag 55)}{set(flag 766)}{isset(flag 219)}[1B 02 {e(data_50.l_0xc9992f)}]{set(flag 538)}{music_resume}" eob goto(l_0xc92c70)
+    "{window_closeall}{pause(60)}{music(145)}{pause(140)}[1F 15 B7 01 63 01 01]{pause(1)}[1F EF B7 01][1F E8 FF][1F 15 6A 00 A3 02 01][1F 61][1F ED][1F E5 FF][1F 1F B7 01 06][1F E1 1B 04 B4][19 10 01]{rtoarg}{window_open(1)}@(the base stops functioning. you can no longer get the Sword of Kings.)[03]{window_closeall}{set(flag 70)}{set(flag 126)}{set(flag 51)}{set(flag 55)}{set(flag 766)}{isset(flag 219)}[1B 02 {e(data_50.l_0xc9992f)}]{set(flag 538)}{music_resume}" eob goto(l_0xc92c70)
 
 l_0xc92c70:
     "[1F 41 05]{set(flag 11)}[1F F1 29 04 23 01][1F 15 6A 00 24 01 01]" call(data_52.l_0xc9b4b8) "[1F EB FF 06]" call(data_33.l_0xc7dd6b) "{set(flag 542)}{music_resume}[1F F1 40 04 25 01][1F EE 40 04][1F E8 FF][1F 61][1F ED][1F E5 FF][1F 21 59][1F 15 05 01 26 01 01]{pause(1)}[1F EF 05 01][1F E8 FF][1F 61][1F E7 05 01]" call(l_0xc92dee) "[1F EA 05 01][1F 61][1F 15 27 01 27 01 01][1F 61][1F E7 05 01][06 D9 00 {e(l_0xc92d92)}]{set(flag 543)}{unset(flag 542)}{window_open(1)}@H...{pause(5)} h...{pause(1)} here it coooomes!" next
@@ -76,23 +80,13 @@ l_0xc92dde:
     "[1F ED][1F EC FF 01]{unset(flag 542)}{unset(flag 11)}[1F 41 06]" eob
 
 l_0xc92dee:
-    "{window_open(1)}@WA{pause(5)}A{pause(5)}A{pause(5)}AIT!  Wait!{pause(15)}  Wait..." next
-    "@I need to stop the boat." next
-    "@It's been a long time since I was out on the open sea,{pause(20)} so I feel seasick..." next
-    "@Oh, man, what am I going to do?{pause(15)}  A sailor who gets seasick?" next
-    next
-    "{pause(60)}" linebreak
-    "@So how come you guys are all right?" next
+    "{window_open(1)}@guys i shit my pants" next
     "[06 49 00 {e(l_0xc92f88)}][06 11 00 {e(l_0xc92fb4)}]" goto(l_0xc92e9e)
 
 l_0xc92e9e:
-    "@So... that bald guy over there..." next
-    "@your buddy, right?...{pause(20)}  He came from Dalaam?" next
-    "@You guys must be quite the adventurers!" next
-    "[06 BB 00 {e(l_0xc92f88)}]@Aren't there times when you'd just like to go back home?" next
-    "@So, you're not some mama's boy..." next
-    "@Well, it wouldn't hurt you to go back and visit once in a while." next
-    "[1D 05 FF FD][1B 02 {e(l_0xc92f88)}]@Hey, that's an awfully strange carrot.{pause(20)}  What kind of bunny would eat that?" next
+    "@lol" next
+    "[06 BB 00 {e(l_0xc92f88)}]@lol" next
+    "[1D 05 FF FD][1B 02 {e(l_0xc92f88)}]@lol" next
     goto(l_0xc92f88)
 
 l_0xc92f88:
@@ -206,32 +200,25 @@ l_0xc932f6:
     "@Trust me...{pause(20)}  I will see you again.[03]{window_closeall}{set(flag 17)}" eob
 
 l_0xc93378:
-    "[1F 21 9F]{pause(1)}[19 26 08][02]{pause(20)}{window_open(1)}@Guargh!{pause(20)}  Oh no!  I... am..." next
-    "@getting caught in the palm trees!{pause(20)}  Mmm... I cannot move." next
-    "@Well,{pause(20)} if I cannot move, it is okay." next
-    "[19 10 01]{rtoarg}@[1C 02 00], it makes me sad," next
-    "@but I must say goodbye here,{pause(20)} at my eternal resting place.[03]{window_closeall}{pause(20)}[1F 12 0A][1F 17 80 04 08 00 01]{set(flag 274)}" call(data_33.l_0xc7de60) "{unset(flag 756)}{sound(17)}{unset(flag 662)}[1F E8 FF]{pause(20)}{sound(5)}" call(data_33.l_0xc7dd6b) "{music_resume}" eob goto(l_0xc9344f)
+    "[1F 21 9F]{pause(1)}[19 26 08][02]{pause(20)}{window_open(1)}@i got stuck[03]{window_closeall}{pause(20)}[1F 12 0A][1F 17 80 04 08 00 01]{set(flag 274)}" call(data_33.l_0xc7de60) "{unset(flag 756)}{sound(17)}{unset(flag 662)}[1F E8 FF]{pause(20)}{sound(5)}" call(data_33.l_0xc7dd6b) "{music_resume}" eob goto(l_0xc9344f)
 
 l_0xc9344f:
-    "[06 DA 00 {e(l_0xc934e4)}]{window_open(1)}[06 97 00 {e(l_0xc934a4)}]@I believe it is impossible for me to move from this spot." next
-    "@Do not worry about me...{pause(20)}  Please continue on.{wait}{window_closeall}" eob
+    "[06 DA 00 {e(l_0xc934e4)}]{window_open(1)}[06 97 00 {e(l_0xc934a4)}]@continue without me.{wait}{window_closeall}" eob
 
 l_0xc934a4:
-    "@A submarine?" next
-    "@I believe...{pause(15)} that I have one in my old vehicle collection." next
-    "@Please enter...{wait}{window_closeall}{pause(1)}" goto(l_0xc934e4)
+    "@i have a submarine in my vehicle collection{wait}{window_closeall}{pause(1)}" goto(l_0xc934e4)
 
 l_0xc934e4:
     "[1F 21 9F]" call(data_52.l_0xc9b112) eob
 
 l_0xc934ed:
-    "{set(flag 11)}[1F 41 05][1F E5 FF][1F 07 03][1F 15 6A 00 79 02 01][1F 61]{pause(60)}{window_open(1)}@([1C 02 01] and his friends carried out the submarine that [1C 02 03] fixed.)[03]{window_closeall}[1F EB FF 06][1F 15 F5 00 2A 01 FF][1F 21 5B][1F E7 F5 00]" call(data_33.l_0xc7dd6b) "{set(flag 542)}{music_resume}[1F EF F5 00][1F E8 FF][1F EA F5 00][1F 61][1F ED][1F E5 FF][1F 15 F5 00 2B 01 FF][1F 21 5C]                               [1F EF F5 00][1F E8 FF][1F 61]                                              [1F ED][1F E5 FF]" call(data_33.l_0xc7dd6b) "{unset(flag 542)}{music_resume}[1F EC FF 01][1F 15 6A 00 2C 01 01]       " call(data_52.l_0xc9b4b8) "{unset(flag 11)}{set(flag 218)}{unset(flag 762)}[19 26 0A][1F 41 06]" eob goto(l_0xc935b1)
+    "{set(flag 11)}[1F 41 05][1F E5 FF][1F 07 03][1F 15 6A 00 79 02 01][1F 61]{pause(60)}{window_open(1)}@([1C 02 01] and his friends carried out the submarine that [1C 02 03] fixed. this submarine is yellow, which is a reference to the hit song by The Beatles called Yellow Submarine.)[03]{window_closeall}[1F EB FF 06][1F 15 F5 00 2A 01 FF][1F 21 5B][1F E7 F5 00]" call(data_33.l_0xc7dd6b) "{set(flag 542)}{music_resume}[1F EF F5 00][1F E8 FF][1F EA F5 00][1F 61][1F ED][1F E5 FF][1F 15 F5 00 2B 01 FF][1F 21 5C]                               [1F EF F5 00][1F E8 FF][1F 61]                                              [1F ED][1F E5 FF]" call(data_33.l_0xc7dd6b) "{unset(flag 542)}{music_resume}[1F EC FF 01][1F 15 6A 00 2C 01 01]       " call(data_52.l_0xc9b4b8) "{unset(flag 11)}{set(flag 218)}{unset(flag 762)}[19 26 0A][1F 41 06]" eob goto(l_0xc935b1)
 
 l_0xc935b1:
     "[1F E1 06 03 78]" eob
 
 l_0xc935b7:
-    "{window_open(1)}@Hey, you!{pause(20)}  I have a happy little question for you..." next
+    "{window_open(1)}@juuuuuuuuuuuuuuust to confirm" next
     "@....." next
     "@" call(data_33.l_0xc7e77d) "..." next
     "@" call(data_33.l_0xc7e77d) "," next
@@ -267,12 +254,12 @@ l_0xc9378a:
     "@My... power...{pause(20)} awe-inspiring!" end
 
 l_0xc937a3:
-    "{window_open(1)}@Hey!{pause(15)}  Hey!...  Talk to me!{pause(20)}" linebreak
+    "{window_open(1)}@Hey!{pause(15)}  Hey!...  Talk tuah me!{pause(20)}" linebreak
     "  Hey, hey, hey!{pause(5)}" linebreak
     "  Heeeeeey!!{wait}{window_closeall}" eob
 
 l_0xc937d9:
-    "@I'm [1C 02 01]...@It's been a long road getting here...@Soon, I'll be...@Soon, I'll be...@Soon, I'll be...@What will happen to us?@W...what's happening?@My thoughts are being written out on the wall...@or are they?" eob
+    "@i shit myself" eob
 
 l_0xc93853:
     "@Welcome!" next
@@ -280,83 +267,62 @@ l_0xc93853:
     "[19 02]Yes[02] [19 02]No[02][1C 07 02][11]{clearline}[09 02 {e(l_0xc938a6)} {e(l_0xc93891)}]" goto(l_0xc93891)
 
 l_0xc93891:
-    "@It's too much trouble for me too." end
+    "@GOOD I FUCKING HATE THIS PLACE" end
 
 l_0xc938a6:
-    "@Twoson has a modern, clean hotel." next
-    "@There is a hospital and the wonderful Chaos Theater." next
-    "@There is the Polestar preschool,{pause(15)} and a nice bus station." next
-    "@If you're curious,{pause(15)} you might want to check out Burglin Park.{pause(20)}  It's exciting." next
-    "@East of the town,{pause(15)} you find the Peaceful Rest Valley." next
-    "@On the other side of the valley is Happy-Happy Village." next
-    "@There's also a pizza parlor." next
-    "@Do you want to know anything else?" next
-    "{pause(60)}" linebreak
-    "@Well, tee hee,{pause(15)} I don't know anything else." end
+    "@i actually dont care" end
 
 l_0xc939b9:
-    "@I've been giving out info about Twoson for years now." next
-    "@I'll quit this job and I'll, tee hee,{pause(15)} get married." end
+    "@i quit" end
 
 l_0xc93a00:
-    "@Burglin Park seems kind of dangerous,{pause(15)} but there's some great stuff there." end
+    "@Burglin Park more like burgler park" end
 
 l_0xc93a2e:
-    "[06 7E 02 {e(l_0xc93ac1)}][06 08 03 {e(l_0xc93ac1)}][06 0C 00 {e(l_0xc93a82)}][06 0D 00 {e(l_0xc93a82)}]@I hear that a girl named [1C 02 02] was kidnapped" next
-    "@while helping out at the Polestar preschool." end
+    "[06 7E 02 {e(l_0xc93ac1)}][06 08 03 {e(l_0xc93ac1)}][06 0C 00 {e(l_0xc93a82)}][06 0D 00 {e(l_0xc93a82)}]@i heard some baddie got kidnapped while helping out at the Pornstar preschool." next
+    "@oops, i mean Polestar" end
 
 l_0xc93a82:
-    "{counter(2)}" call(data_33.l_0xc7dc7f) "[1B 03 {e(l_0xc93ac1)}]@I heard that you, [1C 02 02],{pause(15)} beat up the kidnapper.{pause(15)}  You're my favorite!" end
+    "{counter(2)}" call(data_33.l_0xc7dc7f) "[1B 03 {e(l_0xc93ac1)}]@good job" end
 
 l_0xc93ac1:
-    "@I heard that [1C 02 02] beat up the kidnapper.{pause(20)}  She's my favorite!" end
+    "@poop" end
 
 l_0xc93aed:
-    "[06 0D 00 {e(l_0xc93b33)}][06 0C 00 {e(l_0xc93b33)}]@I saw some weird bad guy following [1C 02 02].{pause(20)}  This guy gave me the creeps." end
+    "[06 0D 00 {e(l_0xc93b33)}][06 0C 00 {e(l_0xc93b33)}]@some weird fella was following the baddie" end
 
 l_0xc93b33:
-    "@Kidnapping is wrong!" next
-    "@I'll be careful not to kidnap anyone!" end
+    "@me when a kid is napping" end
 
 l_0xc93b60:
-    "[06 0C 00 {e(l_0xc93ba4)}][06 0D 00 {e(l_0xc93ba4)}]@I see that you're young but have had some adventures." next
-    "@I think that [1C 02 02] would be a good friend for you." end
+    "[06 0C 00 {e(l_0xc93ba4)}][06 0D 00 {e(l_0xc93ba4)}]@i think name(2) and you would make a great couple" end
 
 l_0xc93ba4:
-    "{counter(1)}" call(data_33.l_0xc7dc7f) "[1B 03 {e(l_0xc93be3)}]{counter(2)}" call(data_33.l_0xc7dc7f) "[1B 03 {e(l_0xc93be3)}]@Just as I thought,{pause(15)} you two make such a nice couple!" end
+    "{counter(1)}" call(data_33.l_0xc7dc7f) "[1B 03 {e(l_0xc93be3)}]{counter(2)}" call(data_33.l_0xc7dc7f) "[1B 03 {e(l_0xc93be3)}]@just as i thought... the feminist and the baddie" end
 
 l_0xc93be3:
-    "{counter(2)}" call(data_33.l_0xc7dc7f) "[1B 03 {e(l_0xc93c38)}]@Just as I thought,{pause(15)} you two make such a nice couple!" next
-    "@Well, I think you're cute..." next
-    "@But I'm near-sighted, too..." end
+    "{counter(2)}" call(data_33.l_0xc7dc7f) "[1B 03 {e(l_0xc93c38)}]@just as i thought... the feminist and the baddie" end
 
 l_0xc93c38:
-    "[19 10 01]{rtoarg}@My grandson is playing a game called <EarthBound.>" next
-    "@He's now talking to a plain,{pause(15)} old lady in Twoson." next
-    "@I heard that the game has some messages that are just there for fun." end goto(l_0xc93ca7)
+    "[19 10 01]{rtoarg}@my grandson is watching porn" end goto(l_0xc93ca7)
 
 l_0xc93ca7:
-    "[06 44 00 {e(l_0xc93d19)}]@If you go to the east,{pause(15)} you could run into trouble." next
-    "@Peaceful Rest Valley and Happy-Happy Village are waiting for you." next
-    "@I've also heard that there are UFO's in the Peaceful Rest Valley." end
+    "[06 44 00 {e(l_0xc93d19)}]@Peaceful Rest Valley and Happy Happy Village are tuah the east." end
 
 l_0xc93d19:
-    "@Well, my thoughts on happiness have changed..." end
+    "@IM SAD NOW" end
 
 l_0xc93d31:
-    "[06 44 00 {e(l_0xc93d91)}]@People in Happy-Happy Village are fanatical about a strange religion." next
-    "@Maybe they've got some sort of bad fever.{pause(20)}  Be careful." end
+    "[06 44 00 {e(l_0xc93d91)}]@what if it was crappy crappy village" end
 
 l_0xc93d91:
-    "@I'm glad to see you so healthy." end
+    "@you're ok! yay!" end
 
 l_0xc93da9:
-    "[06 0D 00 {e(l_0xc93dec)}][06 0C 00 {e(l_0xc93dec)}]@(There was a kidnapping!" next
-    "@Believe me,{pause(15)} even though I'm just a dog.{pause(20)}" linebreak
-    "  Woof!)" end
+    "[06 0D 00 {e(l_0xc93dec)}][06 0C 00 {e(l_0xc93dec)}]@(a kid took a nap)" end
 
 l_0xc93dec:
-    "@(You're fantastic...you even take time to talk to animals.)" end
+    "@(i like you)" end
 
 l_0xc93e16:
     call(data_12.l_0xc5d2b7) eob

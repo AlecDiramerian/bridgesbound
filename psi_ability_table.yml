@@ -157,7 +157,7 @@
   Action: 21
   Level learned by Ness: 0
   Level learned by Paula: 46
-  Level learned by Poo: 0
+  Level learned by Poo: 60
   PSI Menu position (X): 15
   PSI Menu position (Y): 1
   PSI Name: 2
@@ -208,7 +208,7 @@
 16:
   Action: 25
   Level learned by Ness: 0
-  Level learned by Paula: 0
+  Level learned by Paula: 60
   Level learned by Poo: 55
   PSI Menu position (X): 15
   PSI Menu position (Y): 2
@@ -339,7 +339,7 @@
   Action: 35
   Level learned by Ness: 70
   Level learned by Paula: 0
-  Level learned by Poo: 0
+  Level learned by Poo: 60
   PSI Menu position (X): 15
   PSI Menu position (Y): 0
   PSI Name: 6
@@ -389,7 +389,7 @@
   Usability Outside of Battle: usable
 30:
   Action: 39
-  Level learned by Ness: 0
+  Level learned by Ness: 60
   Level learned by Paula: 0
   Level learned by Poo: 52
   PSI Menu position (X): 15
@@ -415,7 +415,7 @@
   Usability Outside of Battle: unusable
 32:
   Action: 42
-  Level learned by Ness: 0
+  Level learned by Ness: 30
   Level learned by Paula: 0
   Level learned by Poo: 15
   PSI Menu position (X): 11
@@ -441,7 +441,7 @@
   Usability Outside of Battle: unusable
 34:
   Action: 43
-  Level learned by Ness: 0
+  Level learned by Ness: 60
   Level learned by Paula: 0
   Level learned by Poo: 51
   PSI Menu position (X): 15

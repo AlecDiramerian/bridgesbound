@@ -12,7 +12,7 @@ l_0xef78f7:
     "@Here is " call(l_0xef798f) " opening attack![03]" eob
 
 l_0xef790b:
-    "[1C 14 02][09 03 {e(l_0xef792b)} {e(l_0xef792e)} {e(l_0xef793c)}]{user} and its cohorts" eob
+    "[1C 14 02][09 03 {e(l_0xef792b)} {e(l_0xef792e)} {e(l_0xef793c)}]{user} and its gang" eob
 
 l_0xef792b:
     "{user}" eob
@@ -21,10 +21,10 @@ l_0xef792e:
     "{user} and its cohort" eob
 
 l_0xef793c:
-    "{user} and its cohorts" eob
+    "{user} and its gang" eob
 
 l_0xef794b:
-    "[1C 14 02][09 03 {e(l_0xef796c)} {e(l_0xef7970)} {e(l_0xef797f)}]{user} and its cohorts." eob
+    "[1C 14 02][09 03 {e(l_0xef796c)} {e(l_0xef7970)} {e(l_0xef797f)}]{user} and its gang." eob
 
 l_0xef796c:
     "{user}." eob
@@ -33,10 +33,10 @@ l_0xef7970:
     "{user} and its cohort." eob
 
 l_0xef797f:
-    "{user} and its cohorts." eob
+    "{user} and its gang." eob
 
 l_0xef798f:
-    "[1C 14 02][09 03 {e(l_0xef79b1)} {e(l_0xef79b6)} {e(l_0xef79c6)}]{user} and its cohorts's" eob
+    "[1C 14 02][09 03 {e(l_0xef79b1)} {e(l_0xef79b6)} {e(l_0xef79c6)}]{user} and its gang's" eob
 
 l_0xef79b1:
     "{user}'s" eob
@@ -45,7 +45,7 @@ l_0xef79b6:
     "{user} and its cohort's" eob
 
 l_0xef79c6:
-    "{user} and its cohorts's" eob
+    "{user} and its gang's" eob
 
 l_0xef79d7:
     "{window_clear}{music(5)}" linebreak
@@ -120,7 +120,7 @@ l_0xef7b46:
 
 l_0xef7b64:
     newline
-    "{sound(103)}@{target} realized the power of" linebreak
+    "{sound(103)}@{target} learned the power of" linebreak
     "[19 1F]{swap}  [1C 12 00].{prompt}" eob goto(l_0xef7b83)
 
 l_0xef7b83:
@@ -211,7 +211,7 @@ l_0xef7e55:
 l_0xef7e70:
     newline
     "{sound(25)}@{user} used a" linebreak
-    "  vacuum attack![03]" eob
+    "  vacuum![03]" eob
 
 l_0xef7e88:
     newline
@@ -254,12 +254,11 @@ l_0xef7f7b:
 
 l_0xef7f9a:
     newline
-    "{sound(25)}@{user} grappled and used" linebreak
-    "  his submission hold![03]" eob
+    "{sound(25)}@{user} touched you![03]" eob
 
 l_0xef7fc3:
     newline
-    "{sound(25)}@{user} revved and accelerated!" linebreak
+    "{sound(25)}@{user} went <VROOOOOOOOM>" linebreak
     "[03]" eob
 
 l_0xef7fe0:
@@ -305,17 +304,16 @@ l_0xef80ac:
 l_0xef80c4:
     newline
     "{sound(25)}@{user} generated" linebreak
-    "  a tornado!{sound(90)}[03]" eob
+    "  a massive fucking tornado!{sound(90)}[03]" eob
 
 l_0xef80e4:
     newline
-    "{sound(25)}@{user} sprayed a gigantic blast of water!" linebreak
+    "{sound(25)}@{user} busted all over you!" linebreak
     "[03]" eob
 
 l_0xef8109:
     newline
-    "{sound(25)}@{user} flashed" linebreak
-    "  a menacing smile![03]" eob
+    "{sound(25)}@{user} flashed you![03]" eob
 
 l_0xef812b:
     newline
@@ -324,8 +322,7 @@ l_0xef812b:
 
 l_0xef814f:
     newline
-    "{sound(25)}@{user} edged" linebreak
-    "  closer![03]" eob
+    "{sound(25)}@{user} edged[03]" eob
 
 l_0xef8167:
     newline
@@ -349,7 +346,7 @@ l_0xef81c4:
 l_0xef81d7:
     newline
     "{sound(25)}@{user} is being" linebreak
-    "  absentminded.[03]" eob
+    "  stupid.[03]" eob
 
 l_0xef81f1:
     newline
@@ -378,8 +375,8 @@ l_0xef825c:
 
 l_0xef8281:
     newline
-    "{sound(25)}@{user} sends" linebreak
-    "  a greeting![03]" eob
+    "{sound(25)}@{user} says" linebreak
+    "  <hi!!!>[03]" eob
 
 l_0xef8299:
     newline
@@ -389,7 +386,7 @@ l_0xef8299:
 l_0xef82bc:
     newline
     "{sound(25)}@{user} is" linebreak
-    "  saying <tick-tock.>[03]" eob
+    "  saying <tick-tock.> This may be a reference to the hit song TiK ToK by Kesha.[03]" eob
 
 l_0xef82d7:
     newline

@@ -165,12 +165,11 @@ l_0xef95a3:
     "@Don't worry about me, just kick butt like I know you can!{wait}{set(flag 11)}[1F 41 05]" eob
 
 l_0xef96d3:
-    "{sound(5)}@What--{pause(15)}do you want to get fried by lightning?" next
-    "@Get rid of something so I can give you the [1C 05 01].{wait}" linebreak
+    "{sound(5)}@Oh! Your pockets are full. You kinda need this...{wait}" linebreak
     "{set(flag 10)}" eob
 
 l_0xef970f:
-    "@If you didn't come,{pause(15)} I would have had to try to bust out of here." next
+    "@If you didn't come,{pause(15)} I would have had to try to bust!" next
     eob
 
 l_0xef9737:
@@ -193,8 +192,7 @@ l_0xef981c:
     call(data_43.l_0xc900f9) eob
 
 l_0xef9822:
-    "@I wonder who made the bridge impassable?" next
-    "@Why would someone do this?{pause(15)}  Crud..." end
+    "@WHO POSTED MY NUDES ON TWITTER DOT COM???" end
 
 l_0xef9857:
     "@(I'm not an enemy." next
@@ -310,7 +308,7 @@ l_0xef9cd1:
 
 l_0xef9cf1:
     newline
-    "{sound(25)}@{user} spit out  a sticky mucus!{sound(81)}[03]{pause(1)}" eob
+    "{sound(25)}@{user} spit on you! <Hawk TUAH!>{sound(81)}[03]{pause(1)}" eob
 
 l_0xef9d14:
     newline
@@ -320,7 +318,7 @@ l_0xef9d14:
 l_0xef9d3e:
     newline
     "{sound(25)}@{user} shot" linebreak
-    "  spider silk out of its body![03]" eob
+    "  cum out of its body![03]" eob
 
 l_0xef9d62:
     newline
@@ -355,12 +353,13 @@ l_0xef9e05:
 l_0xef9e22:
     newline
     "{sound(25)}@{user} spilled" linebreak
-    "  some scalding hot espresso![03]" eob
+    "  some scalding hot espresso! This might be a reference to the smash hit song by Sabrina Carpenter Espresso[03]" eob
 
 l_0xef9e47:
     newline
     "{sound(25)}@{user} played" linebreak
-    "  a haunting melody![03]{pause(1)}" eob
+    "  a haunting melody!" linebreak
+    "@<har har har har har har har har har har>[03]{pause(1)}" eob
 
 l_0xef9e69:
     newline

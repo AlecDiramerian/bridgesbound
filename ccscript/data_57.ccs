@@ -209,8 +209,7 @@ l_0xef72b9:
 
 l_0xef72db:
     newline
-    "@{user} lost all motivation" linebreak
-    "  in battle.[03]" eob
+    "@{user} shit himself[03]" eob
 
 l_0xef72f6:
     eob
@@ -239,8 +238,8 @@ l_0xef7415:
 
 l_0xef743b:
     newline
-    "@[1C 02 04] used his new power,{prompt}" linebreak
-    "  PSI Starstorm!{prompt}" linebreak
+    "@[1C 02 04] used his new power!{prompt}" linebreak
+    "@<PSI NUUUUUUUUUUUUUUUUUUUKE>!{prompt}" linebreak
     eob
 
 l_0xef745f:
@@ -264,8 +263,8 @@ l_0xef74c9:
 
 l_0xef74e6:
     newline
-    "@Pokey thought" linebreak
-    "  to himself![03]" eob
+    "@Pokey shit" linebreak
+    "  himself![03]" eob
 
 l_0xef74fa:
     newline
@@ -285,7 +284,7 @@ l_0xef7530:
 l_0xef7548:
     newline
     "@Pokey tried to" linebreak
-    "  edge closer to the enemy![03]" eob
+    "  edge![03]" eob
 
 l_0xef7569:
     newline
@@ -328,8 +327,7 @@ l_0xef75f0:
 
 l_0xef7607:
     newline
-    "{sound(47)}@{delta} HP of mortal damage" linebreak
-    "  to {target}![03]" eob
+    "{sound(47)}@{target} took mortal damage![03]" eob
 
 l_0xef7624:
     newline
@@ -387,7 +385,7 @@ l_0xef76fd:
 
 l_0xef7710:
     newline
-    "@{user} drained " call(data_33.l_0xc7e66e) " own HP![03]" eob
+    "@{user} drained " call(data_33.l_0xc7e66e) " own HP! What a dumbsass![03]" eob
 
 l_0xef7729:
     newline
@@ -423,7 +421,7 @@ l_0xef77b1:
 l_0xef77db:
     newline
     "@{target} sneezed" linebreak
-    "  and received {delta} HP damage![03]" eob
+    "  and received {delta} HP damage! How? Not sure.[03]" eob
 
 l_0xef77fd:
     newline
@@ -437,7 +435,7 @@ l_0xef7810:
 
 l_0xef7824:
     newline
-    "@But no one came.[03]" eob
+    "@But no one came. Except your mother.[03]" eob
 
 l_0xef7830:
     newline
@@ -457,7 +455,7 @@ l_0xef7866:
 
 l_0xef7879:
     newline
-    "@" call(data_58.l_0xef790b) " came after you![03]" eob
+    "@" call(data_58.l_0xef790b) " tries to touch you![03]" eob
 
 l_0xef788b:
     newline

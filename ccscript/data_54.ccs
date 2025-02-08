@@ -12,9 +12,9 @@ l_0xc9e252:
     "@I'll turn back into a simple rock.{wait}{set(flag 423)}" eob
 
 l_0xc9e27b:
-    "[06 C4 00 {e(data_32.l_0xc7c588)}]{counter(1)}" call(data_33.l_0xc7dc7f) "[1B 03 {e(data_22.l_0xc690a6)}]{music(155)}@You finally got here." next
-    "@This is the seventh <Your Sanctuary> location.{pause(20)}  But it's mine now." next
-    "@Take it from me,{pause(30)} if you dare...[03]" call(data_21.l_0xc68433) "[1B 03 {e(data_21.l_0xc683de)}][1F 1E DE 04 08]{pause(120)}{set(flag 196)}" eob
+    "[06 C4 00 {e(data_32.l_0xc7c588)}]{counter(1)}" call(data_33.l_0xc7dc7f) "[1B 03 {e(data_22.l_0xc690a6)}]{music(155)}so... uh... this is the seventh sanctuary ocation. um..." next
+    "@<what is it?>" next
+    "@well, the sanctuary i'm guarding is differant from the others... if roles were reversed, i wouldn't go. but... i guess you don't have a choice. pause(50)sorry[03]" call(data_21.l_0xc68433) "[1B 03 {e(data_21.l_0xc683de)}][1F 1E DE 04 08]{pause(120)}{set(flag 196)}" eob
 
 l_0xc9e2f5:
     "@Good evening." next
@@ -25,59 +25,46 @@ l_0xc9e2f5:
     "@Don't forget to talk to the rock!{pause(20)}  It's important!{wait}{set(flag 649)}" eob
 
 l_0xc9e37e:
-    "[06 8A 02 {e(l_0xc9e567)}][06 0A 00 {e(l_0xc9e4eb)}]@I heard monkeys living in some desert can teleport." next
-    "@Oh, you learned how to teleport from the monkeys?" next
+    "[06 8A 02 {e(l_0xc9e567)}][06 0A 00 {e(l_0xc9e4eb)}]@I just get on the mic and spit it" next
+    "@And whether you like to admit it, I just shit it" next
     "{pause(60)}" linebreak
-    "@...I wanna try!" next
-    "@Will you tell me how to do it?!" linebreak
+    "@Better than ninety percent of you rappers out can" next
+    "@Then you wonder, how can kids eat up these albums like Valiums?" linebreak
     "[19 02]Yes[02][19 02]No[02][1C 07 02][11]{clearline}[09 02 {e(l_0xc9e421)} {e(l_0xc9e406)}]" goto(l_0xc9e406)
 
 l_0xc9e406:
-    "@You don't want to have a monkey for a student, do you?" end
+    "@It's funny, 'cause at the rate I'm going, when I'm thirty" end
 
 l_0xc9e421:
-    "{window_closeall}{pause(30)}{window_open(1)}@Okay...{pause(20)}  I'll try it.[03]{window_closeall}[1F F1 CA 04 D1 01][1F 61][1F E6 CA 04]{pause(60)}[1F E9 CA 04]{music(13)}[1F 61][1F 1E CA 04 06][1F 15 0D 00 08 00 01]{music(14)}{pause(120)}{music_resume}[1F 1F 0D 00 06][1F 17 CA 04 D2 01 01][1F 61][1F E6 CA 04][19 10 01]{rtoarg}[19 23 CA 04 01 00 00][1F 16 CA 04 00]{window_open(1)}@I'll never give up!{pause(20)}  I wanna try again.[03]{window_closeall}[1F E9 CA 04][1F 61]{music(13)}[1F 61]{music_resume}[19 10 01]{rtoarg}[19 23 CA 04 01 00 00][1F 16 CA 04 00]{window_open(1)}@I did it!" next
-    "@Did you see me?{pause(20)}  That's awesome!" next
+    "{window_closeall}{pause(30)}{window_open(1)}@I'll be the only person in the nursing home flirting[03]{window_closeall}[1F F1 CA 04 D1 01][1F 61][1F E6 CA 04]{pause(60)}[1F E9 CA 04]{music(13)}[1F 61][1F 1E CA 04 06][1F 15 0D 00 08 00 01]{music(14)}{pause(120)}{music_resume}[1F 1F 0D 00 06][1F 17 CA 04 D2 01 01][1F 61][1F E6 CA 04][19 10 01]{rtoarg}[19 23 CA 04 01 00 00][1F 16 CA 04 00]{window_open(1)}@IPinching nurse's asses when I'm jacking off with Jergens[03]{window_closeall}[1F E9 CA 04][1F 61]{music(13)}[1F 61]{music_resume}[19 10 01]{rtoarg}[19 23 CA 04 01 00 00][1F 16 CA 04 00]{window_open(1)}@And I'm jerking, but this whole bag of Viagra isn't working" next
+    "@And every single person is a Slim Shady lurking" next
     goto(l_0xc9e4eb)
 
 l_0xc9e4eb:
-    "@Here's a small gift to thank you." next
+    "@He could be working at Burger King, spittin' on your onion rings" next
     "[1D 03 FF][1B 02 {e(l_0xc9e51f)}][1D 0E 00 D1][1B 05]" call(data_33.l_0xc7dccf) "{set(flag 650)}{unset(flag 10)}" end goto(l_0xc9e51f)
 
 l_0xc9e51f:
-    "@Are you sure you can't accept this?" next
-    "@...I know you have no room, so you can't carry it,{pause(15)} but..." next
-    "@...I wanted to give you" linebreak
-    "  the <[1C 05 D1].>{wait}{set(flag 10)}" eob
+    "@Or in the parking lot, circling, screaming, I don't give a fuck" next
+    "@With his windows down and his system up" next
+    "@So will the real Shady please stand up" linebreak
+    "A@nd put one of those fingers on each hand up?{wait}{set(flag 10)}" eob
 
 l_0xc9e567:
-    "@Do you have the" linebreak
-    "  <[1C 05 D1]>?" end
+    "@And be proud to be outta your mind and outta control" end
 
 l_0xc9e578:
-    "[06 20 01 {e(l_0xc9e5c9)}]@It's really dark here in the Deep Darkness, isn't it?" next
-    "@It's pretty creepy, don't you think?" next
-    "@If you don't have the [1C 05 AF] here, you're helpless." end
+    "[06 20 01 {e(l_0xc9e5c9)}]@And one more time, loud as you can, how does it go?" end
 
 l_0xc9e5c9:
-    "@I was born in this dark, creepy area." next
-    "@I live, grow up... and die here." next
-    "@That's my entire life as a monkey!..." end
+    "@I'm Slim Shady, yes, I'm the real Shady All you other Slim Shadys are just imitating So won't the real Slim Shady please stand up Please stand up, please stand up? 'Cause I'm Slim Shady, yes, I'm the real Shady All you other Slim Shadys are just imitating So won't the real Slim Shady please stand up Please stand up, please stand up? 'Cause I'm Slim Shady, yes, I'm the real Shady All you other Slim Shadys are just imitating So won't the real Slim Shady please stand up Please stand up, please stand up? 'Cause I'm Slim Shady, yes, I'm the real Shady All you other Slim Shadys are just imitating So won't the real Slim Shady please stand up Please stand up, please stand up? Ha ha, I guess there's a Slim Shady in all of us Fuck it, let's all stand up" next
+    "@THAT WAS THE REAL SLIM SHADY BUT EMINEM" end
 
 l_0xc9e613:
     call(data_44.l_0xc90d23) eob
 
 l_0xc9e619:
-    "[06 14 01 {e(data_32.l_0xc7c588)}]{music(134)}@You may have forgotten, but *Buuuuurp!*..." next
-    "@I'm the return of Belch!{sound(78)}{pause(1)}" next
-    "@I've fought you before." next
-    "{sound(78)}{pause(1)}@Peeeeyouuu!" next
-    "@Don't you remember my ripe odor?" next
-    "@Belch has trained more and has returned much stronger." next
-    "@Buuuurp!{pause(20)}{sound(78)}{pause(1)}  Belch has also changed his name to Puke!..." next
-    "@Barf!  vomit!  barf, barf!  chuck!  chuck!" next
-    "@Drown to death in puke!" next
-    "@Don't you think that's an incredibly masculine taunt to throw at you?[03]" call(data_21.l_0xc68570) "[1B 03 {e(data_21.l_0xc683de)}][1F 11 04][1F 71 04 02]{set(flag 276)}{pause(1)}[1F F1 CD 04 7B 02]" eob
+    "[06 14 01 {e(data_32.l_0xc7c588)}]{music(134)}@{sound(78)}{sound(78)}{sound(78)}{sound(78)}{sound(78)}{sound(78)}{sound(78)}{sound(78)}{sound(78)}{sound(78)}{sound(78)}{sound(78)}{sound(78)}{sound(78)}{sound(78)}{sound(78)}{sound(78)}{sound(78)}{sound(78)}{sound(78)}{sound(78)}{sound(78)}{sound(78)}{sound(78)}{sound(78)}{sound(78)}{sound(78)}{sound(78)}{sound(78)}{sound(78)}{sound(78)}{sound(78)}{sound(78)}{sound(78)}{sound(78)}sorry i had to let that out[03]" call(data_21.l_0xc68570) "[1B 03 {e(data_21.l_0xc683de)}][1F 11 04][1F 71 04 02]{set(flag 276)}{pause(1)}[1F F1 CD 04 7B 02]" eob
 
 l_0xc9e763:
     "@Kaweeeek!" next
@@ -197,11 +184,7 @@ l_0xc9ed3c:
     "@You can't help it.{pause(20)}  That's why it's called Deep Darkness." end
 
 l_0xc9ed95:
-    "@I wanna become a pig." next
-    "@If I become a pig, I can find the mushrooms called Magic truffles." next
-    "@They're located in the swamp and can be found by scent." next
-    "@You know, a Pig's nose would be enough" next
-    "@to find those great truffles by scent alone." end
+    "@peeg" end
 
 l_0xc9ee2f:
     "[1D 21 0D][09 0D {e(l_0xc9ee7f)} {e(l_0xc9ee9f)} {e(l_0xc9eec7)} {e(l_0xc9eede)} {e(l_0xc9ef00)} {e(l_0xc9efb9)} {e(l_0xc9efe1)} {e(l_0xc9eff6)} {e(l_0xc9f020)} {e(l_0xc9f042)} {e(l_0xc9f052)} {e(l_0xc9f074)} {e(l_0xc9f090)}]" goto(l_0xc9ee68)
@@ -225,7 +208,7 @@ l_0xc9eec7:
 
 l_0xc9eede:
     newline
-    "[1F 04 02]@<...It hurts,{pause(20)} ...it hurts...>[1F 04 01][03]" eob
+    "[1F 04 02]@<... I... hate... n... n... n...>[1F 04 01][03]" eob
 
 l_0xc9ef00:
     "[1F 04 02]" newline
@@ -340,20 +323,20 @@ l_0xc9f3ec:
 
 l_0xc9f442:
     "{window_open(1)}@(Suddenly," linebreak
-    "  [1C 01 08]'s mother" linebreak
+    "  [1C 01 08]'s family" linebreak
     "  felt terribly uneasy,{prompt}" linebreak
-    "@and she began to pray for the safety of her son and his friends.){pause(150)}{window_closeall}" eob
+    "@and they began to pray for the safety of [1C 01 08] and his friends.){pause(150)}{window_closeall}" eob
 
 l_0xc9f4a2:
     "{window_open(1)}@(Suddenly," linebreak
-    "  one of the Runaway Five felt" linebreak
-    "  something stop him,{prompt}" linebreak
-    "@and he prayed fervently for the safety of [1C 01 08] and his friends.){pause(150)}{window_closeall}" eob
+    "  the members of the Runaway Five felt" linebreak
+    "  something stop them,{prompt}" linebreak
+    "@and they prayed fervently for the safety of [1C 01 08] and his friends.){pause(150)}{window_closeall}" eob
 
 l_0xc9f4f6:
-    "{window_open(1)}@([1C 01 1E]'s father" linebreak
-    "  thought he somehow heard" linebreak
-    "  his daughter's voice,{prompt}" linebreak
+    "{window_open(1)}@([1C 01 1E]'s family and friends" linebreak
+    "  thought they somehow heard" linebreak
+    "  [1C 01 1E]'s voice,{prompt}" linebreak
     "@and prayed sincerely for the" linebreak
     "  safety of [1C 01 1E] and" linebreak
     "  her friends.){pause(150)}{window_closeall}" eob
@@ -369,11 +352,12 @@ l_0xc9f5a8:
 
 l_0xc9f60d:
     "{window_open(1)}@(Suddenly," linebreak
-    "  Frank recalled [1C 01 08]'s shining young face,{prompt}" linebreak
-    "@and began to pray diligently for the safety of [1C 01 08] and his friends.){pause(150)}{window_closeall}" eob
+    "  Frank recalled [1C 01 08]'s shining young face){prompt}" linebreak
+    "@<[1C 01 08]... wherever you are... you changed my life... if I could repay you...>"
+    "@(He began to pray diligently for the safety of [1C 01 08] and his friends.){pause(150)}{window_closeall}" eob
 
 l_0xc9f66f:
-    "{window_open(1)}@(All of the Mr. Saturns felt a new, startling feeling{prompt}" linebreak
+    "{window_open(1)}@(Everyone in Saturn Valley felt something{prompt}" linebreak
     "@they had never experienced before,{prompt}" linebreak
     "@and they all started praying for the safety of [1C 01 08] and his friends.){pause(150)}{window_closeall}" eob
 

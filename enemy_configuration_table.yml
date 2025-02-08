@@ -7776,14 +7776,14 @@
   Flash vulnerability: 70%
   Freeze vulnerability: 70%
   Gender: male
-  Guts: 30
+  Guts: 255
   HP: 999
   Hypnosis/Brainshock vulnerability: 50%
   Initial Status: normal
   Item Dropped: 0
   Item Rarity: 1/128
   Level: 5
-  Luck: 1
+  Luck: 255
   Max Call: 0
   Mirror Success Rate: 50
   Miss Rate: 1
@@ -7797,7 +7797,7 @@
   Paralysis vulnerability: 50%
   Row: 0
   Run Flag: 'true'
-  Speed: 1
+  Speed: 255
   Type: normal
   Unknown: 0
 166:
@@ -7824,7 +7824,7 @@
   Freeze vulnerability: 70%
   Gender: male
   Guts: 50
-  HP: 300
+  HP: 999
   Hypnosis/Brainshock vulnerability: 10%
   Initial Status: normal
   Item Dropped: 0
@@ -7884,7 +7884,7 @@
   Money: 0
   Movement pattern: 0
   Music: 0
-  Name: Teddy Bear
+  Name: Freddy Fazbear
   Offense: 7
   Overworld Sprite: 0
   PP: 0
@@ -7931,7 +7931,7 @@
   Money: 0
   Movement pattern: 0
   Music: 0
-  Name: Super Plush Bear
+  Name: Super Freddy Fazbear
   Offense: 7
   Overworld Sprite: 0
   PP: 0

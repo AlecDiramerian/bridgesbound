@@ -134,8 +134,7 @@ l_0xef61cb:
     "@Then, why are you here?![03]{window_closeall}" call(data_21.l_0xc6853f) "[1B 03 {e(data_21.l_0xc683de)}]{pause(1)}[1F F1 B0 02 7B 02]{set(flag 366)}" eob
 
 l_0xef61f3:
-    "[1D 05 FF 69][1B 03 {e(l_0xef6247)}]@You didn't bring it?{pause(20)}  You seem kind of suspicious to me..." next
-    "@You cannot pass through here![03]{window_closeall}" call(data_21.l_0xc6853f) "[1B 03 {e(data_21.l_0xc683de)}]{pause(1)}[1F F1 B0 02 7B 02]{set(flag 366)}" eob
+    "[1D 05 FF 69][1B 03 {e(l_0xef6247)}]@fuck you[03]{window_closeall}" call(data_21.l_0xc6853f) "[1B 03 {e(data_21.l_0xc683de)}]{pause(1)}[1F F1 B0 02 7B 02]{set(flag 366)}" eob
 
 l_0xef6247:
     "@Ok, you may pass through." next
@@ -236,7 +235,7 @@ l_0xef6954:
 
 l_0xef69a1:
     newline
-    "@{target}'s HP are" linebreak
+    "@{target}'s HP is" linebreak
     "  maxed out!{sound(36)}[03]" eob
 
 l_0xef69ba:
@@ -300,7 +299,7 @@ l_0xef6ac7:
 l_0xef6ae0:
     newline
     "@{target}'s body" linebreak
-    "  became numb!{sound(83)}[03]" eob
+    "  became numb! A reference to the hit Linkin Park song called Numb!{sound(83)}[03]" eob
 
 l_0xef6afb:
     newline
@@ -428,7 +427,7 @@ l_0xef6d2a:
 l_0xef6d4c:
     newline
     "@{target} became" linebreak
-    "  a big pile of fluff...{sound(32)}" next
+    "  a massive pile of fluff... like a low taper fade{sound(32)}" next
     "[1D 01 FF 03]" eob
 
 l_0xef6d71:

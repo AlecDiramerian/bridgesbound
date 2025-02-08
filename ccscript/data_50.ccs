@@ -11,25 +11,22 @@ l_0xc989e9:
     eob
 
 l_0xc989ea:
-    "@Incredible!" next
-    "@I can't believe people exist who have no money at all..." next
-    "@Blue, blue!{wait}{window_closeall}" goto(data_30.l_0xc7907a)
+    "@why arent you blue?{wait}{window_closeall}" goto(data_30.l_0xc7907a)
 
 l_0xc98a27:
-    "@How much would you like to donate?" linebreak
-    "    $[1F 52 02]{clearline}{swap}[18 07 01 00 00 00 01][1B 02 {e(data_49.l_0xc989c5)}][1D 14 00 00 00 00][1B 03 {e(l_0xc98ae8)}]{sound(118)}[1D 09 00 00]{open_wallet}@Your good deed will be rewarded.{pause(20)}  Here's a postcard for you." next
+    "@why arent you blue? how much would you like to donate?" linebreak
+    "    $[1F 52 02]{clearline}{swap}[18 07 01 00 00 00 01][1B 02 {e(data_49.l_0xc989c5)}][1D 14 00 00 00 00][1B 03 {e(l_0xc98ae8)}]{sound(118)}[1D 09 00 00]{open_wallet}@why arent you blue?" next
     "[1D 03 FF][1B 02 {e(l_0xc98ab2)}][1D 0E 00 A5]" call(data_33.l_0xc7dccf) "[03]" newline
-    "@Go and be happy!{wait}{window_closeall}" goto(data_30.l_0xc7907a)
+    "@why arent you blue?{wait}{window_closeall}" goto(data_30.l_0xc7907a)
 
 l_0xc98ab2:
-    "@I wanted to give you a postcard.{pause(20)}  But... you can't accept it." next
-    "@You have too many items.{wait}{window_closeall}" eob
+    "@why arent you blue?.{wait}{window_closeall}" eob
 
 l_0xc98ae8:
-    "[1D 14 01 00 00 00][1B 03 {e(l_0xc989ea)}]@...no jokes allowed.{wait}{window_closeall}" eob
+    "[1D 14 01 00 00 00][1B 03 {e(l_0xc989ea)}]@why arent you blue?{wait}{window_closeall}" eob
 
 l_0xc98b07:
-    "@Finally, I have a chance to apologize.{wait}{window_closeall}" eob
+    "@sorry{wait}{window_closeall}" eob
 
 l_0xc98b24:
     "{font_saturn}[06 44 00 {e(l_0xc98b5a)}]@I not know you." next
@@ -44,55 +41,44 @@ l_0xc98b68:
     call(data_12.l_0xc5d30b) eob
 
 l_0xc98b6e:
-    "[06 49 00 {e(data_49.l_0xc98940)}][06 44 00 {e(l_0xc98be1)}]@Mr. Carpainter wants a girl." next
-    "@No, I don't mean it like that." next
-    "@I meant he's looking for a girl who can be the high priestess of Happy-happyism." next
-    "@I heard he's already got her." end
+    "[06 49 00 {e(data_49.l_0xc98940)}][06 44 00 {e(l_0xc98be1)}]@Mr. Carpainter wants a kid. like, to touch." end
 
 l_0xc98be1:
     "@I apologize." end
 
 l_0xc98bef:
-    "[06 49 00 {e(data_49.l_0xc98940)}][06 44 00 {e(l_0xc98cc1)}][06 02 00 {e(l_0xc98cb2)}]@Psss psss Psss psss" next
-    "@That overweight kid helped me.{pause(20)}  We kidnapped [1C 02 02]." next
-    "@You know, she's hidden in a mountain cabin." next
-    "@Oh, {pause(20)}oh!  {pause(20)}Now I've done it!" next
-    "@I thought you were one of us!{pause(20)}  You know I was joking!" next
-    "@Ha ha ha!... Just forget about this...{sound(114)}{wait}{set(flag 2)}" eob
+    "[06 49 00 {e(data_49.l_0xc98940)}][06 44 00 {e(l_0xc98cc1)}][06 02 00 {e(l_0xc98cb2)}]@pspspspsps SHES IN A CABIN AND POKEY KIDNAPPED HER{sound(114)}{wait}{set(flag 2)}" eob
 
 l_0xc98cb2:
-    "@I won't tell you anything." end
+    "@you get nOTHING" end
 
 l_0xc98cc1:
-    "@You really think I was a bad boy?" end
+    "@poop head" end
 
 l_0xc98cd3:
-    "[1F F1 9B 01 6F 02] [1F 61][1F E6 9B 01]{window_open(1)}@What a horrible nightmare.{pause(20)}  I somehow woke up." next
-    "@[1C 02 01],{pause(15)} let's be friends again." next
-    "@Please answer me.  I promise to be good.{pause(60)} ...uh ...okay?" next
-    "{window_closeall}[1F E9 9B 01][1F 61][1F E6 9B 01]{window_open(1)}@Hah!  I lied!{pause(20)}  See you, sucker![03]{window_closeall}[1F E9 9B 01]{unset(flag 44)}[1F 41 06]" eob
+    "[1F F1 9B 01 6F 02] [1F 61][1F E6 9B 01]{window_open(1)}@why arent you blue?" next
+    "{window_closeall}[1F E9 9B 01][1F 61][1F E6 9B 01]{window_open(1)}@i guess im not either[03]{window_closeall}[1F E9 9B 01]{unset(flag 44)}[1F 41 06]" eob
 
 l_0xc98d78:
-    "[06 49 00 {e(l_0xc98e5e)}][06 44 00 {e(l_0xc98e33)}][06 43 00 {e(l_0xc98df9)}]@I'm monitoring those who don't pay at the food stand.[06 78 00 {e(l_0xc98db4)}]" end
+    "[06 49 00 {e(l_0xc98e5e)}][06 44 00 {e(l_0xc98e33)}][06 43 00 {e(l_0xc98df9)}]@im monitering the food stand[06 78 00 {e(l_0xc98db4)}]" end
 
 l_0xc98db4:
     "[03][06 79 00 {e(l_0xc98dd9)}]" newline
-    "@Have you already paid?{pause(20)}  Ok, ok.{wait}{unset(flag 120)}" eob
+    "@did u pay?{pause(20)}  Ok, ok.{wait}{unset(flag 120)}" eob
 
 l_0xc98dd9:
     newline
-    "@I noticed you didn't pay![03]" call(data_21.l_0xc6852a) "[1B 03 {e(data_21.l_0xc683de)}]{window_open(1)}" newline
+    "@grrrr[03]" call(data_21.l_0xc6852a) "[1B 03 {e(data_21.l_0xc683de)}]{window_open(1)}" newline
     goto(l_0xc98df9)
 
 l_0xc98df9:
-    "@You won this confrontation." next
-    "@But the good side of you must ache with regret.  Ha ha ha.{wait}{set(flag 67)}" eob
+    "@end hy life.{wait}{set(flag 67)}" eob
 
 l_0xc98e33:
-    "@They said someone named Pokey stole all the food from the food stand." end
+    "@Pokey stole all the food from the food stand... fatass" end
 
 l_0xc98e5e:
-    "@In a different way than before, Mr. Carpainter has become a very good man." end
+    "@Mr. Carpainter is actually lowkey a chill guy now" end
 
 l_0xc98e8d:
     "[06 44 00 {e(l_0xc98e9a)}]" call(data_19.l_0xc64eca) eob
@@ -162,11 +148,10 @@ l_0xc99260:
     "@I shouldn't be so desperate to chase after happiness." end
 
 l_0xc99282:
-    "[06 49 00 {e(l_0xc992d1)}][06 44 00 {e(l_0xc992b6)}]@Blue, blue!" next
-    "@I wish for everything in this world to become blue." end
+    "[06 49 00 {e(l_0xc992d1)}][06 44 00 {e(l_0xc992b6)}]@why arent you blue?" end
 
 l_0xc992b6:
-    "@It was hard on the eyes to have everything blue." end
+    "@blue kinda sucks" end
 
 l_0xc992d1:
     "@Hey,{pause(15)} long time no see." next
@@ -206,33 +191,29 @@ l_0xc994f5:
     call(data_43.l_0xc903ed) eob
 
 l_0xc994fb:
-    "[06 49 00 {e(l_0xc99555)}]@Blue, blue..." next
-    "@Oops!  I won't say it again." next
+    "[06 49 00 {e(l_0xc99555)}]@why arent you blue?" next
+    "@uh, i mean." next
     "@I fixed the bridge as a sign of apology.{pause(20)}  I'm just trying to help." end
 
 l_0xc99555:
-    "@Is that [1C 01 08]?{pause(15)}  You're always so cheerful!" next
-    "@Thanks for the help the other day." end
+    "@oh, is that [1C 01 08]?{pause(15)} you're always so cheerful!" next
+    "@thx for the help the other day." end
 
 l_0xc99582:
-    "[06 BF 00 {e(l_0xc99635)}][06 44 00 {e(l_0xc995e4)}]@There's a place ahead that can't be painted blue." next
-    "@It's a strange and anti-blue place." next
-    "@I can't stop thinking about it... and I can't even go near that place." end
+    "[06 BF 00 {e(l_0xc99635)}][06 44 00 {e(l_0xc995e4)}]@sanctuary in this cave" end
 
 l_0xc995e4:
-    "@I'm a changed person.{pause(20)}  I'm no longer a believer in Happy-happyism." next
-    "@Anyway, I'm very curious about the place that lies ahead of here." end
+    "@sanctuary in this cave" end
 
 l_0xc99635:
-    "@What was the anti-blue place like?" next
-    "@Was it scary?" linebreak
+    "@was it scary?" linebreak
     "[19 02]Yes[02][19 02]No[02][1C 07 02][11]{clearline}[09 02 {e(l_0xc99686)} {e(l_0xc9966e)}]" goto(l_0xc9966e)
 
 l_0xc9966e:
-    "@You seem to thrive in places like that." end
+    "@i knew it" end
 
 l_0xc99686:
-    "@Did you see a huge mole, like I've heard lives there?" end
+    "@did ya you see a huge mole, like i've heard lives there?" end
 
 l_0xc996aa:
     "@I heard many footprints exist deep down in the east cave." next
@@ -295,13 +276,11 @@ l_0xc99991:
 
 l_0xc999a1:
     "[06 78 02 {e(data_52.l_0xc9b20e)}]{isset(flag 469)}[1B 02 {e(l_0xc9992f)}][06 68 00 {e(l_0xc9992f)}][06 12 00 {e(l_0xc9992f)}]{window_open(1)}[06 02 00 {e(l_0xc99a3c)}]@Hey [1C 01 08]!" linebreak
-    "[19 22 01 01 05 00][1F 13 01 00]  Like I said, my dad isn't home yet!" next
-    "@You've got to bring Picky back before he comes home!" next
-    "@I'll try to help you a little.[19 22 01 01 05 00][1F 13 01 00]{wait}{window_closeall}{set(flag 2)}" eob goto(l_0xc99a3c)
+    "[19 22 01 01 05 00][1F 13 01 00]we gotta bring Picky back[19 22 01 01 05 00][1F 13 01 00]{wait}{window_closeall}{set(flag 2)}" eob goto(l_0xc99a3c)
 
 l_0xc99a3c:
     "@[1C 01 08]!" next
-    "[19 22 01 01 05 00][1F 13 01 00]@You haven't got a clue about what to do.{wait}{window_closeall}{unset(flag 2)}" eob goto(l_0xc99a6b)
+    "[19 22 01 01 05 00][1F 13 01 00]@you're stupid, arent you?{wait}{window_closeall}{unset(flag 2)}" eob goto(l_0xc99a6b)
 
 l_0xc99a6b:
     "{isset(flag 107)}[1B 02 {e(l_0xc9992f)}][1F 63 {e(l_0xc99a7b)}]" eob
@@ -322,9 +301,7 @@ l_0xc99acc:
     "[06 D3 00 {e(l_0xc99ae3)}]{set(flag 43)}{isset(flag 309)}[1B 02 {e(l_0xc9992f)}][1F 67 01]" eob
 
 l_0xc99ae3:
-    "{window_open(1)}@(We will be closed for a short period." next
-    "@Thank you for your many years of support." next
-    "@Mr. Poochyfud, Manager, Chaos Theater.){wait}{window_closeall}" eob
+    "{window_open(1)}@(closed){wait}{window_closeall}" eob
 
 l_0xc99b3f:
     "{set(flag 416)}{set(flag 417)}{set(flag 418)}{set(flag 419)}{set(flag 420)}{set(flag 421)}[06 0E 00 {e(l_0xc9992f)}]{set(flag 50)}" eob
@@ -348,9 +325,7 @@ l_0xc99bb2:
     "{unset(flag 533)}" eob
 
 l_0xc99bb6:
-    "{window_open(1)}@The phone is ringing!{pause(15)}  Answer it!" next
-    "@At my house, my dad gets bent if I don't get the phone..." next
-    "@within the first three rings!{wait}{window_closeall}" eob
+    "{window_open(1)}@yo fone linging yo fone linging yo fone linging yo fone linging yo fone linging{wait}{window_closeall}" eob
 
 l_0xc99c15:
     "{set(flag 209)}{set(flag 200)}" call(l_0xc99c24) "{unset(flag 514)}" eob
