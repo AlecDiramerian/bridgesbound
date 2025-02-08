@@ -191,14 +191,14 @@ l_0xc7ac42:
 
 l_0xc7acb8:
     "{music(115)}{pause(60)}{wait}[1F 01 00]{sound(11)}[19 10 01]{rtoarg}{window_open(1)}@knock knock! its yo daddy! orange kid wants me to tell ya that Apple Kid is not in Twoson atm" next
-    "@he was last seen in Winters, near Dr. Andonaut's lab{wait}{window_closeall}{sound(11)}{music_resume}" eob goto(l_0xc7ae41)
+    "@He was last seen in Winters, near Dr. Andonaut's lab{wait}{window_closeall}{sound(11)}{music_resume}" eob goto(l_0xc7ae41)
 
 l_0xc7ae41:
     "{music(115)}{pause(60)}{wait}[1F 01 00]{sound(11)}[19 10 01]{rtoarg}{window_open(1)}@Apple Kid left another message" next
-    "@he said the Eraser Eraser Machine has just been completed" next
-    "@but uh" linebreak
+    "@He said the Eraser Eraser Machine has just been completed" next
+    "@but, uh..." linebreak
     "@he's missing lol" next
-    "@his mouse has more info" linebreak
+    "@His mouse has more info." linebreak
     "@byeee{wait}{window_closeall}{sound(11)}{set(flag 620)}[02]{music(115)}{pause(60)}{wait}[1F 01 00]{sound(11)}{window_open(1)}@Hello!  How are you?{pause(20)}  This is Apple Kid." next
     "@I think I'm a real genius... In fact,{pause(15)} I know I'm a genius." next
     "@Why?{pause(20)}  Well, I have discovered the primary enemy of you and of all humanity." next
