@@ -19,7 +19,7 @@ Use the GitHub repository [CoilSnake](https://github.com/pk-hack/CoilSnake) to i
 2. Open CoilSnake
 3. Go the the "Compile" tab
 4. Put your legal base rom in the "Base ROM" path
-5. Put the "eb" folder in the "Project" path
+5. Put the base folder in the "Project" path
 5. Name your output ROM whatever you want
 6. Press the "Compile" button
 
