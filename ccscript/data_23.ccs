@@ -342,7 +342,8 @@ l_0xc6bdd2:
 
 l_0xc6bdd3:
     "@you " call(data_33.l_0xc7e758) " look really stupid.{pause(15)}  lemme explain." next
-    "@so edging is- <no> ok" end
+    "@so edging is- <no>" next
+    "@ok" end
 
 l_0xc6be74:
     "[06 C0 00 {e(data_32.l_0xc7c588)}][19 10 01]{result_is(1)}[1B 02 {e(data_22.l_0xc690a6)}]{counter(1)}" call(data_33.l_0xc7dc7f) "[1B 03 {e(data_22.l_0xc690a6)}]{music(155)}@welcome to the mickey mouse clubhouse" next

@@ -71,7 +71,8 @@ l_0xc72f18:
 
 l_0xc72f7b:
     "[06 49 00 {e(l_0xc72fbe)}]@In the next election, please give a speech supporting Mayor Pirkle." next
-    "@<no> die" end
+    "@<no>" next
+    "@die" end
 
 l_0xc72fbe:
     "@Since way,{pause(10)} way back,{pause(15)} you and I have been very tight." next

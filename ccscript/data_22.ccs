@@ -445,7 +445,8 @@ l_0xc6a458:
 l_0xc6a4f2:
     "@this is the mickey mouse clubhouse" next
     "@come inside, it's fun inside" next
-    "@mickey and minnie had kids, minnie died so mickey is a stay at home dad now" end
+    "@mickey and minnie had kids, minnie died so mickey is a stay at home dad now" next
+    "@<no... this isnt the clubhouse. I WANT TO KNOW WHAT HAPPENED TO THE CLUBHOUSE!>" end
 
 l_0xc6a551:
     "@i want my mommy" next

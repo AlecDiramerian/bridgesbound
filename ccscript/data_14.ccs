@@ -328,5 +328,5 @@ l_0xc5ea3d:
 l_0xc5ea45:
     "[1F 67 01][19 22 05 01 01 00][1F 13 05 00]{window_open(1)}[19 22 01 01 05 00][1F 13 01 00]@[1C 02 01]!" next
     "@do you hear someone watching porn?" next
-    "[19 02]yes i love that shit[02] [19 02]no???[02][1C 07 02][11]{clearline}[09 02 {e(data_15.l_0xc5eabf)} {e(data_15.l_0xc5eaa3)}]" goto(data_15.l_0xc5eaa3)
+    "[19 02]YES![02] [19 02]no???[02][1C 07 02][11]{clearline}[09 02 {e(data_15.l_0xc5eabf)} {e(data_15.l_0xc5eaa3)}]" goto(data_15.l_0xc5eaa3)
 

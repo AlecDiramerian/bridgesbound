@@ -249,7 +249,7 @@ l_0xc96bbb:
     "@i wanna visit my boyfriend in Threed but the tunnel is fucking broken" end
 
 l_0xc96bf2:
-    "[06 49 00 {e(l_0xc96cd4)}][06 D3 00 {e(l_0xc96c57)}][06 44 00 {e(l_0xc96c35)}]@i went to Happy-Happy Village once"
+    "[06 49 00 {e(l_0xc96cd4)}][06 D3 00 {e(l_0xc96c57)}][06 44 00 {e(l_0xc96c35)}]@i went to Happy-Happy Village once" next
     "@all i did was say <why are you blue> and left" end
 
 l_0xc96c35:
