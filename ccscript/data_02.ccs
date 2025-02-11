@@ -52,11 +52,12 @@ l_0xc52ef5:
     eob
 
 l_0xc52f4a:
-    "@So... what can you give me to destoroy that vile woman?[03]" eob
+    "@So... what can you give me to destroy that vile woman?[03]" eob
 
 l_0xc52f5f:
     "@[1C 05 00]?" linebreak
-    "  Ooh... yes... I'll give you {swap}$[1C 0A 00 00 00 00]!" next
+    "  Ooh... yes... I'll give you..." next
+    "@{swap}$[1C 0A 00 00 00 00]!" next
     "@Take it or leave it." linebreak
     eob
 

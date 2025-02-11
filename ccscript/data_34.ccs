@@ -384,7 +384,7 @@ l_0xc7f921:
     "@Boing!{font_normal}" end
 
 l_0xc7f949:
-    "{window_open(1)}@name(1)... name(2)... name(3)..." next
+    "{window_open(1)}@{name(1)}... {name(2)}... {name(3)}..." next
     "@I guess this is goodbye..." next
     "@I, uh..." next
     "@Have a confession..." next
@@ -423,8 +423,13 @@ l_0xc7fb89:
     "{window_closeall}" eob
 
 l_0xc7fba1:
-    "@that settles it! name(4) was asking about modern tech, and i told him about some of the vinyls i have. i guess i don't have a need for my MCR albums anymore, and i think name(4) would love to learn more about emo culture" next
-    "@<my sister has a bunch of white girl stuff she doesn't use anymore. she has lots of Katy Perry, Gwen Stefani, and P!nk stuff that she's been wanting to donate>" next
+    "@that settles it!" next
+    "@{name(4)} was asking about modern tech," next
+    "@and i told him about some of the vinyls i have." next
+    "@i guess i don't have a need for my MCR albums anymore," next
+    "@and i think {name(4)} would love to learn more about emo culture" next
+    "@<my sister has a bunch of white girl stuff she doesn't use anymore." next
+    "@she has lots of Katy Perry, Gwen Stefani, and P!nk stuff that she's been wanting to donate>" next
     "@i guess i'll have to meet her and get some white girl advice one day." next
     "@let's head to my house first, i bet my parents are worried{wait}{window_closeall}" eob
 

@@ -149,7 +149,8 @@ l_0xc829fe:
     call(data_12.l_0xc5d3f5) eob
 
 l_0xc82a04:
-    "[06 2C 02 {e(l_0xc82a34)}]@fuck inflation, man... in the 80's, a doezn eggs were around 85 cents... now, they're $2.85... ugh..." end
+    "[06 2C 02 {e(l_0xc82a34)}]@fuck inflation" next
+    "@in the 80's, a dozen eggs were around 85 cents... now, they're $2.85... ugh..." end
 
 l_0xc82a34:
     "@the power outage sucked" next
@@ -185,7 +186,9 @@ l_0xc82bbc:
     "@AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAhello everybody my name is markiplier and welcome back to five nights at freddys" end
 
 l_0xc82beb:
-    "@FUCK!!! I WAS DOING SO GOOD IN MY ASMR FURRY MOMMY ROLEPLAY- i mean uhh donkey kong" end
+    "@FUCK!!!" next
+    "@I WAS DOING SO GOOD IN MY ASMR FURRY MOMMY ROLEPLAY-" next
+    "@i mean uhh donkey kong" end
 
 l_0xc82c11:
     "[06 2C 02 {e(l_0xc82c48)}]@man, i just wanna relax..." end
@@ -200,8 +203,7 @@ l_0xc82c6b:
     "@IVE BEEN ON SOME CRAZY SHIT, GIYGAS IS KING!!!" next
     "@I TOOK YOUR GOTH BADDIE FOR MONOTILI BWHAHAHAH[03]" call(data_21.l_0xc6855b) "[1B 03 {e(data_21.l_0xc683de)}][1F 01 00]{window_open(1)}@FUCK YOU!!!" next
     "@TELL MICKEY I WAS EXTREMELY SILLY (as she says this, her voice fades...)" next
-    "{pause(60)}" linebreak
-    "@AUGHGHGHGH" next
+    "{pause(60)}@AUGHGHGHGH" next
     "@AAAHAHAHHAHHH[03]{window_closeall}{pause(60)}{set(flag 139)}{set(flag 556)}{unset(flag 57)}{pause(1)}[1F F1 AD 03 7B 02]{set(flag 497)}[1F 41 05]" eob
 
 l_0xc82d6c:
@@ -249,22 +251,22 @@ l_0xc82f71:
     "@(licking noises)" end
 
 l_0xc82fa9:
-    "[06 8F 00 {e(l_0xc82fe7)}]@have ya seen the Topella Theater?" next
-    "@Queen is performing there!"
+    "[06 8F 00 {e(l_0xc82fe7)}]@Have ya seen the Topella Theater?" next
+    "@Queen is performing there!" next
     "@..." next
-    "@what? Freddie's dead?" next
-    "@i meant The Beatles. no? uhh..." next
+    "@What? Freddie's dead?" next
+    "@I meant The Beatles. No? Uhh..." next
     "@Michael Jackson?" next
     "@Technoblade?" next
     "@Mark Long?" next
-    "@OH RIGHT! the Runaway Five" end
+    "@OH RIGHT! The Runaway Five" end
 
 l_0xc82fe7:
     "@pooooop" end
 
 l_0xc83002:
-    "[06 8F 00 {e(l_0xc83060)}]@have you seen Venus?" next
-    "@i'd let her do things to me..." end
+    "[06 8F 00 {e(l_0xc83060)}]@Have you seen Venus?" next
+    "@I'd let her do things to me..." end
 
 l_0xc83060:
     "@Venus... (licking noises)" end
@@ -316,7 +318,7 @@ l_0xc833b1:
     "[06 49 00 {e(l_0xc834a8)}][06 8F 00 {e(l_0xc83457)}]@*sniff sniff* i smell MATH!" next
     "@<hmm... smell again, monny>" next
     "@*sniff sniff* (you shit on him) *sniff sniff* (gasp)" next
-    "<HAAA HAAA HAAA>" next
+    "@<HAAA HAAA HAAA>" next
     "@thats IT! im gonna call the PO LEEECE!" next
     "@*beep beep beep* (you turn off her phone)" next
     "@you turned my phone OFFFFF???!?!?!??!" next

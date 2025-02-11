@@ -18,12 +18,13 @@ l_0xc927ea:
     "@If you lose your mind,{pause(15)}" linebreak
     "  you also lose any feelings of sadness..." next
     "@Do you accept this?" next
-    "@I will take your mind, Prince [1C 02 04],{pause(20)} know that I will possess it...){window_closeall}{pause(100)}{window_open(1)}oh, right, i forgot. gimmie your balls" next
+    "@I will take your mind, Prince [1C 02 04],{pause(20)} know that I will possess it...){window_closeall}{pause(100)}{window_open(1)}@oh, right, i forgot. gimmie your balls" next
     "@(you communicate using your mind) <NOOOO>" next
-    "Yes, you must give me your balls" next
+    "@Yes, you must give me your balls" next
     "@<THIS ISNT FAIR>" next
     "@(he begins pulling them off)" next
-    "@<OUCH! PLEASE, NO!! STOP-> {smash} (he ripped them off) <AUGHHGHGHGHHGHGHGHGHGHGHGHHGH!!!!!!!!>[03]{pause(20)}{window_closeall}{set(flag 273)}[1E 00 04 64][1F 04 01]{set(flag 595)}" eob
+    "@<OUCH! PLEASE, NO!! STOP-> {smash} (he ripped them off)" next
+    "@<AUGHHGHGHGHHGHGHGHGHGHGHGHHGH!!!!!!!!>[03]{pause(20)}{window_closeall}{set(flag 273)}[1E 00 04 64][1F 04 01]{set(flag 595)}" eob
 
 l_0xc92909:
     "{window_switch(1)}{window_closetop}{sound(63)}{pause(10)}{open_hp}[1E 01 04 50]{sound(61)}{pause(90)}{sound(46)}{pause(30)}" eob
@@ -295,7 +296,7 @@ l_0xc93b33:
     "@me when a kid is napping" end
 
 l_0xc93b60:
-    "[06 0C 00 {e(l_0xc93ba4)}][06 0D 00 {e(l_0xc93ba4)}]@i think name(2) and you would make a great couple" end
+    "[06 0C 00 {e(l_0xc93ba4)}][06 0D 00 {e(l_0xc93ba4)}]@i think {name(2)} and you would make a great couple" end
 
 l_0xc93ba4:
     "{counter(1)}" call(data_33.l_0xc7dc7f) "[1B 03 {e(l_0xc93be3)}]{counter(2)}" call(data_33.l_0xc7dc7f) "[1B 03 {e(l_0xc93be3)}]@just as i thought... the feminist and the baddie" end

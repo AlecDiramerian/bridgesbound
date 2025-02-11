@@ -86,7 +86,7 @@ l_0xc99dce:
     "{unset(flag 383)}{isset(flag 611)}[1B 02 {e(data_50.l_0xc9992f)}][1F 63 {e(l_0xc99de1)}]" eob
 
 l_0xc99de1:
-    "[1F 1A 43 01 03]{pause(10)}[19 22 FF 02 43 01][1F 13 FF 00]{pause(50)}[1F 1B 43 01][1F F1 43 01 80 02][1F 61]{window_open(1)}@are you name(1)?" next
+    "[1F 1A 43 01 03]{pause(10)}[19 22 FF 02 43 01][1F 13 FF 00]{pause(50)}[1F 1B 43 01][1F F1 43 01 80 02][1F 61]{window_open(1)}@are you {name(1)}?" next
     "{counter(1)}" call(data_33.l_0xc7dc7f) "[1B 03 {e(l_0xc99e48)}]" goto(l_0xc99e1b)
 
 l_0xc99e1b:

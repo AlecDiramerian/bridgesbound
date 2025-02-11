@@ -82,7 +82,7 @@ l_0xc9c9db:
 
 l_0xc9c9e8:
     "@cool{wait}{window_closetop}" call(data_33.l_0xc7dd6b) "{music(119)}{pause(60)}{window_open(1)}@Prince [1C 02 04]," next
-    "@go to name(1){wait}{window_closeall}{pause(1)}{window_open(14)}[1E 09 04 70 17 00]" linebreak
+    "@go to {name(1)}{wait}{window_closeall}{pause(1)}{window_open(14)}[1E 09 04 70 17 00]" linebreak
     "{prompt}{window_closeall}" goto(data_45.l_0xc9237e)
 
 l_0xc9cb77:
@@ -221,7 +221,7 @@ l_0xc9d3a9:
     "@the prince is so nice to forigners!" end
 
 l_0xc9d3e0:
-    "[06 49 00 {e(l_0xc9d4b0)}][06 10 00 {e(l_0xc9d47c)}]PLEAAASE WILL YOU PLAY WITH ME?" linebreak
+    "[06 49 00 {e(l_0xc9d4b0)}][06 10 00 {e(l_0xc9d47c)}]@PLEAAASE WILL YOU PLAY WITH ME?" linebreak
     "[19 02]Yes[02][19 02]No[02][1C 07 02][11]{clearline}[09 02 {e(l_0xc9d45a)} {e(l_0xc9d425)}]" goto(l_0xc9d425)
 
 l_0xc9d425:
@@ -245,7 +245,7 @@ l_0xc9d4fd:
     "@ID LET THE PRINCE DO THINGS TO ME" end
 
 l_0xc9d523:
-    "@Hello, name(4)" next
+    "@Hello, {name(4)}" next
     "@i'll see you again{wait}{sound(40)}{set(flag 595)}" eob
 
 l_0xc9d5c4:

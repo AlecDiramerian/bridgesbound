@@ -132,7 +132,7 @@ l_0xc7c95e:
     "@but the record of adventure number {delta} has been lost..." end
 
 l_0xc7c9a8:
-    "[06 49 00 {e(l_0xc7ca3c)}][19 10 01]{swap}@(seems like this number turns it into an actual phone...)"
+    "[06 49 00 {e(l_0xc7ca3c)}][19 10 01]{swap}@(seems like this number turns it into an actual phone...)" next
     "@Hello,{pause(15)} this is the Stoic Club." next
     "@Oh,{pause(15)} [1C 02 00], {swap}" call(data_33.l_0xc7e6b3) "!{pause(20)}" linebreak
     "  Would you like to make a reservation? " next
@@ -142,14 +142,18 @@ l_0xc7c9a8:
 
 l_0xc7ca3c:
     "@(seems like this number turns it into an actual phone...)" next
-    "@Oh boy! It's me, Mickey Mouse! This is the Mickey Mouse Clubhouse" next
-    "@Ha ha! Sorry pal, I bought the Stoic Club property" next
-    "@Huh? Pokey? Stolen? Ha ha! No, I've had the Clubhouse the whole time. We're in the process of remodeling to make the place look like the old clubhouse" next
-    "@<hey, while I've got you here, ive got a question... what every happened to Minnie? someone said something about her being extremely silly...>" next
-    "@Oh boy- what the fuck??? WHAT THE FUCK???" next
-    "@<what's up?>" next
-    "@SHE WASN'T BEING EXTREMELY SILLY... SHE WAS FUCKING GOOFY" next
-    "@<oh...>" linebreak
+    "@Oh boy! |||It's me, |Mickey Mouse! |||This is the Mickey Mouse Clubhouse!" next
+    "@<What? What happened to the Stoic Club?>" next
+    "@Ha ha! |||Sorry pal, |I bought the Stoic Club property" next
+    "@<But... how? |||Pokey dropped it into the void!>" next
+    "@Oh, |yeah! |||Pokey stole the clubhouse, |but it somehow teleported onto the new property" next
+    "@I don't know how, |but I got it back! |||Oh boy!" next
+    "@<Hey, |while I've got you here, |I've got a question|.|.|.| |what every happened to Minnie?" next
+    "@Someone said something about her being extremely silly...>" next
+    "@Oh boy- wait|.|.|.|||||| what the fuck??? |||WHAT THE FUCK???" next
+    "@<What's up?>" next
+    "@SHE WASN'T BEING EXTREMELY SILLY|.|.|.| SHE WAS FUCKING GOOFY!" next
+    "@<Oh...>" next
     "@OH TOOOOOODLES! WE'RE OFF TO KILL THE GOOF!" next
     "@(SLAM!){wait}{sound(22)}" linebreak
     "@(You finally solved the mystery of the Mickey Mouse Clubhouse.)" eob

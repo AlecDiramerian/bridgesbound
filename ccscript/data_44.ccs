@@ -80,10 +80,9 @@ l_0xc908b6:
 l_0xc908bc:
     "[06 7F 01 {e(l_0xc90a62)}][1D 15 96 00]{swap}@welcome to" linebreak
     "  l'hotel de Summers." next
-    "@i am" linebreak
-    "  Risosha Jones Richard Leonard Smith Jackson Armond Joshua Walter Jessie Magnolia Krikor Angel Nicole Fuzzy Whitey Brownie Spotty Black Ears Cotton Tail Herbert Nenninger Richmonde," next
+    "@my name is {pause(50)}Risosha Jones Richard Leonard Smith Jackson Armond Joshua Walter Jessie Magnolia Krikor Angel Nicole Fuzzy Whitey Brownie Spotty Black Ears Cotton Tail Herbert Nenninger Richmonde" next
     "@and uh" next
-    "@we uh" call(data_33.l_0xc7e6b3) ", I'm afraid" linebreak
+    "@we uh, I'm afraid" linebreak
     "@<do not be afriad>" next
     "@oh ok u wanna spend $[1C 0A 00 00 00 00] to stay" next
     call(l_0xc90f61) "[11]{clearline}[09 02 {e(l_0xc909d3)} {e(l_0xc90999)}]" goto(l_0xc90999)
@@ -104,10 +103,10 @@ l_0xc90a62:
 
 l_0xc90a9b:
     "[06 7F 01 {e(l_0xc90c03)}]@welcome to la hotel de Great Southern International Resort" next
-    "our rooms vary in price" linebreak
+    "@our rooms vary in price" linebreak
     "  from[1D 15 0F 00]{swap}  $[1C 0A 00 00 00 00][1D 15 64 00]{swap} to $[1C 0A 00 00 00 00]" linebreak
     "  a night." next
-    "@we only have the super insane crzy mega poop rooms rn. wanna sleep?" linebreak
+    "@we only have the super insane crazy mega poop rooms rn. wanna sleep?" linebreak
     call(l_0xc90f61) "[11]{clearline}[09 02 {e(l_0xc90b90)} {e(l_0xc90b53)}]" goto(l_0xc90b53)
 
 l_0xc90b53:

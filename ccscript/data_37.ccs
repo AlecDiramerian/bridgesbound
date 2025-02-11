@@ -24,14 +24,14 @@ l_0xc83faf:
     "@being a rat is cool" end
 
 l_0xc83fcf:
-    "@oh, [1C 01 08]," next
+    "@Oh, [1C 01 08]," next
     "[06 7E 02 {e(l_0xc83fe6)}]@[1C 01 1E]..." next
     goto(l_0xc83fe6)
 
 l_0xc83fe6:
-    "@hi..." next
-    "@i'd like to apologize again for everything i did..." next
-    "@<its ok man,{pause(30)} it was that fuckin statue, not you" next
+    "@Hi..." next
+    "@I'd like to apologize again for everything i did..." next
+    "@<It's ok man,{pause(30)} it was that fuckin statue, not you>" next
     end
 
 l_0xc84079:

@@ -192,7 +192,7 @@ l_0xc6d37e:
 
 l_0xc6d391:
     "[19 10 01][19 22 00 02 47 03]{swap}{store_registers}{result_is(1)}[1B 03 {e(l_0xc6d4d6)}]{load_registers}{result_is(2)}[1B 03 {e(l_0xc6d4d6)}]{load_registers}{result_is(8)}[1B 03 {e(l_0xc6d4d6)}][1D 01 FF B6][1F 41 05]{sound(118)}[19 23 47 03 01 01 00][1F 16 47 03 00]@hOlY FUCK, im COMING" next
-    "@ooookay theyre free now){wait}{set(flag 146)}{set(flag 594)}" goto(data_40.l_0xc88b6d)
+    "@ooookay theyre free now{wait}{set(flag 146)}{set(flag 594)}" goto(data_40.l_0xc88b6d)
 
 l_0xc6d4d5:
     eob
@@ -209,7 +209,7 @@ l_0xc6d50a:
 
 l_0xc6d561:
     "@yknow what fuck it" next
-    "@come on  in[03]{window_closeall}[1F F1 48 03 F2 00][1F 61][1F 1E 48 03 06][1F 17 49 03 08 00 01]{set(flag 374)}{set(flag 10)}" eob
+    "@come on in[03]{window_closeall}[1F F1 48 03 F2 00][1F 61][1F 1E 48 03 06][1F 17 49 03 08 00 01]{set(flag 374)}{set(flag 10)}" eob
 
 l_0xc6d5ae:
     "@u wanna see venus?" next
@@ -252,7 +252,7 @@ l_0xc6d6a1:
     "@..." next
     "@..." next
     "@..." next
-    "@...no, i wont show you my vagina"
+    "@...no, i wont show you my vagina" next
     "@...or my pussy..." next
     "@...or my peach..." next
     "@...or my kitty..." next
@@ -279,7 +279,7 @@ l_0xc6d6a1:
     "@...or my bottom..." next
     "@...or my rear..." next
     "@...or my rump..." next
-    "@...or my buttocks ..." next
+    "@...or my buttocks..." next
     "@...or my arse..." next
     "@...or my gyatt..." next
     "@...or my- OH MY GOD CAN YOU FUCK OFF YOU STUPID KID PLEASE IM NOT AN OBJECT" next
@@ -296,7 +296,7 @@ l_0xc6d6a1:
     "@..." next
     "@..." next
     "@if you say one more fucking word im gonna say the n word" next
-    "@GO THE FUCK AWAY YOU FUCKING[19 10 01]{result_is(2)}[1B 03 {e(l_0xc6d702)}]MONKEY." end goto(l_0xc6d702)
+    "@GO THE FUCK AWAY YOU FUCKING[19 10 01]{result_is(2)}[1B 03 {e(l_0xc6d702)}] MONKEY." end goto(l_0xc6d702)
 
 l_0xc6d702:
     "MONKEY" end

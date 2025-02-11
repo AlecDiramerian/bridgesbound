@@ -2110,7 +2110,7 @@
   Paralysis vulnerability: 100%
   Row: 1
   Run Flag: 'true'
-  Speed: 77
+  Speed: 10
   Type: normal
   Unknown: 1
 45:
@@ -5135,7 +5135,7 @@
   Boss Flag: 'false'
   Death Sound: normal
   Death Text Pointer: data_56.l_0xef6db8
-  Defense: 179
+  Defense: 89
   Encounter Text Pointer: data_57.l_0xef78b8
   Experience points: 13179
   Final Action: 0
@@ -7786,7 +7786,7 @@
   Luck: 255
   Max Call: 0
   Mirror Success Rate: 50
-  Miss Rate: 1
+  Miss Rate: 0
   Money: 0
   Movement pattern: 0
   Music: 0

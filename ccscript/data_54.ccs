@@ -12,9 +12,12 @@ l_0xc9e252:
     "@I'll turn back into a simple rock.{wait}{set(flag 423)}" eob
 
 l_0xc9e27b:
-    "[06 C4 00 {e(data_32.l_0xc7c588)}]{counter(1)}" call(data_33.l_0xc7dc7f) "[1B 03 {e(data_22.l_0xc690a6)}]{music(155)}so... uh... this is the seventh sanctuary ocation. um..." next
+    "[06 C4 00 {e(data_32.l_0xc7c588)}]{counter(1)}" call(data_33.l_0xc7dc7f) "[1B 03 {e(data_22.l_0xc690a6)}]{music(155)}@so... uh... this is the seventh sanctuary location. um..." next
     "@<what is it?>" next
-    "@well, the sanctuary i'm guarding is differant from the others... if roles were reversed, i wouldn't go. but... i guess you don't have a choice. pause(50)sorry[03]" call(data_21.l_0xc68433) "[1B 03 {e(data_21.l_0xc683de)}][1F 1E DE 04 08]{pause(120)}{set(flag 196)}" eob
+    "@well, the sanctuary i'm guarding is differant from the others..." next
+    "@if roles were reversed, i wouldn't go." next
+    "@but... i guess you don't have a choice.{pause(50)}" linebreak
+    "@sorry[03]" call(data_21.l_0xc68433) "[1B 03 {e(data_21.l_0xc683de)}][1F 1E DE 04 08]{pause(120)}{set(flag 196)}" eob
 
 l_0xc9e2f5:
     "@Good evening." next
@@ -351,9 +354,10 @@ l_0xc9f5a8:
     "@and she began to pray for the well-being of [1C 01 4A] and his friends.){pause(150)}{window_closeall}" eob
 
 l_0xc9f60d:
-    "{window_open(1)}@(Suddenly," linebreak
-    "  Frank recalled [1C 01 08]'s shining young face){prompt}" linebreak
-    "@<[1C 01 08]... wherever you are... you changed my life... if I could repay you...>"
+    "{window_open(1)}@(Suddenly, |||Frank recalled [1C 01 08]'s shining young face{prompt}" linebreak
+    "@and he remembered how [1C 01 08] inspired him{prompt}" linebreak
+    "@to turn his life around){prompt}" linebreak
+    "@<...I miss ya,||| kid...>{prompt}" linebreak
     "@(He began to pray diligently for the safety of [1C 01 08] and his friends.){pause(150)}{window_closeall}" eob
 
 l_0xc9f66f:

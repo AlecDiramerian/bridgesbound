@@ -42,7 +42,7 @@ l_0xc95c0e:
     goto(l_0xc95dc6)
 
 l_0xc95dc6:
-    "@PLEAAASE COME BACK HERE WITH name(2){wait}{window_closeall}{set(flag 66)}" eob
+    "@PLEAAASE COME BACK HERE WITH {name(2)}{wait}{window_closeall}{set(flag 66)}" eob
 
 l_0xc95df9:
     "{counter(1)}" call(data_33.l_0xc7dc7f) "[1B 03 {e(l_0xc95e73)}]{counter(2)}" call(data_33.l_0xc7dc7f) "[1B 03 {e(l_0xc95ea5)}]@take her to her parents first, then bring her here" end

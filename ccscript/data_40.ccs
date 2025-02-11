@@ -98,7 +98,7 @@ l_0xc88a3b:
 
 l_0xc88a47:
     "{window_open(1)}@PRESENTING..." next
-    "The one, the only... VEEEEEEENUS!!!" next
+    "@The one, the only... VEEEEEEENUS!!!" next
     "@not the planet[03]{window_closeall}" eob
 
 l_0xc88b6d:
@@ -178,18 +178,18 @@ l_0xc89566:
     "{counter(1)}" call(data_33.l_0xc7dc7f) "[1B 02 {e(l_0xc89580)}]{counter(3)}" call(data_33.l_0xc7dc7f) "[1B 03 {e(l_0xc8955a)}]" goto(l_0xc89580)
 
 l_0xc89580:
-    "{counter(2)}" call(data_33.l_0xc7dc7f) "[1B 03 {e(l_0xc8955a)}][1F 07 02]{pause(10)}[1F 01 00][1F E1 1F 00 01]{pause(20)}[1F E1 14 01 01]{pause(20)}[1F E1 1F 00 01]{pause(1)}[1F E1 14 01 01]{pause(1)}[1F E1 1F 00 01]{pause(1)}{music(177)}{pause(20)}[1F 15 C7 01 99 02 01]{pause(50)}[1F EB 02 06][1F 12 02][1F E1 14 01 01]{pause(20)}[1F E1 1F 00 01][1F 1E 98 03 06][1F 1E 99 03 06][1F 1E A3 03 06]{set(flag 776)}{set(flag 57)}{set(flag 555)}{unset(flag 594)}{pause(30)}{pause(60)}" call(data_33.l_0xc7dd7d) "{sound(114)}{pause(180)}{window_open(1)}@<name(2)? where'd you go??? who was that???>" next
+    "{counter(2)}" call(data_33.l_0xc7dc7f) "[1B 03 {e(l_0xc8955a)}][1F 07 02]{pause(10)}[1F 01 00][1F E1 1F 00 01]{pause(20)}[1F E1 14 01 01]{pause(20)}[1F E1 1F 00 01]{pause(1)}[1F E1 14 01 01]{pause(1)}[1F E1 1F 00 01]{pause(1)}{music(177)}{pause(20)}[1F 15 C7 01 99 02 01]{pause(50)}[1F EB 02 06][1F 12 02][1F E1 14 01 01]{pause(20)}[1F E1 1F 00 01][1F 1E 98 03 06][1F 1E 99 03 06][1F 1E A3 03 06]{set(flag 776)}{set(flag 57)}{set(flag 555)}{unset(flag 594)}{pause(30)}{pause(60)}" call(data_33.l_0xc7dd7d) "{sound(114)}{pause(180)}{window_open(1)}@<{name(2)}? where'd you go??? who was that???>" next
     "@WHATS UP FUCKERS" next
     "@<who on earth...?>" next
-    "@WOULD CUSTOMER name(1) GET HIS FATASS TO THE TOP FLOOR PLEASE?" next
-    "@I MIGHT HAVE TO CALL THE PO LEESE{wait}{window_closeall}[1F 67 01][1F 66 01 0C A7 96 C8 00][1D 05 02 B8][1B 02 {e(data_50.l_0xc9992f)}]{set(flag 690)}[1D 01 02 B8]" eob
+    "@WOULD CUSTOMER {name(1)} GET HIS FATASS TO THE TOP FLOOR PLEASE?" next
+    "@I MIGHT HAVE TO CALL THE PO LEEECE{wait}{window_closeall}[1F 67 01][1F 66 01 0C A7 96 C8 00][1D 05 02 B8][1B 02 {e(data_50.l_0xc9992f)}]{set(flag 690)}[1D 01 02 B8]" eob
 
 l_0xc896a7:
-    "{sound(114)}{pause(180)}{window_open(1)}@CUSTOMER name(1) GET TO THE TOP FLOOR NOW" next
+    "{sound(114)}{pause(180)}{window_open(1)}@CUSTOMER {name(1)} GET TO THE TOP FLOOR NOW" next
     "@AUGHGHGHHGHG{wait}{window_closeall}[1F 67 01][1F 66 01 0D F0 96 C8 00]" eob
 
 l_0xc896f0:
-    "{sound(114)}{pause(180)}{window_open(1)}@CUSTOMER [1C 02 01]..." next
+    "{sound(114)}{pause(180)}{window_open(1)}@CUSTOMER {name(1)}..." next
     "@AUGHGHGHHGHG{pause(20)}  Gwaargh!!{wait}{window_closeall}[1F 67 01]" eob
 
 l_0xc8972a:
@@ -214,7 +214,7 @@ l_0xc8989f:
     "@the room nextdoor is weird..." end
 
 l_0xc898bc:
-    "@i think name(2) is in there!" end
+    "@i think {name(2)} is in there!" end
 
 l_0xc898d4:
     "@go on, get your baddie back!" end
@@ -231,10 +231,10 @@ l_0xc8995a:
 l_0xc899a6:
     "[1F 1C 02 03]{pause(15)}[19 22 01 01 02 00][1F 13 01 00][19 22 03 01 02 00][1F 13 03 00]{pause(45)}[1F 07 03][1F 1D 02][1F 15 6A 00 FE 02 01][1F 61][1F E7 6A 00][1F EB 01 06][1F EB 03 06]{pause(180)}{window_open(1)}@.....{wait}{window_closeall}{pause(60)}[1F EC 01 01][1F EC 03 01]{pause(180)}[1F EA 6A 00][1F 61]{music_resume}{window_open(1)}@guys" next
     "@we gotta go to Summers." next
-    "@and we do that in Threed. i think the flying thing name(3) used has something to do with it{wait}{window_closeall}{pause(60)}{unset(flag 47)}{set(flag 48)}{set(flag 773)}{set(flag 143)}" call(data_33.l_0xc7de60) "{set(flag 536)}" eob goto(l_0xc89a71)
+    "@and we do that in Threed. i think the flying thing {name(3)} used has something to do with it{wait}{window_closeall}{pause(60)}{unset(flag 47)}{set(flag 48)}{set(flag 773)}{set(flag 143)}" call(data_33.l_0xc7de60) "{set(flag 536)}" eob goto(l_0xc89a71)
 
 l_0xc89a71:
-    "{unset(flag 2)}[1F F2 95 00 7A 00][1F F2 96 00 7B 00][1F F2 B9 00 7C 00][1F F2 BA 00 7D 00][1F F2 BB 00 7E 00]{window_open(1)}{window_open(1)}@good lord that was a nice piss"
+    "{unset(flag 2)}[1F F2 95 00 7A 00][1F F2 96 00 7B 00][1F F2 B9 00 7C 00][1F F2 BA 00 7D 00][1F F2 BB 00 7E 00]{window_open(1)}{window_open(1)}@good lord that was a nice piss" next
     "@wanna go to Threed?" next
     "@we'll be waiting outside[03]{window_closeall}{set(flag 317)}{unset(flag 318)}{set(flag 2)}[1F 61][1F 66 01 33 57 AF C7 00]" eob
 
@@ -321,7 +321,7 @@ l_0xc8a2f9:
     "@..." next
     "@<...>" next
     "@..." next
-    "@show_char_float(1, FLOAT_EXCLAIM) OH! OH MY GOD SCREW YOU" end
+    "@{show_char_float(1, FLOAT_EXCLAIM)} OH! OH MY GOD SCREW YOU!!!" end
 
 l_0xc8a333:
     "@hawk tuah" end

@@ -85,7 +85,7 @@ l_0xc664ba:
     goto(l_0xc664f2)
 
 l_0xc664f2:
-    "@Go!{pause(20)}  <Frankystein Mark II>!" next
+    "@Go!{pause(20)} <Frankystein Mark II>!" next
     call(data_21.l_0xc68402) "[1B 03 {e(data_21.l_0xc683de)}]{window_open(1)}" goto(l_0xc66175)
 
 l_0xc66523:
@@ -93,16 +93,17 @@ l_0xc66523:
     goto(l_0xc664f2)
 
 l_0xc6653b:
-    "[06 04 00 {e(l_0xc665e7)}]@Hello sir, how may I help you?{pause(30)}  ...Uh...{pause(20)}  Aren't you [1C 02 01]?" next
-    "@After our battle I became serious,{pause(15)} and have been working very hard." next
-    "@I've even been doing some training for...{pause(15)} for..." next
-    "@Well,{pause(15)} a little bit of pro wrasslin'.{pause(20)}  It's the ring for me,{pause(15)} baby..." next
+    "[06 04 00 {e(l_0xc665e7)}]@Hello sir, how may I help you?" next
+    "@*gasp* {name(1)}! {pause(15)}It's great to see you again!" next
+    "@<Frank? {pause(15)}What are you doing here?" next
+    "@You've inspired me, kid. I've turned my life around." next
+    "@Instead of using my anger to beat up kids, {pause(5)}I use it to beat up adults! {pause(15)}I'm in the UFC now!" next
+    "@<Wow! I was not expecting that! That's awesome!>" next
+    "@{sound(22)}(You felt immense joy hearing about Frank's comeback)"
     goto(l_0xc665e7)
 
 l_0xc665e7:
-    "@So you made it back alive.{pause(20)}  You must have many stories to tell." next
-    "@Let's get together for a drink,{pause(15)} when you have a chance so I can hear your stories." next
-    "@...I'm talking about drinking mineral water.{pause(15)}  I'm still under age,{pause(15)} you know.{wait}{set(flag 4)}" eob
+    "@I'd love to catch up sometime! See ya around, kid{wait}{set(flag 4)}" eob
 
 l_0xc66670:
     "[06 BE 00 {e(data_32.l_0xc7c588)}]{counter(1)}" call(data_33.l_0xc7dc7f) "[1B 03 {e(data_22.l_0xc690a6)}]{music(155)}@oh hey, you made it" next
