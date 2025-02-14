@@ -149,7 +149,7 @@ l_0xc51c0e:
     eob
 
 l_0xc51c38:
-    "@Come again"! next
+    "@Come again!" next
     eob
 
 l_0xc51c41:
@@ -194,43 +194,38 @@ l_0xc51cfa:
     "@KILL YOURSELF!!!" end
 
 l_0xc51d20:
-    "@moneeeey???[03]" eob
+    "@MONEY???[03]" eob
 
 l_0xc51d31:
     "@[1C 05 00]?" next
     eob
 
 l_0xc51d39:
-    "@who want it[03]" eob
+    "@Who wants it?[03]" eob
 
 l_0xc51d45:
-    "@equip?" linebreak
+    "@Equip it?" linebreak
     eob
 
 l_0xc51d5b:
-    "@give me the" linebreak
-    "  [1C 05 00]" linebreak
-    "  for {swap}$[1C 0A 00 00 00 00]." next
+    "@Gimmie the [1C 05 00] for {swap}$[1C 0A 00 00 00 00]." next
     eob
 
 l_0xc51d7b:
-    "@[1C 02 00]  cant equip it" next
-    "@u still want it?" linebreak
+    "@[1C 02 00] can't equip it" next
+    "@do you still want it?" linebreak
     eob
 
 l_0xc51d96:
-    "@pussy" next
+    "@Pussy" next
     eob
 
 l_0xc51db0:
-    "@LMAO" linebreak
-    "  BROKE HAHAHA" next
+    "@LMAO BROKE HAHAHA" next
     eob
 
 l_0xc51dcb:
-    "@shit" next
-    "@youre too fat" next
-    "@gimmie stuff" next
+    "@Too much stuff... gimmie stuff" next
     eob
 
 l_0xc51e14:
@@ -335,8 +330,8 @@ l_0xc52059:
     "@PLEASE?[03]" eob
 
 l_0xc5206d:
-    "@the [1C 05 00]?" linebreak
-    "  ill give you {swap}$[1C 0A 00 00 00 00]." next
+    "@The [1C 05 00]?" linebreak
+    "  I'll give you {swap}$[1C 0A 00 00 00 00]." next
     "@PLEASE?" linebreak
     eob
 

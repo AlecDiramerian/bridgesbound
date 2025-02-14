@@ -23,7 +23,7 @@ l_0xc927ea:
     "@Yes, you must give me your balls" next
     "@<THIS ISNT FAIR>" next
     "@(he begins pulling them off)" next
-    "@<OUCH! PLEASE, NO!! STOP-> {smash} (he ripped them off)" next
+    "@<OUCH! PLEASE, NO!! STOP-> {sound(31)}{smash} (he ripped them off)" next
     "@<AUGHHGHGHGHHGHGHGHGHGHGHGHHGH!!!!!!!!>[03]{pause(20)}{window_closeall}{set(flag 273)}[1E 00 04 64][1F 04 01]{set(flag 595)}" eob
 
 l_0xc92909:
@@ -48,7 +48,7 @@ l_0xc929ca:
     "{window_open(1)}@My name is [1C 02 04].{pause(20)}  I am the one who will fight beside you." next
     "@I am the servant of [1C 02 01].{pause(15)}  I will obey [1C 02 01]." next
     "@[1C 02 01]!{pause(20)}" linebreak
-    "  My life is in your han- {smash}WHAT THE FUCK WAS THAT FOR???" next
+    "  My life is in your han- {sound(31)}{smash}WHAT THE FUCK WAS THAT FOR???" next
     "@<idk lol>[03]{counter(1)}" call(data_33.l_0xc7dc7f) "[1B 03 {e(l_0xc92a48)}]{window_closeall}{set(flag 16)}{set(flag 504)}{set(flag 499)}" eob
 
 l_0xc92a48:
@@ -207,7 +207,7 @@ l_0xc9344f:
     "[06 DA 00 {e(l_0xc934e4)}]{window_open(1)}[06 97 00 {e(l_0xc934a4)}]@continue without me.{wait}{window_closeall}" eob
 
 l_0xc934a4:
-    "@i have a submarine in my vehicle collection{wait}{window_closeall}{pause(1)}" goto(l_0xc934e4)
+    "@A submarine, you say? I do happen to have one in my vehicle collection. Come back up here.{wait}{window_closeall}{pause(1)}" goto(l_0xc934e4)
 
 l_0xc934e4:
     "[1F 21 9F]" call(data_52.l_0xc9b112) eob

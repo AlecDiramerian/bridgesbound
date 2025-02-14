@@ -485,8 +485,7 @@ l_0xc53a9f:
     newline
     " <[1C 05 1B]>" next
     call(data_05.l_0xc56b8e) next
-    "@You can't help but swing this bat with all your might." next
-    "@There's a good chance that you may just whiff." end
+    "@THIS FUCKING SUCKS DON'T USE IT" end
 
 l_0xc53ae6:
     newline

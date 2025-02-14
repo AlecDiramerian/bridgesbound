@@ -169,7 +169,7 @@ l_0xc56a14:
     "@Decreases by one half the amount of damage caused by an enemy's hit." eob
 
 l_0xc56a42:
-    "@Decreases by one half the damage caused by an enemy's hit.  The damage that was blocked is then dealt back to the enemy." eob
+    "@Decreases by one half the damage caused by an enemy's hit. The damage that was blocked is then dealt back to the enemy." eob
 
 l_0xc56a8a:
     "@It can block an enemy's PSI attack." eob
@@ -199,10 +199,10 @@ l_0xc56b3e:
     "@It may not be so effective against some enemies." eob
 
 l_0xc56b5d:
-    "A cute teddy bear!" eob
+    "@It stares into your soul." eob
 
 l_0xc56b6f:
-    "@That genius [1C 02 03] should be able to fix it sometime." eob
+    "@That nerd [1C 02 03] should be able to fix it sometime." eob
 
 l_0xc56b8e:
     "@[1C 02 01]" goto(l_0xc56bb2)
@@ -298,12 +298,13 @@ l_0xc56df9:
     call(data_12.l_0xc5d4f1) eob
 
 l_0xc56dff:
-    "@No, I don't want any mummy bandages!" next
-    "@No soliciting allowed please!" end
+    "@No, I don't want a goth pegging dommy mommy to make me into a kitty!" next
+    "@Actually|.|.|.| I|.|.|.|{pause(50)} kinda do want a goth pegging dommy mommy to make me into a kitty but-" next
+    "@{name(2)}: <HEY FUCKFACE! I'M RIGHT HERE, Y'KNOW>" next end
 
 l_0xc56e2c:
-    "@who tf r u" next
-    "@get outta here" end
+    "@Who are you?" next
+    "@Are you Lindsay Lohan's left breast?" end
 
 l_0xc56e5b:
     call(data_43.l_0xc900dd) eob
@@ -312,37 +313,38 @@ l_0xc56e61:
     call(data_43.l_0xc90077) eob
 
 l_0xc56e67:
-    "@did u get here by ship?" next
-    "@how the fuck" next
-    "@youre insane bro" next
-    "@oly moly" end
+    "@I saw that whole fight. Nice!" end
 
 l_0xc56eca:
-    "@snakes" next
-    "@said ava probably" end
+    "@Snakes" next
+    "@Said Ava" end
 
 l_0xc56efd:
     "@Should I keep a snake at home?" next
-    "@Perhaps I should <asp> an expert." end
+    "@Perhaps I should ASP an expert." next
+    "@{sound(31)}{smash} {pause(15)}" next
+    "@{name(1)}: <Fuck you>" end
 
 l_0xc56f32:
     "@Poisonous snakes cost more." next
-    "[19 10 01]@Why would a fine young " call(l_0xc56f6d) " like you need one?" end goto(l_0xc56f6d)
+    "[19 10 01]@Why would a fine young " call(l_0xc56f6d) end goto(l_0xc56f6d)
 
 l_0xc56f6d:
-    "[19 10 01]{result_is(2)}[1B 03 {e(l_0xc56f7b)}]man" eob goto(l_0xc56f7b)
+    "[19 10 01]{result_is(2)}[1B 03 {e(l_0xc56f7b)}]man like you need one?" next
+    "@{name(1)}: <I guess grandma was right after all...>" eob goto(l_0xc56f7b)
 
 l_0xc56f7b:
-    "lady" eob
+    "lady like you need one?" next
+    "@{name(2)}: <Ugh, pervert...>" eob
 
 l_0xc56f80:
-    "@The [1C 05 8D] can hold live snakes!{pause(20)}  There are snakes in the sack!" next
+    "@The [1C 05 8D] can hold live snakes!{pause(20)} There are snakes in the sack!" next
     "@Please, it is a very useful item!" next
-    "@Shall you buy one?{pause(20)}  I am humbly offering it to you..." next
+    "@Shall you buy one?{pause(20)} I am humbly offering it to you..." next
     "[19 02]Yes[02][19 02]No[02][1C 07 02][11]{clearline}[09 02 {e(l_0xc5701f)} {e(l_0xc56ffb)}]" goto(l_0xc56ffb)
 
 l_0xc56ffb:
-    "@You are afraid of snakes,{pause(15)} are you not?  Heh heh heh." end
+    "@Do ya like snakes? Yeah, I thought so..." end
 
 l_0xc5701f:
     "[1D 03 FF][1B 02 {e(l_0xc570f2)}]@That is 290 dollars, kind [19 10 01]" call(data_33.l_0xc7e6b3) "." linebreak
@@ -353,7 +355,7 @@ l_0xc57067:
     "@(Snake sack dealer marked the price down to 98 dollars from 290 dollars.){wait}" end
 
 l_0xc570db:
-    "@Without any money, I cannot sell to you.." end
+    "@Without any money, I cannot sell to you..." end
 
 l_0xc570f2:
     "@Since you have too many items,{pause(15)} I humbly keep this important [1C 05 8D]." end
@@ -366,18 +368,16 @@ l_0xc57120:
 
 l_0xc57126:
     "@I bought a <[1C 05 A2].>" next
-    "@This will help out a large amount" next
-    "@while I am humbly searching for the Magic truffle in the Deep Darkness." next
+    "@It might help me search for the One Piece..." next
+    "@Oh, who am I kidding, I'm never gonna find it... anwyay," next
     "@You too can learn how to use a [1C 05 A2] with the <Use> command under <Goods.>" next
     "@So please rest easy." end
 
 l_0xc571b9:
-    "[06 49 00 {e(l_0xc5725a)}]@Oh, you have the mark of bad luck on your face..." next
-    "@No... Don't worry..." next
-    "@If you want to know, I'll humbly tell you." next
-    "@<You shall come back here..." next
-    "@After you have encountered a dangerous situation.>" next
-    "@However, I may be wrong, and if so... a thousand pardons." end
+    "[06 49 00 {e(l_0xc5725a)}]@Oh, you have the mark of-" next
+    "@{name(1)}:<MARK LONG????????????????>" next
+    "@IT'S NOT ALWAYS ABOUT HIM DUDE!" next
+    "@{name(1)}:<YES IT IS!>" end
 
 l_0xc5725a:
     "@Oh!" next
@@ -393,7 +393,7 @@ l_0xc572a0:
 l_0xc5730d:
     "@The Tenda tribe used to live here." next
     "@They went to the back of the Deep Darkness as they were too innocent." next
-    "@I wonder if they are still alive." end
+    "@We've watched some questionable stuff in the past..." end
 
 l_0xc57361:
     "@If you're going to the Pyramid, prepare well," next
@@ -408,7 +408,7 @@ l_0xc5739f:
 
 l_0xc573dc:
     "{window_open(1)}@The stars foretold that I would meet you here..." next
-    "@So, now it's the time to show you the way of the Starstorm..." next
+    "@So, now it's the time to show you the way of the Nuke..." next
     "@For a while, you must live far away from your friends and live with me." next
     "@Do you understand?" next
     "@...There's only one answer." next
@@ -416,12 +416,12 @@ l_0xc573dc:
     "@Stay with me for a while, do you understand?![03]{window_closeall}{pause(30)}" goto(data_46.l_0xc9329b)
 
 l_0xc5749a:
-    "{window_open(1)}@It depends on [1C 02 04]'s efforts.  That will determine the reuniting of the group." next
+    "{window_open(1)}@It depends on [1C 02 04]'s efforts. That will determine the reuniting of the group." next
     "@Be faithful, and wait until the time comes!{wait}{window_closeall}" eob
 
 l_0xc574f6:
-    "[06 50 01 {e(data_06.l_0xc575f8)}]@I'm doing this as a hobby.{pause(20)}  Isn't it cool?" next
-    "@I recently made a friend.{pause(20)}  He used to be a Dungeon Maker." next
+    "[06 50 01 {e(data_06.l_0xc575f8)}]@I'm doing this as a hobby.{pause(20)} Isn't it cool?" next
+    "@I recently made a friend.{pause(20)} He used to be a Dungeon Maker." next
     "@And now he's a <Dungeon Man.>" next
     "@Would you like to meet him?" linebreak
     "[19 02]Yes[02][19 02]No[02][1C 07 02][11]{clearline}[09 02 {e(l_0xc5759d)} {e(l_0xc57584)}]" goto(l_0xc57584)

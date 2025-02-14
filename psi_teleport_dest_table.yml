@@ -1,80 +1,80 @@
 0:
-  Event Flag: 0x0
-  Name: ''
+  Event Flag: 0
   X: 0
   Y: 0
+  Name: ''
 1:
-  Event Flag: 0xd1
-  Name: Onett
+  Event Flag: 209
   X: 253
   Y: 186
+  Name: Onett
 2:
-  Event Flag: 0xd2
-  Name: Twoson
+  Event Flag: 210
   X: 176
   Y: 820
+  Name: Twoson
 3:
-  Event Flag: 0xd3
-  Name: Threed
+  Event Flag: 211
   X: 692
   Y: 1126
+  Name: Threed
 4:
-  Event Flag: 0xd5
-  Name: Saturn Valley
+  Event Flag: 213
   X: 34
   Y: 972
+  Name: Saturn Valley
 5:
-  Event Flag: 0xd6
-  Name: Fourside
+  Event Flag: 214
   X: 380
   Y: 505
+  Name: Fourside
 6:
-  Event Flag: 0xd4
-  Name: Winters
+  Event Flag: 212
   X: 62
   Y: 289
+  Name: Winters
 7:
-  Event Flag: 0xd7
-  Name: Summers
+  Event Flag: 215
   X: 554
   Y: 353
+  Name: Summers
 8:
-  Event Flag: 0xd9
-  Name: Scaraba
+  Event Flag: 217
   X: 152
   Y: 526
+  Name: Scaraba
 9:
-  Event Flag: 0xd8
-  Name: Dalaam
+  Event Flag: 216
   X: 570
   Y: 449
+  Name: Dalaam
 10:
-  Event Flag: 0xda
-  Name: Deep Darkness
+  Event Flag: 218
   X: 704
   Y: 896
+  Name: Deep Darkness
 11:
-  Event Flag: 0xdb
-  Name: Tenda Village
+  Event Flag: 219
   X: 564
   Y: 889
+  Name: Tenda Village
 12:
-  Event Flag: 0xdc
-  Name: Underworld
+  Event Flag: 220
   X: 325
   Y: 351
+  Name: Underworld
 13:
-  Event Flag: 0x92
-  Name: ''
+  Event Flag: 146
   X: 433
   Y: 515
+  Name: ''
 14:
-  Event Flag: 0x254
-  Name: Dusty Dunes
+  Event Flag: 596
   X: 160
   Y: 1251
+  Name: Dusty Dunes
 15:
-  Event Flag: 0x92
-  Name: ''
+  Event Flag: 146
   X: 750
   Y: 747
+  Name: ''
