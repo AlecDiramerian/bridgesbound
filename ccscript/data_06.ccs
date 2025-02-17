@@ -120,13 +120,13 @@ l_0xc57c10:
 
 l_0xc57c2c:
     "{counter(3)}" call(data_33.l_0xc7dc7f) "[1B 03 {e(l_0xc57c6f)}]@([1C 02 03] checked the broken submarine.)" next
-    "@{name(3)}: <All the components to the submarine are here, they're just all fucked up. It's fixable.>" next{wait}{window_closeall}" goto(data_46.l_0xc934ed)
+    "@{name(3)}: <All the components to the submarine are here, they're just all fucked up. It's fixable.>{wait}{window_closeall}" goto(data_46.l_0xc934ed)
 
 l_0xc57c6f:
     "@(Only smartass nerds like {name(3)} could fix this)" end
 
 l_0xc57c96:
-    "@Be careful where you walk, some fatass shit everywhere..." end
+    "@Be careful where you walk, |some stupid fatass shit everywhere..." end
 
 l_0xc57cd4:
     "@(Pokey's stink still hangs in the air...)" end
@@ -153,36 +153,34 @@ l_0xc57dea:
     "@...Brick Road." end
 
 l_0xc57e1c:
-    "@[1C 02 01]!{pause(20)} Surprised?" next
+    "@{name(1)}!{pause(20)} Surprised?" next
     "@{name(1)}: <Of course not, stupid.>" next
     "@{name(2)}: <Not at all.>" next
     "@{name(3)}: <I kinda expected this, honestly.>" next
-    "@{name(4)}: <You're fatter than I expected.>{wait}{window_closeall}{pause(30)}" next
-    "@i poke people" next
-    "@thats me" next
-    "@you guys look retarted!" next
-    "@the apple is enlightented" next
-    "@and i..." next
-    "@am steve" next
-    "@He is the Evil Power.[03]" eob
+    "@{name(4)}: <You're fatter than I expected.>{wait}{window_closeall}{pause(200)}{window_open(1)}...{pause(50)}{wait}{window_closeall}{pause(200)}{window_open(1)}@Well, |||anyway,||| I stole the Mickey Mouse Clubhouse!!! ||||||MWAHAHAHAHAHAHAHA{clearline}@{name(2)}: <We can see that.>{wait}{window_closeall}{pause(200)}{window_open(1)}...{pause(50)}{wait}{window_closeall}{pause(200)}{window_open(1)}@Can I just say that I fucking hate all of you? {name(1)},/ you got me into this whole mess." next
+    "@{name(2)},/ you were THISSSS close to becoming a minion of Giygas, TWICE! |But NOOOO! |YOU JUST HADDDDDD TO BE RESCUED BOTH TIMES." next
+    "@{name(3)},/ I WAS SO GODDAMN CLOSE TO CAPTURING BOTH OF THEM, BUT YOU JUST HAD TO CRASH INTO THE PRISON AND BREAK THEM OUT" next
+    "@AND YOU|.|.|.|.|.|{pause(50)}" next
+    "@Wait, |who the fuck are you?{clearline}@{name(4)}: <IT DOESN'T MATTER, LET'S JUST FIGHT ALREADY!>"
+    "@Ok, ok, fine![03]" eob
 
 l_0xc58000:
     "{window_open(1)}" newline
-    "@debug menu[18 02]{open_hp}{open_wallet}{window_open(2)}[19 02]party[02][19 02]goods[02][19 02]status[02][19 02]teleport[02][19 02]money[02][19 02]level[02][19 02]unused[02][19 02]event[02][19 02]hint[02][19 02]sound[02][19 02]desc[02][19 02]testtp[02][19 02]hintmap[02][1C 0C 02][11][1B 05]{window_closetop}{window_switch(1)}{clearline}" newline
-    "[1B 06][09 0D {e(l_0xc58103)} {e(l_0xc58262)} {e(l_0xc58718)} {e(data_07.l_0xc588cd)} {e(data_07.l_0xc58afb)} {e(data_07.l_0xc58a36)} {e(data_07.l_0xc58c88)} {e(data_08.l_0xc59895)} {e(data_07.l_0xc58e13)} {e(data_07.l_0xc58d09)} {e(data_09.l_0xc5a57f)} {e(data_07.l_0xc58e73)} {e(l_0xc580da)}]@YMMST." end
+    "@Debug Menu[18 02]{open_hp}{open_wallet}{window_open(2)}[19 02]Party[02][19 02]Goods[02][19 02]Status[02][19 02]Warp[02][19 02]Money[02][19 02]Levels[02][19 02]Services[02][19 02]Events[02][19 02]Hints[02][19 02]Sound[02][19 02]Descriptions[02][19 02]Teleport Types[02][19 02]Hint Map[02][1C 0C 02][11][1B 05]{window_closetop}{window_switch(1)}{clearline}" newline
+    "[1B 06][09 0D {e(l_0xc58103)} {e(l_0xc58262)} {e(l_0xc58718)} {e(data_07.l_0xc588cd)} {e(data_07.l_0xc58afb)} {e(data_07.l_0xc58a36)} {e(data_07.l_0xc58c88)} {e(data_08.l_0xc59895)} {e(data_07.l_0xc58e13)} {e(data_07.l_0xc58d09)} {e(data_09.l_0xc5a57f)} {e(data_07.l_0xc58e73)} {e(l_0xc580da)}]@Menu closed." end
 
 l_0xc580da:
     newline
-    "@HNTYW" linebreak
-    " TZNNSMS" next
+    "@Which one?" linebreak
+    " ???" next
     "{set(flag 681)}{set(flag 682)}{set(flag 683)}{set(flag 684)}{set(flag 685)}{set(flag 686)}" goto(l_0xc58000)
 
 l_0xc58103:
-    "@what" linebreak
-    "[19 02]add[02][19 02]remove[02][1C 07 02][11]{clearline}[09 02 {e(l_0xc5812f)} {e(l_0xc581ee)}]" goto(l_0xc58000)
+    "@What?" linebreak
+    "[19 02]Add[02][19 02]Remove[02][1C 07 02][11]{clearline}[09 02 {e(l_0xc5812f)} {e(l_0xc581ee)}]" goto(l_0xc58000)
 
 l_0xc5812f:
-    "{open_hp}@whos gonna be added?" goto(l_0xc58148)
+    "{open_hp}@Who?" goto(l_0xc58148)
 
 l_0xc58148:
     "{window_open(8)}[19 02]Ness[02][19 02]Paula[02][19 02]Jeff[02][19 02]Poo[02][19 02]Pokey[02][19 02]Picky[02][19 02]King[02][19 02]Tony[02][19 02]Monkey[02][19 02]Dungeonman[02][19 02]Flyingman1[02][19 02]Flyingman2[02][19 02]Flyingman3[02][19 02]Flyingman4[02][19 02]Flyingman5[02][1C 0C 03][11][1B 05][19 04]{window_closetop}{window_switch(1)}[1B 06][1B 02 {e(l_0xc581e7)}]{swap}[1F 11 00]{open_hp}" goto(l_0xc58148)
@@ -191,8 +189,7 @@ l_0xc581e7:
     "{window_closetop}" goto(l_0xc58000)
 
 l_0xc581ee:
-    "[19 10 02][1B 02 {e(l_0xc58250)}]@HZSPR-Y-NITW" linebreak
-    " NyURyKSTKDSI." linebreak
+    "[19 10 02][1B 02 {e(l_0xc58250)}]@Who?" linebreak
     goto(l_0xc58214)
 
 l_0xc58214:
@@ -207,7 +204,7 @@ l_0xc58250:
 
 l_0xc58262:
     newline
-    "@GtZNStTIWSMS.[18 02]{open_hp}{open_wallet}{window_open(7)}[19 02]GtZKWER[02][19 02]ZyUYUGtZ[02][19 02]GtZMNTN[02][19 02]GtZSKZy[02][19 02]AZKRSyMNTN[02][19 02]AZKRSyKR[02][19 02]SIKyUBK[02][1C 0C 01][11][1B 05]{window_closetop}[19 04]{window_switch(1)}" newline
+    "@GtZNStTIWSMS.[18 02]{open_hp}{open_wallet}{window_open(7)}[19 02]Item[02][19 02]SpecialItem[02][19 02]MaxItem[02][19 02]Clear[02][19 02]EscargoAdd[02][19 02]EscargoClear[02][19 02]BestItems[02][1C 0C 01][11][1B 05]{window_closetop}[19 04]{window_switch(1)}" newline
     "[1B 06][09 07 {e(l_0xc582f8)} {e(l_0xc58369)} {e(l_0xc58539)} {e(l_0xc58568)} {e(l_0xc585dc)} {e(l_0xc58614)} {e(l_0xc5863c)}]" goto(l_0xc58000)
 
 l_0xc582f8:
@@ -377,7 +374,7 @@ l_0xc58718:
     newline
     "@DRNSMSK?[1A 01 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 01][1B 02 {e(l_0xc587ee)}]{store_registers}" linebreak
     "@DRNSR?" linebreak
-    "[18 02]{window_open(12)}[19 02]KNKU[02][19 02]KZT[02][19 02]DIY[02][19 02]SBR[02][19 02]HKK[02][19 02]MUDK[02][19 02]NtSyByU[02][19 02]KZ[02][19 02]KNK[02][19 02]TRTK[02][19 02]H-MStK[02][19 02]HPHRS[02][19 02]PPHRS[02][1C 0C 02][11][1B 05]{window_closetop}{window_switch(1)}[1B 06][09 0D {e(l_0xc587f3)} {e(data_07.l_0xc58813)} {e(data_07.l_0xc5882f)} {e(data_07.l_0xc58841)} {e(data_07.l_0xc5884e)} {e(data_07.l_0xc5885b)} {e(data_07.l_0xc58868)} {e(data_07.l_0xc58875)} {e(data_07.l_0xc58882)} {e(data_07.l_0xc5888f)} {e(data_07.l_0xc5889c)} {e(data_07.l_0xc588a9)} {e(data_07.l_0xc588bb)}]" goto(l_0xc58718)
+    "[18 02]{window_open(12)}[19 02]Heal[02][19 02]Out[02][19 02]Diamond[02][19 02]Numb[02][19 02]Nausea[02][19 02]Poison[02][19 02]Sunstroke[02][19 02]Cold[02][19 02]Mushroom[02][19 02]Possessed[02][19 02]Homesick[02][19 02]DecreaseHP[02][19 02]DecreasePP[02][1C 0C 02][11][1B 05]{window_closetop}{window_switch(1)}[1B 06][09 0D {e(l_0xc587f3)} {e(data_07.l_0xc58813)} {e(data_07.l_0xc5882f)} {e(data_07.l_0xc58841)} {e(data_07.l_0xc5884e)} {e(data_07.l_0xc5885b)} {e(data_07.l_0xc58868)} {e(data_07.l_0xc58875)} {e(data_07.l_0xc58882)} {e(data_07.l_0xc5888f)} {e(data_07.l_0xc5889c)} {e(data_07.l_0xc588a9)} {e(data_07.l_0xc588bb)}]" goto(l_0xc58718)
 
 l_0xc587ee:
     goto(l_0xc58000)

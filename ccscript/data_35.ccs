@@ -119,8 +119,8 @@ l_0xc80c31:
     "[19 02]Yes[02] [19 02]No[02][1C 07 02][11]{clearline}[09 02 {e(l_0xc80dab)} {e(l_0xc80cd4)}]" goto(l_0xc80cd4)
 
 l_0xc80cd4:
-    "@oh, you're name(1)?" next
-    "@i'll get name(2) now[03]" call(data_30.l_0xc7903b) "@she's not here now..." next
+    "@oh, you're {name(1)}?" next
+    "@i'll get {name(2)} now[03]" call(data_30.l_0xc7903b) "@she's not here now..." next
     "@could you come back later?{wait}{set(flag 322)}{set(flag 635)}" eob
 
 l_0xc80dab:

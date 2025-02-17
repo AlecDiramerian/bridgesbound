@@ -225,7 +225,7 @@ l_0xc8fd11:
     "{window_closetop}{pause(60)}{window_open(1)}[1F 62 00]" newline
     "@you are a pussy" linebreak
     "{prompt}" linebreak
-    "@by the way, make sure name(2) stays alive and keeps praying{pause(150)}{window_closetop}{window_open(14)}" eob
+    "@by the way, make sure {name(2)} stays alive and keeps praying{pause(150)}{window_closetop}{window_open(14)}" eob
 
 l_0xc8ff31:
     "{window_closetop}{pause(60)}{window_open(1)}[1F 62 00]@WHAT THE FUCK? HOW?" linebreak
