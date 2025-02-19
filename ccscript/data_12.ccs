@@ -13,8 +13,10 @@ l_0xc5d02d:
     eob
 
 l_0xc5d050:
-    "@Oooga boooga." linebreak
-    "  (May I help you?)" next
+    "@Zinky zoogle, zeekybooble beeble meep Forp Bogos Binted?Zinky zoogle, zeekybooble beeble meep Forp Bogos Binted?" next
+    "@{name(1)}: <Photos printed?>" next
+    "@Vorp?" next
+    "@{name(1)}: human man emoji"
     eob
 
 l_0xc5d06d:

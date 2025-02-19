@@ -158,8 +158,6 @@ l_0xc5d9b2:
     "[1B 05][06 E2 00 {e(l_0xc5dacb)}][06 E3 00 {e(l_0xc5dbeb)}][06 E4 00 {e(l_0xc5dcdf)}][06 E5 00 {e(l_0xc5ddcc)}]" eob
 
 l_0xc5d9d1:
-    "@Huff, puff, huff... wheeeeze!  I ran here as fast as I could." next
-    "@I'm plum tuckered out." next
     "@What have you got for sale?[03]" eob
 
 l_0xc5da27:
@@ -168,7 +166,7 @@ l_0xc5da27:
 
 l_0xc5da58:
     newline
-    "@Oh, say it ain't so!  And after I ran here as fast as I could!" end
+    "@Oh, say it ain't so! Like the hit song by Weezer!" end
 
 l_0xc5da85:
     "[1B 06]" newline
@@ -183,7 +181,7 @@ l_0xc5dab3:
 
 l_0xc5dacb:
     newline
-    "@Oh, jumpin' jehosaphat!  I don't think I can buy that." next
+    "@HOLY FUCK! I don't think I can buy that." next
     "@What else can you sell me?[03]" eob
 
 l_0xc5db01:

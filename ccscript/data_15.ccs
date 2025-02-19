@@ -19,31 +19,29 @@ l_0xc5eacf:
     "{window_closeall}{music(118)}{pause(60)}[19 22 01 02 C6 00][1F 13 01 00][19 22 05 02 C6 00][1F 13 05 00][19 22 06 02 C6 00][1F 13 06 00][1F EA C5 00][1F 15 6A 00 36 00 01][1F 61][1F 15 5B 01 32 00 01][1F 61]" goto(l_0xc5eb0b)
 
 l_0xc5eb0b:
-    "{window_open(1)}@A hawk I am" next
-    "@tuah" next
-    "@im from like two seconds in the future" next
-    "@and uh," next
-    "@everyone died lol" next
-    "@giygas killed everyone" next
-    "@he sent all to the horror of eternal darkness..." next
+    "{window_open(1)}@For your information," next
+    "@I was not violently jerking off," next
+    "@...nor was I invoking any sort of, well, anything to Angry Birds..." next
+    "@I do agree it is a great game... Anyway, speaking of birds..." next
+
+    "@A hawk I am..." next
+    "@...tuah" next
+    "@I'm from 10 years in the future." next
+    "@...and...uh..." next
+    "@...everyone fuckin died..." next
+    "@{name(1)}: <WHAT?>" next
+    "@Yes..." next
+    "@they were all killed by Giy-{clearline}" linebreak
+    "@{name(1)}: <EVEN ME?>" next
+    "@Yeah..." next
     "@....." next
     "@However,{pause(20)} you must listen!" next
     "@Where I am from," next
     "@there is a well-known legend that has been handed down from ancient times." next
-    "@It says <When the chosen monkey reaches the point,{pause(15)} he will find the light." next
-    "@The passing of time will shatter the nightmare rock" next
-    "@and will reveal the path of light.>" next
-    "@You see,{pause(15)} it is my opinion that you are that monkey, [1C 02 01]." next
-    "@This I believe..." next
-    "@....." next
-    "@Giygas' monstrous plan must have been set in motion somewhere on Earth..." next
-    "@If you start to confront the enemy immediately," next
-    "@you may have time to counter the evil intentions of Giygas." next
-    "@Three things are of the utmost importance:{pause(30)} wisdom,{pause(15)} courage,{pause(20)} friendship,{pause(20)} and drugdealing." next
-    "@...The legends from the ancient times tell of two hawks and a tuah (probably)" next
+    "@...The legends from the ancient times tell of two hawks and a tuah." next
+    "@...er, three boys and a girl" next
     "@who defeat Giygas." next
-    "@...I will tell you more later." next
-    "@Go now!{pause(20)}  And do not be anxious about the future." next
+    "@Let's go!" next
     "@You have much work to do, [1C 02 01]." next
     "@Did you listen to what I told you?" linebreak
     "[19 02]Yes[02] [19 02]No[02][1C 07 02][11]{clearline}[09 02 {e(l_0xc5ee13)} {e(l_0xc5edd4)}]" goto(l_0xc5edd4)
@@ -53,82 +51,69 @@ l_0xc5edd4:
     goto(l_0xc5eb0b)
 
 l_0xc5ee13:
-    "@ok cool" next
-    "@youre pretty cool tbh imma follow you around[03]{window_closeall}{music(11)}{pause(120)}{pause(60)}{pause(120)}{pause(120)}{window_open(1)}@Hawk Tuah Spits on Pokey.[03]{window_closeall}[1F EA 5B 01]{set(flag 18)}{music_resume}[1F EA 5B 01]{pause(60)}[1F 1C 05 03]{pause(60)}[1F 1D 05][1F E7 5B 01]{window_open(1)}@[1C 02 01]!" next
-    "@did that mf just spit on me" next
-    "@does he wanna throw hands??" next
-    "@hm? hm?" next
-    "@you wanna go?" next
-    "@no actually im shaking in my boots[03]{window_closeall}[1F 66 01 2B 01 75 C6 00]" eob
+    "@Great!" next
+    "@I'm gonna follow you around.[03]{window_closeall}{music(11)}{pause(120)}{pause(60)}{pause(120)}{pause(120)}{window_open(1)}@Hawk Tuah Spits on Pokey.[03]{window_closeall}[1F EA 5B 01]{set(flag 18)}{music_resume}[1F EA 5B 01]{pause(60)}[1F 1C 05 03]{pause(60)}[1F 1D 05][1F E7 5B 01]{window_open(1)}@[1C 02 01]!" next
+    "@Did... did he just spit on me???" next
+    "@Does he wanna throw hands???" next
+    "@Hmm? Hmm?" next
+    "@You wanna go?" next
+    "@I'm kidding. I'm actually shaking in my boots[03]{window_closeall}[1F 66 01 2B 01 75 C6 00]" eob
 
 l_0xc5ef3e:
     "[06 68 00 {e(l_0xc5f1d1)}]@sorry gang" next
-    "@ill make you kids shit yourselves[03]{window_closeall}[1F EA 5B 01][1F E9 2D 00][1F 12 05][1F 15 2C 00 51 00 01][1F 12 06][1F 15 2D 00 52 00 01][1F 61][1F F1 2C 00 53 00][1F 61][1F E6 2D 00][19 22 01 02 2C 00][1F 13 01 00]{window_open(1)}@By the way, I would be happy if you left sometime soon." next
-    "@I'm tired of your family living next door." next
-    "@We've loaned your father a lot of money." next
-    "@It may have been a hundred thousand dollars or more..." next
-    "@Well, I guess it really could have been less," next
-    "@but because of the loan,{pause(15)} my family and I now live in poverty![03]{window_closeall}[1F EA 5B 01][1F F1 2C 00 0C 00][1F F1 2D 00 54 00][1F 61][1F E6 2C 00][19 22 01 02 2D 00][1F 13 01 00]{window_open(1)}@My husband is much too lenient with the children." next
-    "@Oh well,{pause(15)} nice guys finish last.{pause(20)}  That's the story of our life..." next
+    "@ill make you kids shit yourselves[03]{window_closeall}[1F EA 5B 01][1F E9 2D 00][1F 12 05][1F 15 2C 00 51 00 01][1F 12 06][1F 15 2D 00 52 00 01][1F 61][1F F1 2C 00 53 00][1F 61][1F E6 2D 00][19 22 01 02 2C 00][1F 13 01 00]{window_open(1)}@Also, please leave. Nobody loves you.[03]{window_closeall}[1F EA 5B 01][1F F1 2C 00 0C 00][1F F1 2D 00 54 00][1F 61][1F E6 2C 00][19 22 01 02 2D 00][1F 13 01 00]{window_open(1)}@Go fuck yourself." next
+    "@And yes, Pokey was a failed abortion." next
     "{window_closeall}[1F EA 5B 01][1F E9 2C 00][1F E9 2D 00][1F F2 5B 01 34 00]{unset(flag 2)}[1F 61]{pause(120)}[1F E7 5B 01][1F E6 2C 00][1F E6 2D 00]{window_open(1)}@Aya{pause(5)}a{pause(5)}a{pause(5)}e{pause(5)}e{pause(5)}e!" next
-    "@I think it's a person of color!{pause(15)}  I'll smash your guts out![03]{window_closeall}[1F EA 5B 01][1F F1 2D 00 76 02][1F 61]{music(113)}{set(flag 2)}[1F 61]{set(flag 104)}[1F 1F 5B 01 06][1F 17 2E 00 08 00 01][1F E9 2C 00][1F F1 2D 00 0C 00]{set(flag 303)}{set(flag 31)}{set(flag 35)}{set(flag 34)}{set(flag 633)}{unset(flag 21)}{unset(flag 20)}{unset(flag 18)}{unset(flag 11)}{set(flag 107)}[1F 66 01 2A FB F1 C5 00]{set(flag 479)}{set(flag 480)}{set(flag 481)}{set(flag 487)}{set(flag 488)}{set(flag 493)}{set(flag 495)}{set(flag 496)}{set(flag 500)}{set(flag 501)}{set(flag 502)}{set(flag 503)}{set(flag 505)}{set(flag 506)}" eob goto(l_0xc5f1d1)
+    "@I think it's a dung beetle!{pause(15)} I'll smash your guts out![03]{window_closeall}[1F EA 5B 01][1F F1 2D 00 76 02][1F 61]{music(113)}{set(flag 2)}[1F 61]{set(flag 104)}[1F 1F 5B 01 06][1F 17 2E 00 08 00 01][1F E9 2C 00][1F F1 2D 00 0C 00]{set(flag 303)}{set(flag 31)}{set(flag 35)}{set(flag 34)}{set(flag 633)}{unset(flag 21)}{unset(flag 20)}{unset(flag 18)}{unset(flag 11)}{set(flag 107)}[1F 66 01 2A FB F1 C5 00]{set(flag 479)}{set(flag 480)}{set(flag 481)}{set(flag 487)}{set(flag 488)}{set(flag 493)}{set(flag 495)}{set(flag 496)}{set(flag 500)}{set(flag 501)}{set(flag 502)}{set(flag 503)}{set(flag 505)}{set(flag 506)}" eob goto(l_0xc5f1d1)
 
 l_0xc5f1d1:
-    "@*Sigh*{pause(15)} ...I'm so tired... nag,{pause(5)} nag,{pause(5)} nag..." end
+    "@I'm so tired,{pause(5)} I could eat a horse..." end
 
 l_0xc5f1fb:
-    "{isset(flag 303)}[1B 02 {e(data_32.l_0xc7c588)}][1F 1A 2E 00 03]{pause(60)}[1F 1B 2E 00][19 22 01 02 2E 00][1F 13 01 00][1F 01 00]{window_open(1)}@Agh!{pause(15)} *Gasp*{pause(30)}" linebreak
-    "  I was..." next
-    "@...much weaker than I thought..." next
-    "@So you must now begin your adventure..." next
-    "@see..." next
-    "@you...{wait}{window_closeall}{pause(60)}" linebreak
-    "{pause(60)}" linebreak
-    "{window_open(1)}@Oh,{pause(15)} I just remembered..." next
-    "@Listen to my final words..." next
+    "{isset(flag 303)}[1B 02 {e(data_32.l_0xc7c588)}][1F 1A 2E 00 03]{pause(60)}[1F 1B 2E 00][19 22 01 02 2E 00][1F 13 01 00][1F 01 00]{window_open(1)}@Jeez, that fatass woman could be a pro boxer..." next
+    "@Anyway{pause(5)}.{pause(5)}.{pause(5)}.{pause(5)} you gotta go to eight sanctuaries on the Earth." next
     "{pause(60)}" linebreak
     "{pause(60)}" linebreak
     "{music(119)}" goto(l_0xc5f2ad)
 
 l_0xc5f2ad:
-    "@To defeat Giygas, your own power must unite with the Earth's..." next
-    "@the Earth will then channel your power and multiply it..." next
-    "@There are eight points that you must visit.{pause(20)}  Make these places your own..." next
-    "@Each of these locations is <Your Sanctuary.>" next
-    "@One of them is near Onett.{pause(20)}  It is called <Giant Step.>" next
-    "@Go there first..." next
+    "@...there's one I know for sure..."
+    "@Giant Step,{pause(20)} located past the Travelling Entertainer's Shack here in Onett, guarded by a mutated ant." next
+    "@If I recall correctly, there's also..."
+    "@Lilliput Steps,{pause(20)} located really far east of Twoson, guarded by a mutated mole." next
+    "@Milky Well,{pause(20)} located somewhere near Threed, but not in it, guarded by a massive plant." next
+    "@Rainy Circle,{pause(20)} located in the caves of Winters, guarded by a stupid mushroom." next
+    "@Magnet Hill,{pause(20)} located outside of a crazy sewer system in Fourside, guarded by a mutated rat." next
+    "@Pink Cloud,{pause(20)} located in the capital of Dalaam, guarded by rabbits and a...{pause(20)} well...{pause(20)} I don't even know what.{pause(20)} A sentient peice of electricity, I think." next
+    "@Lumine Hall,{pause(20)} located in a cave under a swamp deep within the Earth, guarded by more electricity." next
+    "@and finally,{pause(20)} Fire Spring.{pause(20)} The location has been lost to time. It used to be guarded by Emma Frost's dog, capable of turning into carbon and diamond forms, but..." next
+    "@...he left his post and cut contact with the other sanctuaries long ago... we don't know who guards it now..." next
     "@Do you understand?" linebreak
     "[19 02]Yes[02] [19 02]No[02][1C 07 02][11]{clearline}[09 02 {e(l_0xc5f3d2)} {e(l_0xc5f39d)}]" goto(l_0xc5f39d)
 
 l_0xc5f39d:
-    "@...I see." next
-    "@I apologize.{pause(20)}  I guess I didn't explain it well enough..." next
+    "@*cough cough*" linebreak
+    "@Alright, I'll tell you again..." next
     goto(l_0xc5f2ad)
 
 l_0xc5f3d2:
-    "@All right." next
-    "@You are a very intelligent young man...{pause(15)} and..." next
-    "@Oh!{pause(15)}  The pain!...{pause(20)} Everything is getting dark..." next
-    "@urgh!...{pause(15)} *Gasp*..." next
-    "@Before I pass on,{pause(15)} I want to give you something..." next
-    "@It is the Sound Stone." next
-    "@You can record the melodies from the eight <Your Sanctuary> locations" next
-    "@into this stone.{pause(20)}  It is an awesome item..." next
-    "@By the way...{pause(15)} I'm almost gone," next
-    "@but did you want to hear the story one more time?" linebreak
+    "@Great!{pause(20)} *cough cough*" next
+    "@I'm going to give you this Sound Stone, It records the melodies you hear at the sanctuaries." next
+    "@...did you want to hear the story one more time?" linebreak
     "[19 02]Yes[02] [19 02]No[02][1C 07 02][11]{clearline}[09 02 {e(l_0xc5f564)} {e(l_0xc5f4f4)}]" goto(l_0xc5f4f4)
 
 l_0xc5f4f4:
-    "@Good!" next
-    "[1D 03 FF][1B 02 {e(l_0xc5f575)}]@It's already dawn outside..." next
-    "@But it doesn't matter to me.{pause(20)}  I'm fading fast..." next
-    "@Argh!{pause(15)} *Gasp*[03][1D 0E 00 C4]" call(data_33.l_0xc7dcb6) "{wait}" goto(l_0xc5f551)
+    "@*sigh of relief*" next
+    "[1D 03 FF][1B 02 {e(l_0xc5f575)}]@Oh, It's dawn already" next
+    "@Good luck, and may god be with you..." next
+    "@Argh!{pause(15)} *Gasp*{pause(100)}{clearline}{pause(100)}@(You see a name tag. His name was Buzz Buzz, not Hawk Tuah){pause(100)}{clearline}{pause(100)}@(Buzz Buzz{pause(20)} takes his final breath, {pause(20)}and transforms into the Sound Stone)" next
+    "@(You curse Lardna Minch's name)[03][1D 0E 00 C4]" call(data_33.l_0xc7dcb6) "{wait}" goto(l_0xc5f551)
 
 l_0xc5f551:
     "{window_closeall}{pause(1)}[1F F1 2E 00 7B 02]{unset(flag 303)}[1F 67 01]{music_resume}" eob
 
 l_0xc5f564:
-    "@Oh,{pause(20)} okay..." next
+    "@Ok..." next
     goto(l_0xc5f2ad)
 
 l_0xc5f575:
@@ -138,8 +123,9 @@ l_0xc5f575:
     "@In the blink of an eye,{pause(15)} like magic,{pause(15)} she'll have it." next
     "@Ee{pause(5)}eyah!" next
     "@....." next
-    "@It's already dawn outside..." next
-    "@but it doesn't matter to me.{pause(15)}  I'm fading fast...{pause(20)}  Argh!{pause(15)} *Gasp*{wait}{set(flag 627)}" goto(l_0xc5f551)
+    "@It's already dawn outside..." next"@Good luck, and may god be with you..." next
+    "@Argh!{pause(15)} *Gasp*{pause(100)}{clearline}{pause(100)}@(You see a name tag. His name was Buzz Buzz, not Hawk Tuah){pause(100)}{clearline}{pause(100)}@(Buzz Buzz{pause(20)} takes his final breath, {pause(20)}and transforms into the Sound Stone)" next
+    "@(You curse Lardna Minch's name){wait}{set(flag 627)}" goto(l_0xc5f551)
 
 l_0xc5f639:
     "[1F F1 77 00 38 00][1F 61]" eob
@@ -154,7 +140,7 @@ l_0xc5f650:
     "[1F E9 65 00][1F 61]" eob
 
 l_0xc5f657:
-    "{window_open(1)}@shut up bitch" linebreak
+    "{window_open(1)}@Shut up you stupid bitch" linebreak
     "  ugh such a baby{wait}{window_closeall}" eob
 
 l_0xc5f679:

@@ -3,14 +3,14 @@ Ailments:
   Ailment 02: diamond rihanna
   Ailment 03: numb linkin park
   Ailment 04: nauseous
-  Ailment 05: poisoned
+  Ailment 05: disease gaga
   Ailment 06: henry
   Ailment 07: sick
   Ailment 08: shroom'ed
   Ailment 09: ghost
   Ailment 10: i want my mommy
 Battle Menu:
-  Auto Fight: autofight
+  Auto Fight: monkey
   Bash: touch
   Defend: block
   Do Nothing: do nothing
@@ -18,7 +18,7 @@ Battle Menu:
   Mirror: mirror
   PSI: psi
   Pray: pray
-  Run Away: pussy out
+  Run Away: run
   Shoot: shoot
   Spy: sniff
 Equip Menu:
@@ -48,7 +48,7 @@ Menu Action Targets:
   Whom: Whom?
 Other:
   Lumine Hall Text: I used to jerk off to angry birds. When I was about 13 I LOVED angry birds... WAIT YOU GUYS CAN SEE THIS FUCKKKK
-  Player Name Prompt: Register your name, please
+  Player Name Prompt: What's your name?
 Out of Battle Menu:
   Check: Check
   Equip: Equip
@@ -78,13 +78,13 @@ PSI Types:
   Recover: Recover
 Starting Text:
   Ask Name 1: name this kid.
-  Ask Name 2: name his goth gf.
-  Ask Name 3: name the nerd.
-  Ask Name 4: name the asian.
+  Ask Name 2: name his goth gf. (ignore the sprite)
+  Ask Name 3: name this nerd.
+  Ask Name 4: name this asian.
   Ask Name Food: favorite food?
   Ask Name PSI: favorite thing?
   Ask Name Pet: pet name.
-  Confirm All: u sure?
+  Confirm All: you sure?
   Confirm All No: nah
   Confirm All Yes: yea
   Confirm Delete: really?
@@ -109,10 +109,10 @@ Starting Text:
   Text Speed Slow: Slow
 Status Window:
   Defense: 'Defense:'
-  Exp. for next level: Exp. for next level.
-  Experience Points: 'Experience Points:'
+  Exp. for next level: XP. for next level.
+  Experience Points: 'XP:'
   Guts: 'Guts:'
-  Hit Points: 'HitPoints:'
+  Hit Points: 'Health:'
   IQ: 'IQ:'
   Level: 'Level:'
   Luck: 'Luck:'
